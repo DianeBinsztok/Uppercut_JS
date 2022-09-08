@@ -10,9 +10,12 @@
             <a href="#popup-container<%= event.id %>">
                 <div class="thumbnail">
                    <h2><%= event.titre %></h2>
-                    <div class="intervenants">Intervenant(s):  <% for (let intervenant of event.intervenants){%></div>
-                        <p class="intervenant"> <%= intervenant.nom %></p>
+                    <div class="speakers">Intervenant(s):  
+                        <% for (let intervenant of event.intervenants){%>
+                        <div class="speaker-name"> <%= intervenant.nom %></div>
                         <%};%>
+                    </div>
+                        
                     <div>De <%= event.horaire_debut %> à <%= event.horaire_fin %></div>
                     <div><%= event.lieu %> </div>
                 </div>
@@ -33,7 +36,7 @@
                     <a href="#popup-container<%= event.id-1 %>" class="arrow">&lt;</a>
                     <div class="popup_infos">
                         <h3>Intervenants :</h3>
-                          <% for (let intervenant of event.intervenants){%></div>
+                          <% for (let intervenant of event.intervenants){%>
                         <p class="intervenant"> <%= intervenant.nom %>, </p><p class="fonction"> <%= intervenant.fonction %>, </p>
                         <%};%>
                          <h3>Thème :</h3>
@@ -49,4 +52,5 @@
             </div>
         </div>
         <%};%>
+    </div>   
 <%- include('partials/footer.ejs'); %>

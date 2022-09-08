@@ -42,10 +42,10 @@ const handleImagesData={
             case 'amphi4':
             placeTitle = "Tout le programme de l'amphi 4";
             break;
-            case 'ecole-buissoniere/crous':
+            case 'ecole-buissoniere-crous':
             placeTitle = "Tout le programme de l'école buissonnière - espace CROUS";
             break;
-            case 'ecole-buissoniere/salle3':
+            case 'ecole-buissonniere-salle3':
             placeTitle = "Tout le programme de l'école buissonnière - salle 3";
             break;
             case 'place-engagement':
