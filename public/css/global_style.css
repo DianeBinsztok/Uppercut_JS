@@ -32,6 +32,7 @@ nav ul li a{
 }
 
 
+
 #logo-accueil{
     width: 80%;
 }
@@ -47,7 +48,6 @@ h1 {
 
 h2 {
     color: #ffffff;
-    background-color: #00ABB3;
     padding: 0.7em;
     text-align: center;
     font-size: 1.2em;
@@ -56,16 +56,16 @@ h2 {
     margin-bottom: 0.6em;
 }
 
-.title_conferences{
+.conferences{
     background-color: #00ABB3;
 }
-.title_debats{
+.debats{
     background-color: #140066;
 }
-.title_ateliers{
+.ateliers{
     background-color: #665900;
 }
-.title_echanges{
+.rencontres{
     background-color: #006616;
 }
 
@@ -85,6 +85,7 @@ h2 {
 
 .gallery_thumbnail_content{
     text-decoration: none;
+    color: rgb(16, 16, 16);
 }
 
 .thumbnail{
