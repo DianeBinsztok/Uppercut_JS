@@ -1,0 +1,498 @@
+[
+    {
+        "id":1,
+        "titre":"Tempête sur l'école", 
+        "horaire_debut": "14h",
+        "horaire_fin": "14h45",
+        "lieu": "Les amphis / amphi 1",
+        "type":"Conférence",
+        "intervenants":[
+            {
+                "nom":"Laurence Decréau",
+                "fonction": "professeure de lettres, directrice du département Culture et Communication à l'ENSTA ParisTech, déléguée généralendu Festival des Vocations"
+            },
+            {
+                "nom":"Bertrand Villain",
+                "fonction": "proviseur honoraire du lycée René Cassin à Arpajon"
+            }
+        ],
+        "descriptif":""
+    },
+    {
+        "id":2,
+        "titre":"Débrrranche! Pourquoi la sobriété énergétique s'impose?", 
+        "horaire_debut": "14h",
+        "horaire_fin": "14h45",
+        "lieu": "Les amphis / amphi 2",
+        "type":"Conférence",
+        "intervenants":[
+            {
+                "nom":"Négawatt",
+                "fonction":""
+            },
+            {
+                "nom":"EDF, une rivière de territoire",
+                "fonction": ""
+            }
+        ],
+        "descriptif":""
+    },
+    {
+        "id":3,
+        "titre":"éduction... en transition!", 
+        "horaire_debut": "15h",
+        "horaire_fin": "15h45",
+        "lieu": "Les amphis / amphi 1",
+        "type":"Conférence",
+        "intervenants":[
+            {
+                "nom":"Cécile Renouard",
+                "fonction":"docteure en philosophie, membre de la congrégation catholique des Religieuses de l'Assomption, co-fondatrice et présidente du Campus des Transitions"
+            },
+            {
+                "nom":"Laurence Decréau",
+                "fonction": "professeure de lettres, directrice du département Culture et Communication à l'ENSTA ParisTech, déléguée généralendu Festival des Vocations"
+            }
+        ],
+        "descriptif":""
+    },
+    {
+        "id":4,
+        "titre":"Mon auberge espagnole / L'intergénérationnel, facteur d'hospitalité", 
+        "horaire_debut": "15h",
+        "horaire_fin": "15h45",
+        "lieu": "Les amphis / amphi 2",
+        "type":"Conférence",
+        "intervenants":[
+            {
+                "nom":"Magali Talandier",
+                "fonction":"économiste, docteure en Urbanisme et Aménagement du territoire"
+            },
+            {
+                "nom":"Laurence Decréau",
+                "fonction": "co-fondatrice de Re-Sources (Projet de Maison intergénérationnelle à Saint-Paul-les-Romans)"
+            }
+        ],
+        "descriptif":""
+    },
+    {
+        "id":5,
+        "titre":"Tsunami citoyen / Au coeur des enjeux économiques locaux", 
+        "horaire_debut": "16h",
+        "horaire_fin": "16h45",
+        "lieu": "Les amphis / amphi 1",
+        "type":"Conférence",
+        "intervenants":[
+            {
+                "nom":"Nadine Richez-Battesti",
+                "fonction":"économiste au laboratoire d'économie et de sociologie du travail (LEST-CNRS)"
+            },
+            {
+                "nom":"Pierre Veltz",
+                "fonction": "ingénieur, sociologue et économiste, spécialiste de l'organisation des entreprises et des dynamiques territoriales"
+            },
+           {
+                "nom":"Magali Talandier",
+                "fonction":"économiste, docteure en Urbanisme et Aménagement du territoire"
+            }
+        ],
+        "descriptif":""
+    }, 
+    {
+        "id":6,
+        "titre":"Je crée ma boite avec des financeurs engagés!", 
+        "horaire_debut": "16h",
+        "horaire_fin": "16h45",
+        "lieu": "Les amphis / amphi 2",
+        "type":"Conférence",
+        "intervenants":[
+            {
+                "nom":"Initiactives 26.07",
+                "fonction":""
+            },
+            {
+                "nom":"l'ADIE",
+                "fonction": ""
+            }
+        ],
+        "descriptif":"Témoignages des entrepreneurs"
+    },
+    {
+        "id":7,
+        "titre":"Coup d'Etat sur l'entreprenariat / S'engager pour son territoire", 
+        "horaire_debut": "17h",
+        "horaire_fin": "17h45",
+        "lieu": "Les amphis / amphi 1",
+        "type":"Conférence",
+        "intervenants":[
+            {
+                "nom":"Romain Stiline",
+                "fonction":"spécialiste des innovations et politiques, président de Démocraties ouverte"
+            },
+            {
+                "nom":"Agathe Bénard",
+                "fonction": "entrepreneuse, fondatrice de la Thanatosphère"
+            },
+            {
+                "nom":"Didier Chabaud",
+                "fonction": "directeur de la Chaire Entrepreneuriat - Territoire - Innovation (IAE Paris)"
+            },
+            {
+                "nom":"Clémence Richeux",
+                "fonction": "Coordinatrice de Ma bouteille s'appelle revient"
+            }
+        ],
+        "descriptif":""
+    },
+    {
+        "id":8,
+        "titre":"La gueule de bois du bio", 
+        "horaire_debut": "17h",
+        "horaire_fin": "17h45",
+        "lieu": "Les amphis / amphi 2",
+        "type":"Conférence",
+        "intervenants":[
+            {
+                "nom":"Solène Bourgeat",
+                "fonction":"directrice de l'association Parenthèse - Graine de Cocagne"
+            },
+            {
+                "nom":"Arnaud Chantron",
+                "fonction": "fondateur de Vercourses"
+            },
+            {
+                "nom":"Adrien Petit",
+                "fonction": "directeur du Cluster bio d'Auvergne-Rhône-Alpes"
+            }
+        ],
+        "descriptif":""
+    },
+    {
+        "id":9,
+        "titre":"Engagez-vous, qu'il disaient!", 
+        "horaire_debut": "18h",
+        "horaire_fin": "19h30",
+        "lieu": "Les amphis / amphi 4",
+        "type":"Conférence",
+        "intervenants":[
+            {
+                "nom":"Nicolas Hazard",
+                "fonction":"entrepreneur fondateur de l'INCO et conseiller spécial en charge de l'économie sociale et solidaire à la comission européenne"
+            },
+            {
+                "nom":"Cécile Renouard",
+                "fonction":"docteure en philosophie, membre de la congrégation catholique des Religieuses de l'Assomption, co-fondatrice et présidente du Campus des Transitions"
+            },
+            {
+                "nom":"Julien Vidal",
+                "fonction": "fondateur de 'ça commence par moi' et du podcast 2030 Glorieuses"
+            },
+            {
+                "nom":"animé par Hugues Sibille",
+                "fonction": "directeur du LABO de l'ESS"
+            }
+        ],
+        "descriptif":""
+    },
+    {
+        "id":10,
+        "titre":"Quelle plae pour l'électricité dans la ville de demain?", 
+        "horaire_debut": "14h20",
+        "horaire_fin": "15h00",
+        "lieu": "école buissonnière / CROUS",
+        "type":"Atelier",
+        "intervenants":[
+            {
+                "nom":"Sébastien Vossier",
+                "fonction":"président du groupe ELBENE et de la section professionnelle électricité de la FBTP2607"
+            },
+            {
+                "nom":"Alain Etienne",
+                "fonction":"président du conseil coopératif de Voisiwatt"
+            },
+            {
+                "nom":"Marco Debernadis",
+                "fonction": "formateur en électricité bâtimen (AFPA Valence)"
+            },
+            {
+                "nom":"Jeanine Doppel",
+                "fonction": "directrice territoriale d'ENEDIS"
+            }
+        ],
+        "descriptif":""
+    },
+    {
+        "id":11,
+        "titre":"Les métiers de la réparation, vraie transformation environnementale de notre société?", 
+        "horaire_debut": "15h15",
+        "horaire_fin": "15h55",
+        "lieu": "école buissonnière / CROUS",
+        "type":"Atelier",
+        "intervenants":[
+            {
+                "nom":"Matthieu Froidevaux",
+                "fonction":"responsable Process Réparation DECATHLON"
+            },
+            {
+                "nom":"Jean Baptiste Ryckelynck",
+                "fonction":"directeur DECATHLON Région"
+            },
+            {
+                "nom":"Chloé Triconnet",
+                "fonction": "consultante AFPA et gérante de BEAR'S BUNDLE"
+            }
+        ],
+        "descriptif":""
+    },
+    {
+        "id":12,
+        "titre":"Travailler autrement demain?", 
+        "horaire_debut": "16h30",
+        "horaire_fin": "17h",
+        "lieu": "école buissonnière / CROUS",
+        "type":"Atelier",
+        "intervenants":[
+            {
+                "nom":"Caroline Naillet",
+                "fonction":"directrice du 8Fablab"
+            },
+            {
+                "nom":"Isabelle Dhumme",
+                "fonction":"PDG de MILEMIL, accompagnatrice de créateurs de chaussures, vice-présidente de l'AFTIC et l'ARCOP"
+            },
+            {
+                "nom":"le Moulin Digital",
+                "fonction": ""
+            }
+        ],
+        "descriptif":""
+    },
+    {
+        "id":13,
+        "titre":"Détecter son potentiel d'innovation sociale", 
+        "horaire_debut": "16h30",
+        "horaire_fin": "17h",
+        "lieu": "école buissonnière / salle 3",
+        "type":"Atelier",
+        "intervenants":[
+            {
+                "nom":"Alter'Incub Auvergne-Rhône-Alpes",
+                "fonction":""
+            }
+        ],
+        "descriptif":"Atelier collectif"
+    },
+    {
+        "id":14,
+        "titre":"Mesure ton impact planétaire", 
+        "horaire_debut": "14h30, 15h30, 16h30 & 17h30",
+        "horaire_fin": "",
+        "lieu": "Place de l'engagement",
+        "type":"Atelier",
+        "intervenants":[
+            {
+                "nom":"",
+                "fonction":""
+            }
+        ],
+        "descriptif":"Atelier grand public pour expérimenter la théorie du Donut"
+    },
+    {
+        "id":15,
+        "titre":"Savez-vous faire du feu sans fumée?", 
+        "horaire_debut": "18h",
+        "horaire_fin": "19h",
+        "lieu": "Le Co-Quartier / Extérieur",
+        "type":"Atelier",
+        "intervenants":[
+            {
+                "nom":"animé par CATALYSE",
+                "fonction":""
+            }
+        ],
+        "descriptif":"Atelier Rocket Stove, destiné au grand public et animé par CATALYSE"
+    },
+    {
+        "id":16,
+        "titre":"Projection -et débat-du documentaire 'Ruptures'", 
+        "horaire_debut": "14h",
+        "horaire_fin": "16h",
+        "lieu": "La Bibli / Auditorium",
+        "type":"Débat",
+        "intervenants":[
+            {
+                "nom":"",
+                "fonction":""
+            }
+        ],
+        "descriptif":"Pendant un an, le jeune réalisateur Arthur Gosset, lui-même étudiant à Centrale Nantes, a suivi le parcours de six jeunes, leurs décisions parfois difficiles, leurs ruptures souvent douloureuses et leur courageux choix de vivre en adéquation avec leurs convictions, quoi qu'il en coûte (durée : 1h)."
+    },
+    {
+        "id":17,
+        "titre":"Basculons! (Actes Sud) Dans un monde vi(v)able", 
+        "horaire_debut": "14h",
+        "horaire_fin": "16h",
+        "lieu": "La Bibli / Auditorium",
+        "type":"Débat",
+        "intervenants":[
+            {
+                "nom":"Tanguy Descamps, ",
+                "fonction":"co-auteur de l'ouvrage Basculons, diplômé de Sciences Po Bordeaux, référent du Pôle Richesses humaines de la Bascule (2019-2020), chargé de projet Education alimentaire"
+            },
+                   {
+                "nom":"Maxime Ollivier, ",
+                "fonction":"co-auteur de l'ouvrage Basculons, diplômé de Sciences Po Toulouse, chargé de la mobilisation de la primaire populaire"
+            }
+        ],
+        "descriptif":""
+    },
+    {
+        "id":18,
+        "titre":"Changeons enfin de logiciel gastronomique! / conférence dégustative", 
+        "horaire_debut": "16h",
+        "horaire_fin": "17h30",
+        "lieu": "La Bibli / Auditorium",
+        "type":"Conférence",
+        "intervenants":[
+            {
+                "nom":"Gilles Daveau, ",
+                "fonction":"formateur en 'cuisine alternative' depuis 1987, restaurateur et traiteur bio et vgétarien pendant plus de vingt ans. Autur de 'Manger moins (et mieux) de viande', du Manuel de Cuisine Alternative (Actes Sud)"
+            }
+        ],
+        "descriptif":""
+    },
+    {
+        "id":19,
+        "titre":"Mon boulanger est solidaire", 
+        "horaire_debut": "14h",
+        "horaire_fin": "14h45",
+        "lieu": "La Bibli / Bar",
+        "type":"Débat",
+        "intervenants":[
+            {
+                "nom":"Pain de Cocagne, Coeur de Drôme, ",
+                "fonction":"boulangerie solidaire"
+            }
+        ],
+        "descriptif":"Rencontre privilégiée avec le projet de bouangerie solidaire Pain de Cocagne, Coeur de Drôme"
+    },
+    {
+        "id":20,
+        "titre":"Impact des industries créatives ??", 
+        "horaire_debut": "15h",
+        "horaire_fin": "16h",
+        "lieu": "La Bibli / Bar",
+        "type":"Débat",
+        "intervenants":[
+            {
+                "nom":"Nicolas Hazard",
+                "fonction":"entrepreneur fondateur de l'INCO et conseiller spécial en charge de l'économie sociale et solidaire à la comission européenne"
+            },
+             {
+                "nom":"Cécile Renouard",
+                "fonction":"docteure en philosophie, membre de la congrégation catholique des Religieuses de l'Assomption, co-fondatrice et présidente du Campus des Transitions"
+            },
+             {
+                "nom":"Julien Vidal",
+                "fonction": "fondateur de 'ça commence par moi' et du podcast 2030 Glorieuses"
+            }
+    
+        ],
+        "descriptif":""
+    },
+    {
+        "id":21,
+        "titre":"Voyagez ici! Nos futurs sites touristiques d'exception", 
+        "horaire_debut": "16h",
+        "horaire_fin": "17h",
+        "lieu": "La Bibli / Bar",
+        "type":"Débat",
+        "intervenants":[
+            {
+                "nom":"Les Coulisses de l'Image Animée",
+                "fonction":""
+            }
+        ],
+        "descriptif":"Avec Les Coulisses de l'Image Animée et de nombreux acteurs du tourisme"
+    },
+    {
+        "id":22,
+        "titre":"Atelier cuisine anti-gaspi", 
+        "horaire_debut": "18h",
+        "horaire_fin": "19h",
+        "lieu": "La Bibli / Bar",
+        "type":"Atelier",
+        "intervenants":[
+            {
+                "nom":"Les Carnets d'Agnès",
+                "fonction":""
+            }
+        ],
+        "descriptif":"Atelier culinaire zéro déchet, destiné au grand public et animé par Les Carnets d'Agnès"
+    },
+    {
+        "id":23,
+        "titre":"La librairie et les rencontres auteur.e.s", 
+        "horaire_debut": "14h",
+        "horaire_fin": "19h",
+        "lieu": "La Bibli / Librairie",
+        "type":"Rencontre",
+        "intervenants":[
+            {
+                "nom":"",
+                "fonction":""
+            }
+        ],
+        "descriptif":""
+    },
+    {
+        "id":24,
+        "titre":"Le studio", 
+        "horaire_debut": "14h",
+        "horaire_fin": "19h",
+        "lieu": "Place de l'engagement",
+        "type":"Rencontre",
+        "intervenants":[
+            {
+                "nom":"Julien Vidal",
+                "fonction":""
+            },
+             {
+                "nom":"Philippe Bertrand",
+                "fonction":""
+            }
+    
+        ],
+        "descriptif":"2030 Glorieuses, podcastons avec Julien Vidal et Philippe Bertand vous interviewe!"
+    },
+    {
+        "id":25,
+        "titre":"Workshops entreprises engagées", 
+        "horaire_debut": "14h",
+        "horaire_fin": "19h",
+        "lieu": "Les bureaux",
+        "type":"Rencontre",
+        "intervenants":[
+            {
+                "nom":"",
+                "fonction":""
+            }
+        ],
+        "descriptif":""
+    },
+    {
+        "id":26,
+        "titre":"à la rencontre des startups", 
+        "horaire_debut": "14h",
+        "horaire_fin": "19h",
+        "lieu": "Les bureaux",
+        "type":"Rencontre",
+        "intervenants":[
+            {
+                "nom":"",
+                "fonction":""
+            }
+        ],
+        "descriptif":""
+    }
+]

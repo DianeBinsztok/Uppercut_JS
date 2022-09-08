@@ -1,0 +1,24 @@
+<%- include('partials/header.ejs'); %>
+<main class="image_detail">
+    <div class="image_container">
+        <figure>
+            <img class="image" src="<%= image.image %>" alt="<%= image.alt %>" />
+        </figure>
+    </div>
+
+    <div class="image_infos">
+        <article>
+            <h3><%= image.title %></h3>
+            <h4> <a href="/galerie/year-<%= image.year %>"><%= image.year %></a> </h4>
+            <p>
+                <%= image.alt %>
+            </p>
+        </article>
+        <div>
+            <h4>Tags associés:</h4>
+            <% for (let tag of image.tags){%>
+            <a href="/galerie/tag-<%= tag %>"><%= tag %></a>
+            <% } %>
+        </div>
+    </div>
+</main>

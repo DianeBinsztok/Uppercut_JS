@@ -1,0 +1,52 @@
+<%- include('partials/header.ejs'); %>
+<main>
+    <h1><%=title %></h1>
+
+    <div class="gallery-container">
+
+        <% for (let event of events){%>
+
+        <figure class="gallery_thumbnail">
+            <a href="#popup-container<%= event.id %>">
+                <div class="thumbnail_overlay">
+                    <div class="hover_text"><%= event.titre %></div>
+                    <div class="hover_text">Intervenant: <%= event.intervenant %></div>
+                    <div class="hover_text">De <%= event.horaire_debut %> à <%= event.horaire_fin %></div>
+                    <div class="hover_text"><%= event.lieu %> </div>
+                </div>
+            </a>
+        </figure>
+
+        <%};%>
+    </div>
+    <div class="popups-container">
+        <% for (let event of events){%>
+
+        <div id="popup-container<%= event.id %>" class="popup-overlay">
+            <div class="popup">
+                <h2><%= event.titre %></h2>
+                <a class="close" href="#">&times;</a>
+
+                <div class="popup_content">
+                    <a href="#popup-container<%= event.id-1 %>" class="arrow">&lt;</a>
+                    <img class="popup_image" src="<%= event.image %>" alt="<%= event.alt %>" />
+                    <div class="popup_infos">
+                         <h3>Thème :</h3>
+                          <a class="popup-link" href="/galerie/category-<%= event.theme %>"><%= event.theme %></a>
+                        <h3>Lieu:</h3>
+                         <a class="popup-link" href="/galerie/technique-<%= event.lieu %>"><%= event.lieu %></a>
+                        <h3>Horaires:</h3> 
+                        <%= event.horaire_debut %> - <%= event.horaire_fin %>
+                        <a class="popup-link" href="/galerie/year-<%= event.horaire_debut %>">Voir ce qui se passe à la même heure</a>
+                    </div>
+                    <a href="#popup-container<%= event.id+1 %>" class="arrow">&gt;</a>
+                </div>
+            </div>
+        </div>
+        <%};%>
+
+    </div>
+    <footer>Je mets quoi, là?</footer>
+    </body>
+
+    </html>
