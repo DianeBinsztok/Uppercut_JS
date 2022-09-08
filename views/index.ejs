@@ -1,0 +1,56 @@
+<%- include('partials/header.ejs'); %>
+<main>
+    <h1><%=title %></h1>
+
+    <div class="gallery-container">
+
+        <% for (let event of events){%>
+
+        <div class="gallery_thumbnail">
+            <a class="gallery_thumbnail_content" href="#popup-container<%= event.id %>">
+                <div class="thumbnail">
+                   <h2 class="<%= event.type_slug %>"><%=event.titre %></h2>
+                    <div class="speakers">Avec   
+                        <% for (let intervenant of event.intervenants){%>
+                        <div class="speaker-name"> <%= intervenant.nom %></div>
+                        <%};%>
+                    </div>
+                        
+                    <div>De <%= event.horaire_debut %> à <%= event.horaire_fin %></div>
+                    <div><%= event.lieu %> </div>
+                </div>
+            </a>
+        </div>
+
+        <%};%>
+    </div>
+    <div class="popups-container">
+        <% for (let event of events){%>
+
+        <div id="popup-container<%= event.id %>" class="popup-overlay">
+            <div class="popup">
+                <h2><%= event.titre %></h2>
+                <a class="close" href="#">&times;</a>
+
+                <div class="popup_content">
+                    <a href="#popup-container<%= event.id-1 %>" class="arrow">&lt;</a>
+                    <div class="popup_infos">
+                        <h3>Intervenants :</h3>
+                          <% for (let intervenant of event.intervenants){%>
+                        <p class="intervenant"> <%= intervenant.nom %>, </p><p class="fonction"> <%= intervenant.fonction %>, </p>
+                        <%};%>
+                         <h3>Thème :</h3>
+                          <a class="popup-link" href="/type/<%= event.type_slug %>"><%= event.type %></a>
+                        <h3>Lieu:</h3>
+                         <a class="popup-link" href="/lieu/<%= event.lieu_slug %>"><%= event.lieu %></a>
+                        <h3>Horaires:</h3> 
+                        <%= event.horaire_debut %> - <%= event.horaire_fin %>
+                        <a class="popup-link" href="/heure/<%= event.horaire_debut %>">Voir ce qui se passe à la même heure</a>
+                    </div>
+                    <a href="#popup-container<%= event.id+1 %>" class="arrow">&gt;</a>
+                </div>
+            </div>
+        </div>
+        <%};%>
+    </div>   
+<%- include('partials/footer.ejs'); %>

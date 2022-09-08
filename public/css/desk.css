@@ -1,0 +1,110 @@
+header {
+    border-bottom: 1px black solid;
+}
+header img {
+    width: 100%;
+}
+h1 {
+    font-size: 1.7em;
+}
+/* cache et mise en page de la popup */
+
+#popup_container {
+    z-index: 3;
+}
+
+/* comment faire en sorte que la modale soit scrollable, et pas l'arrière plan? */
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.85);
+    /*transition: opacity 500ms;*/
+    visibility: hidden;
+    opacity: 0;
+}
+
+.popup-overlay:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+.popup-link{
+    color: #ffffff;
+    font-weight: bold;
+}
+.popup {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 10px;
+    width: 90%;
+    position: relative;
+    /*transition: all 5s ease-in-out;*/
+}
+
+.popup h2 {
+    margin-top: 0;
+    margin-bottom: 2rem;
+    color: #ffffff;
+    font-family: Tahoma, Arial, sans-serif;
+}
+
+/* Contenu de la popup */
+.popup_content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.popup_content .arrow {
+    font-size: 2rem;
+    color: #ffffff;
+    font-family: Tahoma, Arial, sans-serif;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-decoration: none;
+}
+
+.popup_image {
+    position: relative;
+    display: block;
+    /*margin-left: auto;
+    margin-right: auto;*/
+    margin: auto;
+    max-height: 80vh;
+    max-width: auto;
+}
+
+.popup_infos {
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 0%;
+    color: #ffffff;
+    font-family: Tahoma, Arial, sans-serif;
+}
+
+.popup_infos_tags a {
+    color: #ffffff;
+    font-family: Tahoma, Arial, sans-serif;
+}
+
+article {
+    color: #ffffff;
+    font-family: Tahoma, Arial, sans-serif;
+}
+
+.popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #ffffff;
+}
