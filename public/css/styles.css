@@ -21,14 +21,17 @@ ul {
 }
 
 h1 {
-    font: 3rem "sketchy", sans-serif;
+    font-size: 2em;
     text-align: center;
     margin-top: 1rem;
 }
 
 
 h2 {
-    font: 1.5rem "sketchy", sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #00ABB3;
     margin-top: 1rem;
     text-align: center;
 }
