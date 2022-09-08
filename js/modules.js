@@ -75,12 +75,13 @@ const handleImagesData={
         return{events:eventsByPlace, title:placeTitle};
     },
 
-    getEventsByTime:(horaire_debut)=>{
-        const eventsByTime = eventsData.filter(event=>event.horaire_debut===horaire_debut);
-        return {events:eventsByTime, title: "En ce moment - à "+ horaire_debut +", dans le forum ..."};
-    }, 
-    getContactPage:()=>{
-        return {events:[], title: "Contactez-moi "};
+    handleTime:(startTime)=>{
+      return startTime;
+    },
+
+    getEventsByTime:(startTime)=>{
+        const eventsByTime = eventsData.filter(event=>(event.horaire_debut).substring(0, 3)===startTime.substring(0, 3));
+        return {events:eventsByTime, title: "En ce moment - à "+startTime +", dans le forum ..."};
     }
 
 }

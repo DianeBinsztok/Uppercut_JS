@@ -54,7 +54,19 @@ h2 {
     font-weight: bold;
     text-transform: uppercase;
     margin-bottom: 0.6em;
-    
+}
+
+.title_conferences{
+    background-color: #00ABB3;
+}
+.title_debats{
+    background-color: #140066;
+}
+.title_ateliers{
+    background-color: #665900;
+}
+.title_echanges{
+    background-color: #006616;
 }
 
 .gallery-container {
@@ -66,7 +78,6 @@ h2 {
 
 .gallery_thumbnail{
     background-color: #ffffff;
-    border: 1px solid #00ABB3;
     border-radius: 3px;
     width: 100%;
     margin: 1em;

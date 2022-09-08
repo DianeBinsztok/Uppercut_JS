@@ -9,7 +9,7 @@
         <div class="gallery_thumbnail">
             <a class="gallery_thumbnail_content" href="#popup-container<%= event.id %>">
                 <div class="thumbnail">
-                   <h2><%= event.titre %></h2>
+                   <h2 class="title_<%= event.type_slug %>"><%=event.titre %></h2>
                     <div class="speakers">Intervenant(s):  
                         <% for (let intervenant of event.intervenants){%>
                         <div class="speaker-name"> <%= intervenant.nom %></div>
