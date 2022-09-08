@@ -6,16 +6,18 @@
 
         <% for (let event of events){%>
 
-        <figure class="gallery_thumbnail">
+        <div class="gallery_thumbnail">
             <a href="#popup-container<%= event.id %>">
                 <div class="thumbnail">
                    <h2><%= event.titre %></h2>
-                    <div class="hover_text">Intervenant: <%= event.intervenant %></div>
-                    <div class="hover_text">De <%= event.horaire_debut %> à <%= event.horaire_fin %></div>
-                    <div class="hover_text"><%= event.lieu %> </div>
+                    <div class="intervenants">Intervenant(s):  <% for (let intervenant of event.intervenants){%></div>
+                        <p class="intervenant"> <%= intervenant.nom %></p>
+                        <%};%>
+                    <div>De <%= event.horaire_debut %> à <%= event.horaire_fin %></div>
+                    <div><%= event.lieu %> </div>
                 </div>
             </a>
-        </figure>
+        </div>
 
         <%};%>
     </div>
@@ -29,8 +31,11 @@
 
                 <div class="popup_content">
                     <a href="#popup-container<%= event.id-1 %>" class="arrow">&lt;</a>
-                    <img class="popup_image" src="<%= event.image %>" alt="<%= event.alt %>" />
                     <div class="popup_infos">
+                        <h3>Intervenants :</h3>
+                          <% for (let intervenant of event.intervenants){%></div>
+                        <p class="intervenant"> <%= intervenant.nom %>, </p><p class="fonction"> <%= intervenant.fonction %>, </p>
+                        <%};%>
                          <h3>Thème :</h3>
                           <a class="popup-link" href="/galerie/category-<%= event.theme %>"><%= event.theme %></a>
                         <h3>Lieu:</h3>
@@ -44,9 +49,4 @@
             </div>
         </div>
         <%};%>
-
-    </div>
-    <footer>Je mets quoi, là?</footer>
-    </body>
-
-    </html>
+<%- include('partials/footer.ejs'); %>

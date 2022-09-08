@@ -5,7 +5,7 @@
         "horaire_debut": "14h",
         "horaire_fin": "14h45",
         "lieu": "Les amphis / amphi 1",
-        "type":"Conférence",
+        "type":"conferences",
         "intervenants":[
             {
                 "nom":"Laurence Decréau",
@@ -24,7 +24,7 @@
         "horaire_debut": "14h",
         "horaire_fin": "14h45",
         "lieu": "Les amphis / amphi 2",
-        "type":"Conférence",
+        "type":"conferences",
         "intervenants":[
             {
                 "nom":"Négawatt",
@@ -43,7 +43,7 @@
         "horaire_debut": "15h",
         "horaire_fin": "15h45",
         "lieu": "Les amphis / amphi 1",
-        "type":"Conférence",
+        "type":"conferences",
         "intervenants":[
             {
                 "nom":"Cécile Renouard",
@@ -62,7 +62,7 @@
         "horaire_debut": "15h",
         "horaire_fin": "15h45",
         "lieu": "Les amphis / amphi 2",
-        "type":"Conférence",
+        "type":"conferences",
         "intervenants":[
             {
                 "nom":"Magali Talandier",
@@ -81,7 +81,7 @@
         "horaire_debut": "16h",
         "horaire_fin": "16h45",
         "lieu": "Les amphis / amphi 1",
-        "type":"Conférence",
+        "type":"conferences",
         "intervenants":[
             {
                 "nom":"Nadine Richez-Battesti",
@@ -104,7 +104,7 @@
         "horaire_debut": "16h",
         "horaire_fin": "16h45",
         "lieu": "Les amphis / amphi 2",
-        "type":"Conférence",
+        "type":"conferences",
         "intervenants":[
             {
                 "nom":"Initiactives 26.07",
@@ -123,7 +123,7 @@
         "horaire_debut": "17h",
         "horaire_fin": "17h45",
         "lieu": "Les amphis / amphi 1",
-        "type":"Conférence",
+        "type":"conferences",
         "intervenants":[
             {
                 "nom":"Romain Stiline",
@@ -150,7 +150,7 @@
         "horaire_debut": "17h",
         "horaire_fin": "17h45",
         "lieu": "Les amphis / amphi 2",
-        "type":"Conférence",
+        "type":"conferences",
         "intervenants":[
             {
                 "nom":"Solène Bourgeat",
@@ -173,7 +173,7 @@
         "horaire_debut": "18h",
         "horaire_fin": "19h30",
         "lieu": "Les amphis / amphi 4",
-        "type":"Conférence",
+        "type":"conferences",
         "intervenants":[
             {
                 "nom":"Nicolas Hazard",
@@ -200,7 +200,7 @@
         "horaire_debut": "14h20",
         "horaire_fin": "15h00",
         "lieu": "école buissonnière / CROUS",
-        "type":"Atelier",
+        "type":"ateliers",
         "intervenants":[
             {
                 "nom":"Sébastien Vossier",
@@ -227,7 +227,7 @@
         "horaire_debut": "15h15",
         "horaire_fin": "15h55",
         "lieu": "école buissonnière / CROUS",
-        "type":"Atelier",
+        "type":"ateliers",
         "intervenants":[
             {
                 "nom":"Matthieu Froidevaux",
@@ -250,7 +250,7 @@
         "horaire_debut": "16h30",
         "horaire_fin": "17h",
         "lieu": "école buissonnière / CROUS",
-        "type":"Atelier",
+        "type":"ateliers",
         "intervenants":[
             {
                 "nom":"Caroline Naillet",
@@ -273,7 +273,7 @@
         "horaire_debut": "16h30",
         "horaire_fin": "17h",
         "lieu": "école buissonnière / salle 3",
-        "type":"Atelier",
+        "type":"ateliers",
         "intervenants":[
             {
                 "nom":"Alter'Incub Auvergne-Rhône-Alpes",
@@ -288,7 +288,7 @@
         "horaire_debut": "14h30, 15h30, 16h30 & 17h30",
         "horaire_fin": "",
         "lieu": "Place de l'engagement",
-        "type":"Atelier",
+        "type":"ateliers",
         "intervenants":[
             {
                 "nom":"",
@@ -303,7 +303,7 @@
         "horaire_debut": "18h",
         "horaire_fin": "19h",
         "lieu": "Le Co-Quartier / Extérieur",
-        "type":"Atelier",
+        "type":"ateliers",
         "intervenants":[
             {
                 "nom":"animé par CATALYSE",
@@ -318,7 +318,7 @@
         "horaire_debut": "14h",
         "horaire_fin": "16h",
         "lieu": "La Bibli / Auditorium",
-        "type":"Débat",
+        "type":"debats",
         "intervenants":[
             {
                 "nom":"",
@@ -333,7 +333,7 @@
         "horaire_debut": "14h",
         "horaire_fin": "16h",
         "lieu": "La Bibli / Auditorium",
-        "type":"Débat",
+        "type":"debats",
         "intervenants":[
             {
                 "nom":"Tanguy Descamps, ",
@@ -352,7 +352,7 @@
         "horaire_debut": "16h",
         "horaire_fin": "17h30",
         "lieu": "La Bibli / Auditorium",
-        "type":"Conférence",
+        "type":"conferences",
         "intervenants":[
             {
                 "nom":"Gilles Daveau, ",
@@ -367,7 +367,7 @@
         "horaire_debut": "14h",
         "horaire_fin": "14h45",
         "lieu": "La Bibli / Bar",
-        "type":"Débat",
+        "type":"debats",
         "intervenants":[
             {
                 "nom":"Pain de Cocagne, Coeur de Drôme, ",
@@ -382,7 +382,7 @@
         "horaire_debut": "15h",
         "horaire_fin": "16h",
         "lieu": "La Bibli / Bar",
-        "type":"Débat",
+        "type":"debats",
         "intervenants":[
             {
                 "nom":"Nicolas Hazard",
@@ -406,7 +406,7 @@
         "horaire_debut": "16h",
         "horaire_fin": "17h",
         "lieu": "La Bibli / Bar",
-        "type":"Débat",
+        "type":"debats",
         "intervenants":[
             {
                 "nom":"Les Coulisses de l'Image Animée",
@@ -421,7 +421,7 @@
         "horaire_debut": "18h",
         "horaire_fin": "19h",
         "lieu": "La Bibli / Bar",
-        "type":"Atelier",
+        "type":"ateliers",
         "intervenants":[
             {
                 "nom":"Les Carnets d'Agnès",
@@ -436,7 +436,7 @@
         "horaire_debut": "14h",
         "horaire_fin": "19h",
         "lieu": "La Bibli / Librairie",
-        "type":"Rencontre",
+        "type":"rencontres",
         "intervenants":[
             {
                 "nom":"",
@@ -451,7 +451,7 @@
         "horaire_debut": "14h",
         "horaire_fin": "19h",
         "lieu": "Place de l'engagement",
-        "type":"Rencontre",
+        "type":"rencontres",
         "intervenants":[
             {
                 "nom":"Julien Vidal",
@@ -471,7 +471,7 @@
         "horaire_debut": "14h",
         "horaire_fin": "19h",
         "lieu": "Les bureaux",
-        "type":"Rencontre",
+        "type":"rencontres",
         "intervenants":[
             {
                 "nom":"",
@@ -486,7 +486,7 @@
         "horaire_debut": "14h",
         "horaire_fin": "19h",
         "lieu": "Les bureaux",
-        "type":"Rencontre",
+        "type":"rencontres",
         "intervenants":[
             {
                 "nom":"",

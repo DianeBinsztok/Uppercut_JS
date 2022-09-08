@@ -3,8 +3,7 @@ console.log(">modules.js>");
 const eventsData = require('../json/events.json');
 
 const handleImagesData={
-    getAllImages:()=>{
-
+    getAllEvents:()=>{
         return {events: eventsData, title: "Tous les évènements" };
         },
 
@@ -13,19 +12,15 @@ const handleImagesData={
             return {image:selectedImage};
         },*/
 
-    getImagesByCategory:(category)=>{
-        const imagesByCategory= eventsData.filter(image=>image.theme===category);
-        return {events:imagesByCategory, title:category};
+    getEventsByType:(type)=>{
+        const eventsByType= eventsData.filter(event=>event.type===type);
+        return {events:eventsByType, title:type};
     },
 
-    getImagesByTag:(tag)=>{
-        const imagesByTag = eventsData.filter(image=>image.tags.includes(tag));
-        return {events:imagesByTag, title:tag};
-    },
 
-    getImagesByTechnique:(lieu)=>{
-        const imagesByTechnique = eventsData.filter(image=>image.lieu.includes(lieu));
-        return{events:imagesByTechnique, title:"Tous les évènements de la salle : "+lieu};
+    getEventsByPlace:(lieu)=>{
+        const eventsByPlace = eventsData.filter(image=>image.lieu===lieu);
+        return{events:eventsByPlace, title:"Tous les évènements de la salle : "+lieu};
     },
 
     getImagesByYear:(horaire_debut)=>{

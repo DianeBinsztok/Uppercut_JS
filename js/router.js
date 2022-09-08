@@ -1,37 +1,28 @@
 console.log(">router.js>");
 
 const express=require("express");
-const {getAllImages, getImagesByCategory, getImagesByTag, getImagesByYear, getContactPage, getOneImage, getImagesByTechnique }=require("./modules");
+const {getAllEvents, getEventsByType, getImagesByTag, getImagesByYear, getContactPage, getImagesByTechnique }=require("./modules");
 const router = express.Router();
 
 
 router.get("/", (req, res)=>{
-    res.render("gallery", getAllImages());
+    res.render("index", getAllEvents());
 })
 
-router.get("/galerie/itineraire", (req,res)=>{
-    res.render("gallery", getImagesByCategory("sketchbook"));
+router.get("/type/:type", (req,res)=>{
+    res.render("index", getEventsByType(req.params.type));
 })
 
-router.get("/galerie/futur", (req,res)=>{
-    res.render("gallery", getImagesByCategory("nude"));
-})
-router.get("/galerie/bouger", (req,res)=>{
-    res.render("gallery", getImagesByCategory("nude"));
-})
 
-/*router.get("/image/:id", (req,res)=>{
-    res.render("detail", getOneImage(req.params.id));
-})*/
 
 router.get("/galerie/tag-:tag", (req,res)=>{
-    res.render("gallery", getImagesByTag(req.params.tag));
+    res.render("index", getImagesByTag(req.params.tag));
 })
 router.get("/galerie/year-:year", (req,res)=>{
-res.render("gallery", getImagesByYear(req.params.year) );
+res.render("index", getImagesByYear(req.params.year) );
 })
 router.get("/galerie/technique-:technique", (req,res)=>{
-    res.render("gallery", getImagesByTechnique(req.params.technique) );
+    res.render("index", getImagesByTechnique(req.params.technique) );
     })
 router.get("/contact", (req,res)=>{
     res.render("contact", getContactPage() );
