@@ -4,22 +4,8 @@ header {
 header img {
     width: 100%;
 }
-
-nav ul {
-    background-color: white;
-    display: flex;
-    justify-content: space-between;
-    padding: 2em;
-}
-#logo-accueil{
-    width: 80%;
-}
-
-
 h1 {
-    font-size: 2em;
-    text-align: center;
-    margin-top: 1rem;
+    font-size: 1.7em;
 }
 /* cache et mise en page de la popup */
 

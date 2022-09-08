@@ -4,31 +4,11 @@ header {
 header img {
     width: 100%;
 }
-
 nav ul {
-    background-color: white;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
 
-#logo-accueil{
-    width: 30%;
-}
-
-
-h1 {
-    font-size: 2em;
-    text-align: center;
-    margin-top: 1rem;
-}
-
-.gallery-container {
-    margin: 3rem;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
 
 /* cache et mise en page de la popup */
 

@@ -16,17 +16,21 @@ header img {
 
 nav ul {
     background-color: white;
-    display: flex;
-     text-align: center;
     align-items: center;
+    display: flex;
     justify-content: space-between;
+    padding-bottom: 0.6em;
 }
 
+nav ul li {
+    margin: 0.6em;;
+}  
+
 nav ul li a{
-    padding: 0.5em;
     text-transform: uppercase;
     text-decoration: none;
 }
+
 
 #logo-accueil{
     width: 80%;
@@ -34,9 +38,10 @@ nav ul li a{
 
 
 h1 {
-    font-size: 2em;
+    font-size: 1.2em;
+    text-transform: uppercase;
     text-align: center;
-    margin-top: 1rem;
+    margin: 1rem;
 }
 
 
@@ -53,7 +58,7 @@ h2 {
 }
 
 .gallery-container {
-    margin: 3rem;
+    margin: 2rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
