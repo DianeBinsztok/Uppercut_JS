@@ -1,7 +1,7 @@
 console.log(">router.js>");
 
 const express=require("express");
-const {getAllEvents, getEventsByType, getImagesByTag, getImagesByYear, getContactPage, getImagesByTechnique }=require("./modules");
+const {getAllEvents, getEventsByType, getEventsByTime, getContactPage, getEventsByPlace }=require("./modules");
 const router = express.Router();
 
 
@@ -13,14 +13,15 @@ router.get("/type/:type", (req,res)=>{
     res.render("index", getEventsByType(req.params.type));
 })
 
+router.get("/heure/:time", (req,res)=>{
+res.render("index", getEventsByTime(req.params.time) );
+})
 
 
-router.get("/galerie/tag-:tag", (req,res)=>{
-    res.render("index", getImagesByTag(req.params.tag));
+router.get("/lieu/:place", (req,res)=>{
+    res.render("index", getEventsByPlace(req.params.place));
 })
-router.get("/galerie/year-:year", (req,res)=>{
-res.render("index", getImagesByYear(req.params.year) );
-})
+
 router.get("/galerie/technique-:technique", (req,res)=>{
     res.render("index", getImagesByTechnique(req.params.technique) );
     })

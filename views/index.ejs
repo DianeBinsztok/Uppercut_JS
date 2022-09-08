@@ -37,12 +37,12 @@
                         <p class="intervenant"> <%= intervenant.nom %>, </p><p class="fonction"> <%= intervenant.fonction %>, </p>
                         <%};%>
                          <h3>Thème :</h3>
-                          <a class="popup-link" href="/galerie/category-<%= event.theme %>"><%= event.theme %></a>
+                          <a class="popup-link" href="/type/<%= event.type_slug %>"><%= event.type %></a>
                         <h3>Lieu:</h3>
-                         <a class="popup-link" href="/galerie/technique-<%= event.lieu %>"><%= event.lieu %></a>
+                         <a class="popup-link" href="/lieu/<%= event.lieu_slug %>"><%= event.lieu %></a>
                         <h3>Horaires:</h3> 
                         <%= event.horaire_debut %> - <%= event.horaire_fin %>
-                        <a class="popup-link" href="/galerie/year-<%= event.horaire_debut %>">Voir ce qui se passe à la même heure</a>
+                        <a class="popup-link" href="/heure/<%= event.horaire_debut %>">Voir ce qui se passe à la même heure</a>
                     </div>
                     <a href="#popup-container<%= event.id+1 %>" class="arrow">&gt;</a>
                 </div>
