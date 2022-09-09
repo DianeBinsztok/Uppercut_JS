@@ -10,6 +10,7 @@
   <link media="screen and (min-width:  550px) and (max-width: 1000px)" rel="stylesheet" href="../css/medium_style.css" />
   <link  media="screen and (min-width: 1000px)" href="../css/global_style.css" rel="stylesheet" />
   <script type="text/javascript"  src="../scripts/filtersScript.js" defer></script>
+  <script type="text/javascript"  src="../../js/modules.js" defer></script>
 </head>
 
 
@@ -36,43 +37,43 @@
       <option value="question">Rechercher un évènement par :</option>
       <option value="lieu">Lieu</option>
       <option value="type">Type d'activité</option>
-      <option value="horaire">Horaire</option>
+      <option value="heure">Horaire</option>
     </select>
 
-    <select name="place-filter" id="place" class="hidden">
+    <select onchange="dispatch()" name="place-filter" id="place" class="hidden">
       <option value="place-question">Choisir un lieu :</option>
       <option value="amphi1">Amphi 1</option>
       <option value="amphi2">Amphi 2</option>
       <option value="amphi4">Amphi 4</option>
-      <option value="crous">École buissonière - CROUS</option>
-      <option value="salle3">École buissonière - salle 3</option>
-      <option value="engagement">Place de l'engagement</option>
+      <option value="ecole-buissoniere-crous">École buissonière - CROUS</option>
+      <option value="ecole-buissonniere-salle3">École buissonière - salle 3</option>
+      <option value="place-engagement">Place de l'engagement</option>
       <option value="co-quartier">Co-quartier</option>
-      <option value="auditorium">Bibli - auditorium</option>
-      <option value="bar">Bibli - bar</option>
+      <option value="bibli-auditorium">Bibli - auditorium</option>
+      <option value="bibli-bar">Bibli - bar</option>
       <option value="librairie">Librairie</option>
       <option value="barrack">La barrack</option>
       <option value="bureaux">Les bureaux</option>
     </select>
 
-    <select name="type-filter" id="type" class="hidden">
+    <select onchange="dispatch()" name="type-filter" id="type" class="hidden">
       <option value="place-question">Choisir une activité :</option>
-      <option value="conference">Conférences</option>
+      <option value="conferences">Conférences</option>
       <option value="ateliers">Ateliers</option>
       <option value="debats">Débats</option>
       <option value="rencontres">Rencontres</option>
     </select>
 
-    <select name="time-filter" id="time" class="hidden">
+    <select onchange="dispatch()" name="time-filter" id="time" class="hidden">
       <option value="time-question">Choisir un horaire :</option>
-      <option value="14">14h</option>
-      <option value="15">15h</option>
-      <option value="16">16h</option>
-      <option value="17">17h</option>
-      <option value="18">18h</option>
-      <option value="moment">En ce moment...</option>
+      <option value="14h">14h</option>
+      <option value="15h">15h</option>
+      <option value="16h">16h</option>
+      <option value="17h">17h</option>
+      <option value="18h">18h</option>
     </select>
 
-    <button id="btn" onClick="handleSelection()">Rechercher</button>
+    <a id="specialUrl"  href="" >Rechercher</a>
+  
 
   </header>
