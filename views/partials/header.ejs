@@ -20,6 +20,9 @@
   
     <img src="../images/banniere.png", alt="Banniere du forum Uppercut"/>
   
+          
+
+    <!--
     <nav>
       <ul>
         <li><a href="/">  
@@ -32,15 +35,18 @@
         <li><a href="/type/rencontres">Rencontres</a></li>
       </ul>
     </nav>
+    -->
+<div id="filters-zone">
+          
 
     <select onchange="showFilter()" name="search-filter" id="filter-select">
-      <option value="question">Rechercher un évènement par :</option>
+      <option value="question">Rechercher un évènement...</option>
       <option value="lieu">Lieu</option>
       <option value="type">Type d'activité</option>
       <option value="heure">Horaire</option>
     </select>
 
-    <select onchange="dispatch()" name="place-filter" id="place" class="hidden">
+    <select onchange="dispatch()" name="place-filter" id="place"  class="hidden">
       <option value="place-question">Choisir un lieu :</option>
       <option value="amphi1">Amphi 1</option>
       <option value="amphi2">Amphi 2</option>
@@ -73,7 +79,9 @@
       <option value="18h">18h</option>
     </select>
 
-    <a id="specialUrl"  href="" >Rechercher</a>
-  
+    <a id="specialUrl"  href="">Rechercher</a>
+  </div>
+
+          
 
   </header>
