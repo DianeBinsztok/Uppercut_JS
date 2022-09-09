@@ -41,30 +41,9 @@ h1 {
 }
 
 
-h2 {
-    color: #ffffff;
-    padding: 0.7em;
-    text-align: center;
-    font-size: 1.2em;
-    font-weight: bold;
-    text-transform: uppercase;
-    margin-bottom: 0.6em;
-    line-height: 1.5em;
-}
+/*LES VIGNETTES*/
 
-.conferences{
-    background-color: #00ABB3;
-}
-.debats{
-    background-color: #0039ab;
-}
-.ateliers{
-    background-color: #dfc100;
-}
-.rencontres{
-    background-color: #009c22;
-}
-
+/*Les contenants, fonds et marges*/
 .gallery-container {
     margin: 2rem;
     display: flex;
@@ -84,19 +63,91 @@ h2 {
     color: rgb(16, 16, 16);
 }
 
+
+/*les titres et sous-titres des vignettes*/
+h2 {
+    color: #ffffff;
+    padding: 0.7em;
+    text-align: center;
+    font-size: 1.4em;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 0.6em;
+    line-height: 1.5em;
+}
+
+.conferences{
+    background-color: #00ABB3;
+}
+.subheader_conferences{
+    color: #00ABB3;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0.5em 0em 1em 0em;
+}
+
+.debats{
+    background-color: #0039ab;
+}
+.subheader_debats{
+    color: #0039ab;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0.5em 0em 1em 0em;
+}
+
+.ateliers{
+    background-color: #dfc100;
+}
+.subheader_ateliers{
+    color: #dfc100;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0.5em 0em 1em 0em;
+}
+.rencontres{
+    background-color: #009c22;
+}
+.subheader_rencontres{
+    color: #009c22;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0.5em 0em 1em 0em;
+}
+
+/* Les contenu des vignettes*/
+.thumbnail_line{
+    margin-top: 0.5em;
+    display: flex;
+}
+.thumbnail_svg{
+    margin-right: 0.7em;
+}
+
 .thumbnail_content{
-    margin: 0.5em;
+    margin: 1em;
 }
 
 .thumbnail_hour{
-    display: flex;
+    font-size: 1.3em;
+    font-weight: bold;
 }
 .thumbnail_place{
-    display: flex;
+    text-transform: uppercase;
+    font-weight: 600;
 }
 .thumbnail_speakers{
     display: flex;
+    justify-content: space-between;
 }
+.speaker-name{
+    margin-right: 0.6em;
+}
+
 
 footer {
     text-align: center;
@@ -116,7 +167,7 @@ footer {
     bottom: 0;
     left: 0;
     right: 0;
-    background: rgba(0, 0, 0, 0.85);
+    background: rgba(0, 0, 0, 0.80);
     /*transition: opacity 500ms;*/
     visibility: hidden;
     opacity: 0;
@@ -127,14 +178,11 @@ footer {
     opacity: 1;
 }
 
-.popup-link{
-    color: #ffffff;
-    font-weight: bold;
-}
 .popup {
     display: flex;
     flex-direction: column;
     margin: auto;
+    margin-top: 2em;
     padding: 10px;
     width: 90%;
     position: relative;
@@ -145,53 +193,50 @@ footer {
     margin-top: 0;
     margin-bottom: 2rem;
     color: #ffffff;
-    font-family: Tahoma, Arial, sans-serif;
 }
 
 /* Contenu de la popup */
-.popup_content {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+
+.popup-link{
+    color: #00ABB3;
+    margin-left: 2em;
 }
 
-.popup_content .arrow {
-    font-size: 2rem;
-    color: #ffffff;
-    font-family: Tahoma, Arial, sans-serif;
-    margin-top: auto;
-    margin-bottom: auto;
+.popup-link_title{
     text-decoration: none;
 }
 
 .popup_image {
     position: relative;
     display: block;
-    /*margin-left: auto;
-    margin-right: auto;*/
     margin: auto;
     max-height: 80vh;
     max-width: auto;
 }
 
-.popup_infos {
+.popup_content {
+    background-color: #ffffff;
     margin-left: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     margin-right: 0%;
-    color: #ffffff;
     font-family: Tahoma, Arial, sans-serif;
 }
 
-.popup_infos_tags a {
-    color: #ffffff;
-    font-family: Tahoma, Arial, sans-serif;
+.popup_thumbnail_line{
+    margin-top: 1.7em;
+    margin-bottom: 0.4em;
+    display: flex;
 }
 
-article {
-    color: #ffffff;
-    font-family: Tahoma, Arial, sans-serif;
+
+.popup_speaker-name{
+    margin-top: 1.7em;
+    font-weight: bold;
+}
+.popup_speaker-desc{
+line-height: 1.5em;
 }
 
 .popup .close {
