@@ -4,10 +4,9 @@ const eventsData = require('../json/events.json');
 
 const handleEventsData={
 
-
     getAllEvents:()=>{
-        return {events: eventsData, title: "Tous les évènements" };
-        },
+    return {events: eventsData, title: "Tous les évènements" };
+    },
 
     getEventsByType:(typeSlug)=>{
         const eventsByType= eventsData.filter(event=>event.type_slug===typeSlug);

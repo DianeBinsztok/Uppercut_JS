@@ -59,7 +59,3 @@ function dispatch(){
   let url = "/"+url1+"/"+url2; 
   searchLink.setAttribute("href", url); 
 }
-
-function clearURL(){
-   searchLink.setAttribute("href", ""); 
-}
