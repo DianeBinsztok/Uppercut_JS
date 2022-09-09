@@ -3,7 +3,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background: linear-gradient(  #ffe431, #00ABB3 );
+    background: linear-gradient(  #ffdf11, #00ABB3 );
 }
 
 header img {
@@ -27,10 +27,8 @@ nav ul li a{
     text-decoration: none;
 }
 
-
-
 #logo-accueil{
-    width: 80%;
+    width: 70%;
 }
 
 
@@ -39,6 +37,7 @@ h1 {
     text-transform: uppercase;
     text-align: center;
     margin: 1rem;
+    line-height: 1.5em;
 }
 
 
@@ -50,19 +49,20 @@ h2 {
     font-weight: bold;
     text-transform: uppercase;
     margin-bottom: 0.6em;
+    line-height: 1.5em;
 }
 
 .conferences{
     background-color: #00ABB3;
 }
 .debats{
-    background-color: #140066;
+    background-color: #0039ab;
 }
 .ateliers{
-    background-color: #665900;
+    background-color: #dfc100;
 }
 .rencontres{
-    background-color: #006616;
+    background-color: #009c22;
 }
 
 .gallery-container {
@@ -84,8 +84,18 @@ h2 {
     color: rgb(16, 16, 16);
 }
 
-.thumbnail{
+.thumbnail_content{
     margin: 0.5em;
+}
+
+.thumbnail_hour{
+    display: flex;
+}
+.thumbnail_place{
+    display: flex;
+}
+.thumbnail_speakers{
+    display: flex;
 }
 
 footer {
