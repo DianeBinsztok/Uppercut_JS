@@ -6,10 +6,6 @@ body {
     background: linear-gradient(  #ffe431, #00ABB3 );
 }
 
-header {
-    border-bottom: 1px black solid;
-}
-
 header img {
     width: 100%;
 }
@@ -197,4 +193,9 @@ article {
     font-weight: bold;
     text-decoration: none;
     color: #ffffff;
+}
+
+/*Pour les menu de rechrche avec filtres:*/
+.hidden{
+    display: none;
 }

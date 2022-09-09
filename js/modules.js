@@ -2,7 +2,9 @@ console.log(">modules.js>");
 
 const eventsData = require('../json/events.json');
 
-const handleImagesData={
+const handleEventsData={
+
+
     getAllEvents:()=>{
         return {events: eventsData, title: "Tous les évènements" };
         },
@@ -75,14 +77,10 @@ const handleImagesData={
         return{events:eventsByPlace, title:placeTitle};
     },
 
-    handleTime:(startTime)=>{
-      return startTime;
-    },
-
     getEventsByTime:(startTime)=>{
         const eventsByTime = eventsData.filter(event=>(event.horaire_debut).substring(0, 3)===startTime.substring(0, 3));
-        return {events:eventsByTime, title: "En ce moment - à "+startTime +", dans le forum ..."};
+        return {events:eventsByTime, title: "À "+startTime +", dans le forum ..."};
     }
 
 }
-module.exports=handleImagesData;
+module.exports=handleEventsData;
