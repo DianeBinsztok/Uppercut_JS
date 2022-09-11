@@ -3,29 +3,13 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background: linear-gradient(  #ffdf11, #00ABB3 );
+    background: linear-gradient(  #efff11, #00ABB3 );
 }
 
-header img {
+#banniere {
     width: 100%;
-    margin-bottom: -1em;
-}
-
-nav ul {
-    background-color: white;
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-    padding-bottom: 0.6em;
-}
-
-nav ul li {
-    margin: 0.6em;;
-}  
-
-nav ul li a{
-    text-transform: uppercase;
-    text-decoration: none;
+    margin-bottom: -3em;
+    margin-top: -0.1em;
 }
 
 #logo-accueil{
@@ -35,14 +19,16 @@ nav ul li a{
 /*LES FILTRES DE RECHERCHE*/
 
 #filters-zone{
+    width: 100%;
     padding: 2em;
     align-items: center;
-        background-color: #00ABB3;
+    background-color: #00ABB3;
 }
 
 #filter-select, #place, #type, #time, #specialUrl{
+    margin: 0.5em;
     padding: 0.7em;
-     color: #00ABB3;
+    color: #00ABB3;
 }
  #specialUrl{
     text-decoration: none;
@@ -55,16 +41,14 @@ h1 {
     font-size: 1.2em;
     text-transform: uppercase;
     text-align: center;
-    margin: 1rem;
+    margin-top: 2em;
     line-height: 1.5em;
 }
-
-
 /*LES VIGNETTES*/
 
 /*Les contenants, fonds et marges*/
 .gallery-container {
-    margin: 2rem;
+    margin: 1em;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -73,8 +57,9 @@ h1 {
 .gallery_thumbnail{
     background-color: #ffffff;
     border-radius: 3px;
-    width: 100%;
-    margin: 1em;
+    width: 30%;
+    margin: 0.5em;
+    box-shadow: 10px 5px 5px  rgba(3, 53, 38, 0.15);;
 }
 
 .gallery_thumbnail_content{
@@ -88,7 +73,7 @@ h2 {
     color: #ffffff;
     padding: 0.7em;
     text-align: center;
-    font-size: 1.4em;
+    font-size: 1.em;
     font-weight: bold;
     text-transform: uppercase;
     margin-bottom: 0.6em;
@@ -118,7 +103,7 @@ h2 {
 }
 
 .ateliers{
-    background-color: #dfc100;
+    background-color: #afbb0f;
 }
 .subheader_ateliers{
     color: #dfc100;
@@ -158,10 +143,12 @@ h2 {
 .thumbnail_place{
     text-transform: uppercase;
     font-weight: 600;
+    font-size: 0.9em;
 }
 .thumbnail_speakers{
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    line-height: 1.3em;
 }
 .speaker-name{
     margin-right: 0.6em;
@@ -206,7 +193,8 @@ footer {
     padding: 10px;
     width: 90%;
     position: relative;
-        overflow:auto;
+    height: 80%;
+    overflow:auto;
     /*transition: all 5s ease-in-out;*/
 }
 

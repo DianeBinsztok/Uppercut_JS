@@ -3,10 +3,9 @@ const search = document.querySelector("#filter-select");
 const lieu =  document.querySelector("#place");
 const type =  document.querySelector("#type");
 const heure =  document.querySelector("#time");
+const searchBtn = document.querySelector("#specialUrl");
 let url1 ="";
 let url2 ="";
-
-let searchLink = document.getElementById("specialUrl"); 
    
 
 function showFilter(){
@@ -16,8 +15,7 @@ function showFilter(){
     case 'lieu':
         place.classList.remove("hidden");
         type.classList.add("hidden");
-        time.classList.add("hidden");
-        
+        time.classList.add("hidden");        
     break;
     case 'type':
         type.classList.remove("hidden");
@@ -33,7 +31,6 @@ function showFilter(){
         time.classList.add("hidden");
         place.classList.add("hidden");
         type.classList.add("hidden");
-    break;
    }
    url1 =value;
 
@@ -56,10 +53,11 @@ function dispatch(){
         console.log("error ");
     break;
    }
+   searchBtn.classList.remove("hidden");
   let url = "/"+url1+"/"+url2; 
-  searchLink.setAttribute("href", url); 
+  searchBtn.setAttribute("href", url); 
 }
 
 function clearURL(){
-   searchLink.setAttribute("href", ""); 
+    searchBtn.setAttribute("href", ""); 
 }

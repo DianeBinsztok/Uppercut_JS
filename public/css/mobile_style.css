@@ -1,8 +1,17 @@
 body {
     font-size: 16px;
 }
-
-nav ul {
+#filters-zone{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+.gallery_thumbnail{
+    background-color: #ffffff;
+    border-radius: 3px;
+    width: 100%;
+    margin: 1em;
+    box-shadow: 10px 5px 5px  rgba(3, 53, 38, 0.15);;
 }
