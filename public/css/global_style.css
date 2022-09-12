@@ -19,7 +19,7 @@ body {
 /*LES FILTRES DE RECHERCHE*/
 
 #filters-zone{
-    width: 100%;
+    max-width: 100%;
     padding: 2em;
     align-items: center;
     background-color: #00ABB3;
