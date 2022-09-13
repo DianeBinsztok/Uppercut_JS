@@ -3,12 +3,13 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background: linear-gradient(  #efff11, #00ABB3 );
+    background: linear-gradient(  #7bff2e, #00ABB3 );
+
 }
 
 #banniere {
     width: 100%;
-    margin-bottom: -3em;
+    margin-bottom: -1.5em;
     margin-top: -0.1em;
 }
 
@@ -22,7 +23,6 @@ body {
     max-width: 100%;
     padding: 2em;
     align-items: center;
-    background-color: #00ABB3;
 }
 
 #filter-select, #place, #type, #time, #specialUrl{
@@ -37,8 +37,31 @@ body {
     background-color: #ffffff;
  }
 
+#nav-filters{
+    display: flex;
+    flex-direction: column;
+    background-color: #00ABB3;
+    align-items: center;
+    justify-content: space-between;
+}
+#navigation{
+    display: flex;
+}
+.nav-item{
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    font-weight: 500;
+    font-size: 1.2em;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+
+}
+
+
 h1 {
     font-size: 1.2em;
+    font-weight: 400;
     text-transform: uppercase;
     text-align: center;
     margin-top: 2em;
@@ -59,7 +82,7 @@ h1 {
     border-radius: 3px;
     width: 30%;
     margin: 0.5em;
-    box-shadow: 10px 5px 5px  rgba(3, 53, 38, 0.15);;
+    box-shadow: 10px 5px 5px  rgba(3, 53, 38, 0.15);
 }
 
 .gallery_thumbnail_content{
@@ -92,10 +115,10 @@ h2 {
 }
 
 .debats{
-    background-color: #0039ab;
+    background-color: #00c278;
 }
 .subheader_debats{
-    color: #0039ab;
+    color: #00c278;
     font-size: 1.1em;
     text-transform: uppercase;
     text-align: center;
@@ -103,20 +126,20 @@ h2 {
 }
 
 .ateliers{
-    background-color: #afbb0f;
+    background-color: #00cf2d;
 }
 .subheader_ateliers{
-    color: #dfc100;
+    color: #00cf2d;
     font-size: 1.1em;
     text-transform: uppercase;
     text-align: center;
     margin: 0.5em 0em 1em 0em;
 }
 .rencontres{
-    background-color: #009c22;
+    background-color: #30cf00;
 }
 .subheader_rencontres{
-    color: #009c22;
+    color: #30cf00;
     font-size: 1.1em;
     text-transform: uppercase;
     text-align: center;
