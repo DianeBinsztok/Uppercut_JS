@@ -3,7 +3,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background: linear-gradient(  #7bff2e, #00ABB3 );
+    background: linear-gradient(  #7fdf47, #00ABB3 );
 
 }
 
@@ -104,10 +104,10 @@ h2 {
 }
 
 .conferences{
-    background-color: #00ABB3;
+    background-color: #00969e;
 }
 .subheader_conferences{
-    color: #00ABB3;
+    color: #00969e;
     font-size: 1.1em;
     text-transform: uppercase;
     text-align: center;
@@ -115,10 +115,10 @@ h2 {
 }
 
 .debats{
-    background-color: #00c278;
+    background-color: #00a884;
 }
 .subheader_debats{
-    color: #00c278;
+    color: #00a884;
     font-size: 1.1em;
     text-transform: uppercase;
     text-align: center;
@@ -126,20 +126,20 @@ h2 {
 }
 
 .ateliers{
-    background-color: #00cf2d;
+    background-color: #33b300;
 }
 .subheader_ateliers{
-    color: #00cf2d;
+    color: #33b300;
     font-size: 1.1em;
     text-transform: uppercase;
     text-align: center;
     margin: 0.5em 0em 1em 0em;
 }
 .rencontres{
-    background-color: #30cf00;
+    background-color: #65b300;
 }
 .subheader_rencontres{
-    color: #30cf00;
+    color: #65b300;
     font-size: 1.1em;
     text-transform: uppercase;
     text-align: center;
