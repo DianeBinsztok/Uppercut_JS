@@ -3,7 +3,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background: linear-gradient(  #7fdf47, #00ABB3 );
+    background: linear-gradient(  #beff45, #00ABB3 );
 
 }
 
@@ -28,12 +28,14 @@ body {
 #filter-select, #place, #type, #time, #specialUrl{
     margin: 0.5em;
     padding: 0.7em;
+    font-size: 1.2em;
     color: #00ABB3;
 }
  #specialUrl{
     text-decoration: none;
     color: #00ABB3;
-    font-size: 0.9em;
+     padding: 0.7em;
+    font-size: 1.2em;
     background-color: #ffffff;
  }
 
@@ -42,29 +44,35 @@ body {
     flex-direction: column;
     background-color: #00ABB3;
     align-items: center;
-    justify-content: space-between;
 }
 #navigation{
     display: flex;
+    justify-content: space-around;
 }
 .nav-item{
-    margin-left: 0.5em;
-    margin-right: 0.5em;
-    font-weight: 500;
-    font-size: 1.2em;
+    /*margin-left: 0.8em;
+    margin-right: 0.7em;*/
+    padding: 0.8em;
+    font-weight:550;
+    font-size: 1.4em;
     text-decoration: none;
     text-transform: uppercase;
     color: white;
-
+}
+.nav-item:hover{
+    background-color: #7fdf47;
+    font-weight: 550;
+    color: #00868d;
 }
 
 
 h1 {
-    font-size: 1.2em;
-    font-weight: 400;
+    font-weight:600;
+    color: #00868d;
+    font-size: 1.5em;
     text-transform: uppercase;
     text-align: center;
-    margin-top: 2em;
+    margin: 2.5em;
     line-height: 1.5em;
 }
 /*LES VIGNETTES*/
@@ -126,10 +134,10 @@ h2 {
 }
 
 .ateliers{
-    background-color: #33b300;
+    background-color: #00b368;
 }
 .subheader_ateliers{
-    color: #33b300;
+    color: #00b368;
     font-size: 1.1em;
     text-transform: uppercase;
     text-align: center;
@@ -178,9 +186,7 @@ h2 {
 }
 
 
-footer {
-    text-align: center;
-}
+
 
 
 /* cache et mise en page de la popup */
@@ -285,4 +291,10 @@ line-height: 1.5em;
 /*Pour les menu de rechrche avec filtres:*/
 .hidden{
     display: none;
+}
+
+footer {
+    padding: 0.5em;
+    color: #ffffff;
+    text-align: center;
 }
