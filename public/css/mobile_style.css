@@ -7,20 +7,29 @@ body {
     align-items: center;
     margin: auto;
 }
+/*
+#filters-zone{
+    display: none;
+}*/
 
 #banniere{
     width: 100%;
 }
-
 #navigation{
     flex-direction: column;
-    line-height: 1.7em;
+    line-height: 1em;
+    margin: auto;
 }
-
+.nav-item{
+    font-size: 1em;
+}
 .gallery_thumbnail{
     background-color: #ffffff;
     border-radius: 3px;
     width: 100%;
     margin: 1em;
     box-shadow: 10px 5px 5px  rgba(3, 53, 38, 0.15);;
+}
+.hidden{
+    display: none;
 }

@@ -9,7 +9,7 @@ body {
 
 #banniere {
     width: 100%;
-    margin-bottom: -1.5em;
+    margin-bottom: -1.3em;
     margin-top: -0.1em;
 }
 
@@ -19,12 +19,23 @@ body {
 
 /*LES FILTRES DE RECHERCHE*/
 
-#filters-zone{
-    max-width: 100%;
-    padding: 2em;
+#nav-filters{
+    display: flex;
+    flex-direction: column;
+    background-color: #00ABB3;
     align-items: center;
 }
+#navigation{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 
+#filters-zone{
+    max-width: 100%;
+    padding: 1.6em;
+    align-items: center;
+}
 #filter-select, #place, #type, #time, #specialUrl{
     margin: 0.5em;
     padding: 0.7em;
@@ -39,16 +50,6 @@ body {
     background-color: #ffffff;
  }
 
-#nav-filters{
-    display: flex;
-    flex-direction: column;
-    background-color: #00ABB3;
-    align-items: center;
-}
-#navigation{
-    display: flex;
-    justify-content: space-around;
-}
 .nav-item{
     /*margin-left: 0.8em;
     margin-right: 0.7em;*/
