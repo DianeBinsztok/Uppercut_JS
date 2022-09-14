@@ -7,7 +7,7 @@
         "lieu": "Les amphis / amphi 1",
         "lieu_slug": "amphi1",
         "type":"Table ronde",
-        "type_slug":"conferences",
+        "type_slug":"tables-rondes",
         "intervenants":[
             {
                 "nom":"Laurence Decréau",
@@ -19,7 +19,7 @@
             }
         ],
         "descriptif":"",
-        "liens":"",
+        "liens":["www.ensta-paris.fr"],
         "img":""
     },
     {
@@ -30,7 +30,7 @@
         "lieu": "Les amphis / amphi 2",
         "lieu_slug": "amphi2",
         "type":"Table ronde",
-        "type_slug":"conferences",
+        "type_slug":"tables-rondes",
         "intervenants":[
             {
                 "nom":"Négawatt",
@@ -42,7 +42,7 @@
             }
         ],
         "descriptif":"", 
-        "liens":"",
+        "liens":[],
         "img":""
     },
     {
@@ -53,7 +53,7 @@
         "lieu": "Les amphis / amphi 1",
         "lieu_slug": "amphi1",
         "type":"Table ronde",
-        "type_slug":"conferences",
+        "type_slug":"tables-rondes",
         "intervenants":[
             {
                 "nom":"Cécile Renouard",
@@ -65,7 +65,7 @@
             }
         ],
         "descriptif":"", 
-        "liens":"",
+        "liens":[],
         "img":""
     },
     {
@@ -76,19 +76,27 @@
         "lieu": "Les amphis / amphi 2",
         "lieu_slug": "amphi2",
         "type":"Table ronde",
-        "type_slug":"conferences",
+        "type_slug":"tables-rondes",
         "intervenants":[
             {
                 "nom":"Magali Talandier",
                 "fonction":"économiste, docteure en Urbanisme et Aménagement du territoire"
             },
             {
-                "nom":"Laurence Decréau",
+                "nom":"Brigitte Rollet",
                 "fonction": "co-fondatrice de Re-Sources (Projet de Maison intergénérationnelle à Saint-Paul-les-Romans)"
+            },
+            {
+                "nom":"Cédric Geeraert",
+                "fonction": "directeur du pôle urbanisme au cabinet TANGRAM  & ROUGERIE"
+            },
+            {
+                "nom":"Thomas Schultz-Bellin",
+                "fonction": "Chef de projet Habitat de Valence Romans Agglo"
             }
         ],
         "descriptif":"", 
-        "liens":"",
+        "liens":[],
         "img":""
     },
     {
@@ -99,7 +107,7 @@
         "lieu": "Les amphis / amphi 1",
         "lieu_slug": "amphi1",
         "type":"Table ronde",
-        "type_slug":"conferences",
+        "type_slug":"tables-rondes",
         "intervenants":[
             {
                 "nom":"Nadine Richez-Battesti",
@@ -115,7 +123,7 @@
             }
         ],
         "descriptif":"", 
-        "liens":"",
+        "liens":[],
         "img":""
     }, 
     {
@@ -126,7 +134,7 @@
         "lieu": "Les amphis / amphi 2",
         "lieu_slug": "amphi2",
         "type":"Table ronde",
-        "type_slug":"conferences",
+        "type_slug":"tables-rondes",
         "intervenants":[
             {
                 "nom":"Initiactives 26.07",
@@ -138,7 +146,7 @@
             }
         ],
         "descriptif":"Témoignages des entrepreneurs", 
-        "liens":"",
+        "liens":[],
         "img":""
     },
     {
@@ -149,7 +157,7 @@
         "lieu": "Les amphis / amphi 1",
         "lieu_slug": "amphi1",
         "type":"Table ronde",
-        "type_slug":"conferences",
+        "type_slug":"tables-rondes",
         "intervenants":[
             {
                 "nom":"Romain Stiline",
@@ -169,7 +177,7 @@
             }
         ],
         "descriptif":"", 
-        "liens":"",
+        "liens":[],
         "img":""
     },
     {
@@ -180,7 +188,7 @@
         "lieu": "Les amphis / amphi 2",
         "lieu_slug": "amphi2",
         "type":"Table ronde",
-        "type_slug":"conferences",
+        "type_slug":"tables-rondes",
         "intervenants":[
             {
                 "nom":"Solène Bourgeat",
@@ -193,10 +201,14 @@
             {
                 "nom":"Adrien Petit",
                 "fonction": "directeur du Cluster bio d'Auvergne-Rhône-Alpes"
+            },
+             {
+                "nom":"Juliette Duquesne",
+                "fonction": "journaliste indépendante sur les problématiques environnementales et économiques"
             }
         ],
         "descriptif":"", 
-        "liens":"",
+        "liens":[],
         "img":""
     },
     {
@@ -204,10 +216,10 @@
         "titre":"Engagez-vous, qu'il disaient!", 
         "horaire_debut": "18h",
         "horaire_fin": "19h30",
-        "lieu": "Les amphis / amphi 4",
-        "lieu_slug": "amphi4",
+        "lieu": "Les amphis / Grand amphi",
+        "lieu_slug": "grand-amphi",
         "type":"Table ronde",
-        "type_slug":"conferences",
+        "type_slug":"tables-rondes",
         "intervenants":[
             {
                 "nom":"Nicolas Hazard",
@@ -227,7 +239,7 @@
             }
         ],
         "descriptif":"", 
-        "liens":"",
+        "liens":[],
         "img":""
     },
     {
@@ -258,7 +270,7 @@
             }
         ],
         "descriptif":"", 
-        "liens":"",
+        "liens":[],
         "img":""
     },
     {
@@ -285,7 +297,7 @@
             }
         ],
         "descriptif":"", 
-        "liens":"",
+        "liens":[],
         "img":""
     },
     {
@@ -312,7 +324,7 @@
             }
         ],
         "descriptif":"", 
-        "liens":"",
+        "liens":[],
         "img":""
     },
     {
@@ -331,7 +343,7 @@
             }
         ],
         "descriptif":"Atelier collectif",
-        "liens":"",
+        "liens":[],
         "img":""
     },
     {
@@ -350,7 +362,7 @@
             }
         ],
         "descriptif":"Atelier grand public pour expérimenter la théorie du Donut",
-        "liens":"",
+        "liens":[],
         "img":""
     },
     {
@@ -369,7 +381,7 @@
             }
         ],
         "descriptif":"Atelier Rocket Stove, destiné au grand public et animé par CATALYSE",
-        "liens":"",
+        "liens":[],
         "img":""
     },
     {
@@ -388,7 +400,7 @@
             }
         ],
         "descriptif":"Pendant un an, le jeune réalisateur Arthur Gosset, lui-même étudiant à Centrale Nantes, a suivi le parcours de six jeunes, leurs décisions parfois difficiles, leurs ruptures souvent douloureuses et leur courageux choix de vivre en adéquation avec leurs convictions, quoi qu'il en coûte (durée : 1h).",
-        "liens":"",
+        "liens":[],
         "img":""
     },
     {
@@ -411,7 +423,7 @@
             }
         ],
         "descriptif":"", 
-        "liens":"",
+        "liens":[],
         "img":""
     },
     {
@@ -422,7 +434,7 @@
         "lieu": "La Bibli / Auditorium",
         "lieu_slug": "bibli-auditorium",
         "type":"Table ronde",
-        "type_slug":"conferences",
+        "type_slug":"tables-rondes",
         "intervenants":[
             {
                 "nom":"Gilles Daveau, ",
@@ -430,7 +442,7 @@
             }
         ],
         "descriptif":"", 
-        "liens":"",
+        "liens":[],
         "img":""
     },
     {
@@ -449,7 +461,7 @@
             }
         ],
         "descriptif":"Rencontre privilégiée avec le projet de boulangerie solidaire Pain de Cocagne, Coeur de Drôme",
-        "liens":"",
+        "liens":[],
         "img":""
     },
     {
@@ -477,7 +489,7 @@
     
         ],
         "descriptif":"", 
-        "liens":"",
+        "liens":[],
         "img":""
     },
     {
@@ -515,7 +527,7 @@
             }
         ],
         "descriptif":"Atelier culinaire zéro déchet, destiné au grand public et animé par Les Carnets d'Agnès",
-        "liens":"",
+        "liens":[],
         "img":""
     },
     {
@@ -534,7 +546,7 @@
             }
         ],
         "descriptif":"", 
-        "liens":"",
+        "liens":[],
         "img":""
     },
     {
@@ -558,7 +570,7 @@
     
         ],
         "descriptif":"2030 Glorieuses, podcastons avec Julien Vidal et Philippe Bertand vous interviewe!",
-        "liens":"",
+        "liens":[],
         "img":""
     },
     {
@@ -596,7 +608,130 @@
             }
         ],
         "descriptif":"", 
-        "liens":"",
+        "liens":[],
         "img":""
-    }
+    },
+    {
+        "id":27,
+        "titre":"Pourquoi et comment ... m'impliquer dans mon territoire d'implantation", 
+        "horaire_debut": "14h",
+        "horaire_fin": "14h45",
+        "lieu": "Les bureaux / salle 1",
+        "lieu_slug": "bureaux",
+        "type":"Workshop entreprise",
+        "type_slug":"workshops",
+        "intervenants":[
+            {
+                "nom":"",
+                "fonction":""
+            }
+        ],
+        "descriptif":"Qu'est ce que cela peut apporter à mon entreprise? Comment identifier qui pourrait avoir besoin de moi?", 
+        "liens":[],
+        "img":""
+    },
+    {
+        "id":28,
+        "titre":"Pourquoi et comment ... réduire l'impact mobilité de mon entreprise?", 
+        "horaire_debut": "14h",
+        "horaire_fin": "14h45",
+        "lieu": "Les bureaux / salle 2",
+        "lieu_slug": "bureaux",
+        "type":"Workshop entreprise",
+        "type_slug":"workshops",
+        "intervenants":[
+            {
+                "nom":"Valence Romans Déplacements",
+                "fonction":""
+            }
+        ],
+        "descriptif":"En quoi les déplacements de mon entreprise ont-ils un impact? Quelles solutions concrètes? Avec Valence Romans Déplacements", 
+        "liens":[],
+        "img":""
+    },
+    {
+        "id":29,
+        "titre":"Pourquoi et comment ... impliquer les -futurs- salariés dans le développement durable de mon entreprise?", 
+        "horaire_debut": "15h30",
+        "horaire_fin": "16h30",
+        "lieu": "Les bureaux / salle 1",
+        "lieu_slug": "bureaux",
+        "type":"Workshop entreprise",
+        "type_slug":"workshops",
+        "intervenants":[
+            {
+                "nom":"",
+                "fonction":""
+            }
+        ],
+        "descriptif":"Quels bénéfices à mobiliser les salariés dans des actions de développement durable? Quels risques et comment les contourner? Par où commencer, jusqu'où puis-je aller?", 
+        "liens":[],
+        "img":""
+    },
+    {
+        "id":30,
+        "titre":"Pourquoi et comment ... m'engager dans des achats plus durables?", 
+        "horaire_debut": "15h30",
+        "horaire_fin": "16h30",
+        "lieu": "Les bureaux / salle 2",
+        "lieu_slug": "bureaux",
+        "type":"Workshop entreprise",
+        "type_slug":"workshops",
+        "intervenants":[
+            {
+                "nom":"",
+                "fonction":""
+            }
+        ],
+        "descriptif":"Qu'est-ce que l'achat durable? À toutes les étapes du processus, quels critères intégrer pour guider mes choix?", 
+        "liens":[],
+        "img":""
+    },
+    {
+        "id":31,
+        "titre":"Pourquoi et comment ... Préserver la biodiversité en développant mon entreprise", 
+        "horaire_debut": "17h",
+        "horaire_fin": "18h",
+        "lieu": "Les bureaux / salle 1",
+        "lieu_slug": "bureaux",
+        "type":"Workshop entreprise",
+        "type_slug":"workshops",
+        "intervenants":[
+            {
+                "nom":" LPO AURA",
+                "fonction":""
+            },
+            {
+                "nom":"Club CONTINUUM",
+                "fonction":""
+            }
+        ],
+        "descriptif":"Quels sont les enjeux actuels, en lien avec l'artificialisation des sols? Comment limiter l'impact avant, pendant et après la construction de mes locaux, à la fois en terme de consommation d'espace et de préservation de la biodiversité? (En présence de la LPO AURA et du Club CONTINUUM)", 
+        "liens":[],
+        "img":""
+    },
+    {
+        "id":32,
+        "titre":"Pourquoi et comment ... limiter l'impact environnemental de mes usages du numériques?", 
+        "horaire_debut": "17h",
+        "horaire_fin": "18h",
+        "lieu": "Les bureaux / salle 2",
+        "lieu_slug": "bureaux",
+        "type":"Workshop entreprise",
+        "type_slug":"workshops",
+        "intervenants":[
+            {
+                "nom":"Le Moulin Digital",
+                "fonction":""
+            },
+            {
+                "nom":"French Tech in the Alps",
+                "fonction":""
+            }
+        ],
+        "descriptif":"Quels sont les impacts du numérique, comment les hiérarchiser? Comment puis-je agir en tant que citoyen et dans mon entreprise? (En présence du Moulin Digital / French Tech in the Alps)", 
+        "liens":[],
+        "img":""
+    } 
+    
 ]

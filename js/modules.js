@@ -13,11 +13,14 @@ const handleEventsData={
         const eventsByType= eventsData.filter(event=>event.type_slug===typeSlug);
         let typeTitle = "";
         switch (typeSlug) {
-            case 'conferences':
+            case 'tables-rondes':
             typeTitle = "Toutes les tables rondes";
             break;
             case 'ateliers':
             typeTitle = "Tous les ateliers";
+            break;
+            case 'workshops':
+            typeTitle = "Tous les workshops entreprises";
             break;
             case 'rencontres':
             typeTitle = "Toutes les rencontres";
@@ -41,8 +44,8 @@ const handleEventsData={
             case 'amphi2':
             placeTitle = "Tout le programme de l'amphi 2";
             break;
-            case 'amphi4':
-            placeTitle = "Tout le programme de l'amphi 4";
+            case 'grand-amphi':
+            placeTitle = "Tout le programme du grand amphi";
             break;
             case 'ecole-buissoniere-crous':
             placeTitle = "Tout le programme de l'école buissonnière - espace CROUS";
