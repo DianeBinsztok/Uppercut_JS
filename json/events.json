@@ -6,7 +6,7 @@
         "horaire_fin": "14h45",
         "lieu": "Les amphis / amphi 1",
         "lieu_slug": "amphi1",
-        "type":"Conférence",
+        "type":"Table ronde",
         "type_slug":"conferences",
         "intervenants":[
             {
@@ -18,7 +18,9 @@
                 "fonction": "proviseur honoraire du lycée René Cassin à Arpajon"
             }
         ],
-        "descriptif":""
+        "descriptif":"",
+        "liens":"",
+        "img":""
     },
     {
         "id":2,
@@ -27,7 +29,7 @@
         "horaire_fin": "14h45",
         "lieu": "Les amphis / amphi 2",
         "lieu_slug": "amphi2",
-        "type":"Conférence",
+        "type":"Table ronde",
         "type_slug":"conferences",
         "intervenants":[
             {
@@ -39,7 +41,9 @@
                 "fonction": ""
             }
         ],
-        "descriptif":""
+        "descriptif":"", 
+        "liens":"",
+        "img":""
     },
     {
         "id":3,
@@ -48,7 +52,7 @@
         "horaire_fin": "15h45",
         "lieu": "Les amphis / amphi 1",
         "lieu_slug": "amphi1",
-        "type":"Conférence",
+        "type":"Table ronde",
         "type_slug":"conferences",
         "intervenants":[
             {
@@ -60,7 +64,9 @@
                 "fonction": "professeure de lettres, directrice du département Culture et Communication à l'ENSTA ParisTech, déléguée généralendu Festival des Vocations"
             }
         ],
-        "descriptif":""
+        "descriptif":"", 
+        "liens":"",
+        "img":""
     },
     {
         "id":4,
@@ -69,7 +75,7 @@
         "horaire_fin": "15h45",
         "lieu": "Les amphis / amphi 2",
         "lieu_slug": "amphi2",
-        "type":"Conférence",
+        "type":"Table ronde",
         "type_slug":"conferences",
         "intervenants":[
             {
@@ -81,7 +87,9 @@
                 "fonction": "co-fondatrice de Re-Sources (Projet de Maison intergénérationnelle à Saint-Paul-les-Romans)"
             }
         ],
-        "descriptif":""
+        "descriptif":"", 
+        "liens":"",
+        "img":""
     },
     {
         "id":5,
@@ -90,7 +98,7 @@
         "horaire_fin": "16h45",
         "lieu": "Les amphis / amphi 1",
         "lieu_slug": "amphi1",
-        "type":"Conférence",
+        "type":"Table ronde",
         "type_slug":"conferences",
         "intervenants":[
             {
@@ -106,7 +114,9 @@
                 "fonction":"économiste, docteure en Urbanisme et Aménagement du territoire"
             }
         ],
-        "descriptif":""
+        "descriptif":"", 
+        "liens":"",
+        "img":""
     }, 
     {
         "id":6,
@@ -115,7 +125,7 @@
         "horaire_fin": "16h45",
         "lieu": "Les amphis / amphi 2",
         "lieu_slug": "amphi2",
-        "type":"Conférence",
+        "type":"Table ronde",
         "type_slug":"conferences",
         "intervenants":[
             {
@@ -127,7 +137,9 @@
                 "fonction": ""
             }
         ],
-        "descriptif":"Témoignages des entrepreneurs"
+        "descriptif":"Témoignages des entrepreneurs", 
+        "liens":"",
+        "img":""
     },
     {
         "id":7,
@@ -136,7 +148,7 @@
         "horaire_fin": "17h45",
         "lieu": "Les amphis / amphi 1",
         "lieu_slug": "amphi1",
-        "type":"Conférence",
+        "type":"Table ronde",
         "type_slug":"conferences",
         "intervenants":[
             {
@@ -156,7 +168,9 @@
                 "fonction": "Coordinatrice de Ma bouteille s'appelle revient"
             }
         ],
-        "descriptif":""
+        "descriptif":"", 
+        "liens":"",
+        "img":""
     },
     {
         "id":8,
@@ -165,7 +179,7 @@
         "horaire_fin": "17h45",
         "lieu": "Les amphis / amphi 2",
         "lieu_slug": "amphi2",
-        "type":"Conférence",
+        "type":"Table ronde",
         "type_slug":"conferences",
         "intervenants":[
             {
@@ -181,7 +195,9 @@
                 "fonction": "directeur du Cluster bio d'Auvergne-Rhône-Alpes"
             }
         ],
-        "descriptif":""
+        "descriptif":"", 
+        "liens":"",
+        "img":""
     },
     {
         "id":9,
@@ -190,7 +206,7 @@
         "horaire_fin": "19h30",
         "lieu": "Les amphis / amphi 4",
         "lieu_slug": "amphi4",
-        "type":"Conférence",
+        "type":"Table ronde",
         "type_slug":"conferences",
         "intervenants":[
             {
@@ -210,7 +226,9 @@
                 "fonction": "directeur du LABO de l'ESS"
             }
         ],
-        "descriptif":""
+        "descriptif":"", 
+        "liens":"",
+        "img":""
     },
     {
         "id":10,
@@ -239,7 +257,9 @@
                 "fonction": "directrice territoriale d'ENEDIS"
             }
         ],
-        "descriptif":""
+        "descriptif":"", 
+        "liens":"",
+        "img":""
     },
     {
         "id":11,
@@ -264,7 +284,9 @@
                 "fonction": "consultante AFPA et gérante de BEAR'S BUNDLE"
             }
         ],
-        "descriptif":""
+        "descriptif":"", 
+        "liens":"",
+        "img":""
     },
     {
         "id":12,
@@ -289,7 +311,9 @@
                 "fonction": ""
             }
         ],
-        "descriptif":""
+        "descriptif":"", 
+        "liens":"",
+        "img":""
     },
     {
         "id":13,
@@ -306,7 +330,9 @@
                 "fonction":""
             }
         ],
-        "descriptif":"Atelier collectif"
+        "descriptif":"Atelier collectif",
+        "liens":"",
+        "img":""
     },
     {
         "id":14,
@@ -323,7 +349,9 @@
                 "fonction":""
             }
         ],
-        "descriptif":"Atelier grand public pour expérimenter la théorie du Donut"
+        "descriptif":"Atelier grand public pour expérimenter la théorie du Donut",
+        "liens":"",
+        "img":""
     },
     {
         "id":15,
@@ -340,7 +368,9 @@
                 "fonction":""
             }
         ],
-        "descriptif":"Atelier Rocket Stove, destiné au grand public et animé par CATALYSE"
+        "descriptif":"Atelier Rocket Stove, destiné au grand public et animé par CATALYSE",
+        "liens":"",
+        "img":""
     },
     {
         "id":16,
@@ -357,7 +387,9 @@
                 "fonction":""
             }
         ],
-        "descriptif":"Pendant un an, le jeune réalisateur Arthur Gosset, lui-même étudiant à Centrale Nantes, a suivi le parcours de six jeunes, leurs décisions parfois difficiles, leurs ruptures souvent douloureuses et leur courageux choix de vivre en adéquation avec leurs convictions, quoi qu'il en coûte (durée : 1h)."
+        "descriptif":"Pendant un an, le jeune réalisateur Arthur Gosset, lui-même étudiant à Centrale Nantes, a suivi le parcours de six jeunes, leurs décisions parfois difficiles, leurs ruptures souvent douloureuses et leur courageux choix de vivre en adéquation avec leurs convictions, quoi qu'il en coûte (durée : 1h).",
+        "liens":"",
+        "img":""
     },
     {
         "id":17,
@@ -378,7 +410,9 @@
                 "fonction":"co-auteur de l'ouvrage Basculons, diplômé de Sciences Po Toulouse, chargé de la mobilisation de la primaire populaire"
             }
         ],
-        "descriptif":""
+        "descriptif":"", 
+        "liens":"",
+        "img":""
     },
     {
         "id":18,
@@ -387,7 +421,7 @@
         "horaire_fin": "17h30",
         "lieu": "La Bibli / Auditorium",
         "lieu_slug": "bibli-auditorium",
-        "type":"Conférence",
+        "type":"Table ronde",
         "type_slug":"conferences",
         "intervenants":[
             {
@@ -395,7 +429,9 @@
                 "fonction":"formateur en 'cuisine alternative' depuis 1987, restaurateur et traiteur bio et vgétarien pendant plus de vingt ans. Autur de 'Manger moins (et mieux) de viande', du Manuel de Cuisine Alternative (Actes Sud)"
             }
         ],
-        "descriptif":""
+        "descriptif":"", 
+        "liens":"",
+        "img":""
     },
     {
         "id":19,
@@ -412,7 +448,9 @@
                 "fonction":"boulangerie solidaire"
             }
         ],
-        "descriptif":"Rencontre privilégiée avec le projet de bouangerie solidaire Pain de Cocagne, Coeur de Drôme"
+        "descriptif":"Rencontre privilégiée avec le projet de boulangerie solidaire Pain de Cocagne, Coeur de Drôme",
+        "liens":"",
+        "img":""
     },
     {
         "id":20,
@@ -438,7 +476,9 @@
             }
     
         ],
-        "descriptif":""
+        "descriptif":"", 
+        "liens":"",
+        "img":""
     },
     {
         "id":21,
@@ -455,7 +495,9 @@
                 "fonction":""
             }
         ],
-        "descriptif":"Avec Les Coulisses de l'Image Animée et de nombreux acteurs du tourisme"
+        "descriptif":"Avec Les Coulisses de l'Image Animée et de nombreux acteurs du tourisme",
+        "liens":"",
+        "img":""
     },
     {
         "id":22,
@@ -472,7 +514,9 @@
                 "fonction":""
             }
         ],
-        "descriptif":"Atelier culinaire zéro déchet, destiné au grand public et animé par Les Carnets d'Agnès"
+        "descriptif":"Atelier culinaire zéro déchet, destiné au grand public et animé par Les Carnets d'Agnès",
+        "liens":"",
+        "img":""
     },
     {
         "id":23,
@@ -489,7 +533,9 @@
                 "fonction":""
             }
         ],
-        "descriptif":""
+        "descriptif":"", 
+        "liens":"",
+        "img":""
     },
     {
         "id":24,
@@ -511,7 +557,9 @@
             }
     
         ],
-        "descriptif":"2030 Glorieuses, podcastons avec Julien Vidal et Philippe Bertand vous interviewe!"
+        "descriptif":"2030 Glorieuses, podcastons avec Julien Vidal et Philippe Bertand vous interviewe!",
+        "liens":"",
+        "img":""
     },
     {
         "id":25,
@@ -528,7 +576,9 @@
                 "fonction":""
             }
         ],
-        "descriptif":""
+        "descriptif":"", 
+        "liens":"",
+        "img":""
     },
     {
         "id":26,
@@ -545,6 +595,8 @@
                 "fonction":""
             }
         ],
-        "descriptif":""
+        "descriptif":"", 
+        "liens":"",
+        "img":""
     }
 ]

@@ -14,7 +14,7 @@ const handleEventsData={
         let typeTitle = "";
         switch (typeSlug) {
             case 'conferences':
-            typeTitle = "Toutes les conférences";
+            typeTitle = "Toutes les tables rondes";
             break;
             case 'ateliers':
             typeTitle = "Tous les ateliers";
