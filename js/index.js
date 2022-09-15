@@ -14,4 +14,4 @@ app.use(express.static("public"));
 app.use(express.static("public/css"));
 
 
-app.listen(PORT, () => console.log(`listening to http://localhost:${PORT}/`));
+app.listen(proces.env.PORT, () => console.log(`listening to http://localhost:${PORT}/`));
