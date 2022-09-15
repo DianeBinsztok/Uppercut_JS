@@ -25,11 +25,8 @@ const handleEventsData={
             case 'rencontres':
             typeTitle = "Toutes les rencontres";
             break;
-            case 'debats':
-            typeTitle = "Tous les débats";
-            break;
             default:
-            typeTitle = "Désolé, nous ne trouvons pas ce type d'évènement";
+            typeTitle = "Désolé, nous ne trouvons pas ce format d'évènement";
         }
         return {events:eventsByType, title:typeTitle};
     },
@@ -66,7 +63,7 @@ const handleEventsData={
             placeTitle = "Au bar de la Bibli";
             break;
             case 'librairie':
-            placeTitle = "A la librairie";
+            placeTitle = "À la librairie";
             break;
             case 'bureaux':
             placeTitle = "Dans les bureaux";
@@ -75,7 +72,7 @@ const handleEventsData={
             placeTitle = "Dans la Barrack";
             break;
             default:
-            placeTitle = "Désolé, nous ne trouvons pas ce lieu sur le Forum. Etes vous dans le bon immeuble? O.o";
+            placeTitle = "Désolé, nous ne trouvons pas ce lieu sur le Forum. Êtes vous dans le bon immeuble? O.o";
         }
         return{events:eventsByPlace, title:placeTitle};
     },

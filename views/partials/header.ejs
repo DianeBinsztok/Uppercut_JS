@@ -27,18 +27,17 @@
         srcset="../images/banniere-mobile.png">
      <source 
         media="(min-width: 550px)"
-        srcset="../images/banniere-medium.png">
+        srcset="../images/banniere-desk.jpg">
      <source 
         media="(min-width: 800px)"
-        srcset="../images/banniere-desk.png">
-    <img  id="banniere" src="../images/banniere-desk.png" alt="bannière du forum Uppercut"/>
+        srcset="../images/banniere-desk.jpg">
+    <img  id="banniere" src="../images/banniere-desk.jpg" alt="bannière du forum Uppercut"/>
       </picture>
   </a>
      
   <div id="nav-filters">
     <nav id="navigation">     
       <a class="nav-item " href="/type/tables-rondes">Tables rondes</a>
-      <a class="nav-item " href="/type/debats">Débats</a>
       <a class="nav-item " href="/type/workshops">Workshops entreprises</a>
       <a class="nav-item " href="/type/ateliers">Ateliers</a>
       <a class="nav-item " href="/type/rencontres">Rencontres</a>
@@ -46,10 +45,10 @@
 
     <div id="filters-zone">
     <select onchange="showFilter()" name="search-filter" id="filter-select">
-      <option value="question">Rechercher un évènement...</option>
-      <option value="lieu">Lieu</option>
-      <option value="type">Type d'activité</option>
-      <option value="heure">Horaire</option>
+      <option value="question">Rechercher ...</option>
+      <option value="lieu">un lieu</option>
+      <option value="type">un format</option>
+      <option value="heure">un horaire</option>
     </select>
 
     <select onchange="dispatch()" name="place-filter" id="place"  class="hidden">
@@ -69,10 +68,10 @@
     </select>
 
     <select onchange="dispatch()" name="type-filter" id="type" class="hidden">
-      <option value="place-question">Choisir une activité :</option>
-      <option value="conferences">Conférences</option>
+      <option value="place-question">Choisir un format :</option>
+      <option value="conferences">Tables rondes</option>
       <option value="ateliers">Ateliers</option>
-      <option value="debats">Débats</option>
+      <option value="debats">Workshops entreprises</option>
       <option value="rencontres">Rencontres</option>
     </select>
 
@@ -84,7 +83,9 @@
       <option value="17h">17h</option>
       <option value="18h">18h</option>
     </select>
-    <a id="specialUrl" class="hidden"  href="">Rechercher</a>
+    <a id="specialUrl" class="hidden"  href=""><svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M23.9997 24.5485C23.9997 24.5485 39.596 13.5493 37.866 0.960898C37.8489 0.74713 37.7622 0.544341 37.6186 0.38222C37.4591 0.237724 37.2543 0.150207 37.0375 0.133906C24.4504 -1.59565 13.4541 14.0006 13.4541 14.0006C3.9138 12.8843 4.60756 14.7434 0.254989 24.9609C-0.577964 26.9086 0.771994 27.5801 2.25231 27.0316L6.99815 25.2805L12.7206 30.9982L10.9685 35.7463C10.4206 37.2276 11.09 38.5771 13.0409 37.7458C23.2573 33.3928 25.1176 34.088 23.9997 24.5485V24.5485ZM26.229 11.7744C25.5933 11.1325 25.238 10.2742 25.238 9.38088C25.238 8.48758 25.5933 7.62928 26.229 6.98735C26.5398 6.67432 26.9117 6.42546 27.3227 6.25551C27.7337 6.08557 28.1755 5.998 28.6218 5.998C29.0681 5.998 29.5098 6.08557 29.9209 6.25551C30.3319 6.42546 30.7038 6.67432 31.0146 6.98735C31.6503 7.62928 32.0056 8.48758 32.0056 9.38088C32.0056 10.2742 31.6503 11.1325 31.0146 11.7744C30.7038 12.0874 30.3319 12.3363 29.9209 12.5062C29.5098 12.6762 29.0681 12.7638 28.6218 12.7638C28.1755 12.7638 27.7337 12.6762 27.3227 12.5062C26.9117 12.3363 26.5398 12.0874 26.229 11.7744Z" fill="#00ABB3"/>
+</svg></a>
     </div>
 
 

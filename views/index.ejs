@@ -55,12 +55,15 @@
 
         <div id="popup-container<%= event.id %>" class="popup-overlay">
             <div class="popup">
+
                 <a class="close" href="#">&times;</a>
                 <div class="popup_content">
                     <div class="thumbnail">
                        <h2 class="<%= event.type_slug %>"><%=event.titre %></h2>
                        <div class="thumbnail_content">
                         <a class="popup-link_title" href="/type/<%= event.type_slug %>"><h3 class="subheader_<%= event.type_slug %>"><%=event.type %></h3></a>
+                        
+                       
                             <div class="popup_thumbnail_line" >
                                 <div class="thumbnail_svg">
                                     <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -94,10 +97,13 @@
                                     <p class="popup_speaker-desc"><%= intervenant.fonction %></p>
                                     <%};%>
                                 </div>
-                            </div>    
+                            </div>  
+                              
+                            
                         </div>
                     </div>
                 </div>
+
             </div>
         </div>
         <%};%>

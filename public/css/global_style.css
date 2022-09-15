@@ -3,7 +3,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background: linear-gradient(  #beff45, #00ABB3 );
+    background: linear-gradient(  #ffed00,#ffed00, #00ABB2 );
+    background-repeat: no-repeat;
 
 }
 
@@ -40,19 +41,20 @@ body {
     margin: 0.5em;
     padding: 0.7em;
     font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
     color: #00ABB3;
 }
  #specialUrl{
     text-decoration: none;
     color: #00ABB3;
-     padding: 0.7em;
-    font-size: 1.2em;
+    padding: 0.7em;
+   font-size: 1.2em;
     background-color: #ffffff;
  }
 
 .nav-item{
-    /*margin-left: 0.8em;
-    margin-right: 0.7em;*/
+
     padding: 0.8em;
     font-weight:550;
     font-size: 1.4em;
@@ -61,7 +63,7 @@ body {
     color: white;
 }
 .nav-item:hover{
-    background-color: #7fdf47;
+    background-color: #ffed00;
     font-weight: 550;
     color: #00868d;
 }
@@ -76,6 +78,8 @@ h1 {
     margin: 2.5em;
     line-height: 1.5em;
 }
+
+
 /*LES VIGNETTES*/
 
 /*Les contenants, fonds et marges*/
@@ -113,7 +117,7 @@ h2 {
 }
 
 .tables-rondes{
-    background-color: #00969e;
+    background-color: #00ABB2;
 }
 .subheader_tables-rondes{
     color: #00969e;
@@ -123,42 +127,31 @@ h2 {
     margin: 0.5em 0em 1em 0em;
 }
 
-.debats{
+.ateliers{
     background-color: #00a884;
 }
-.subheader_debats{
+.subheader_ateliers{
     color: #00a884;
     font-size: 1.1em;
     text-transform: uppercase;
     text-align: center;
     margin: 0.5em 0em 1em 0em;
 }
-
-.ateliers{
-    background-color: #00b368;
-}
-.subheader_ateliers{
-    color: #00b368;
-    font-size: 1.1em;
-    text-transform: uppercase;
-    text-align: center;
-    margin: 0.5em 0em 1em 0em;
-}
 .rencontres{
-    background-color: #65b300;
+    background-color: #22a800;
 }
 .subheader_rencontres{
-    color: #65b300;
+    color: #22a800;
     font-size: 1.1em;
     text-transform: uppercase;
     text-align: center;
     margin: 0.5em 0em 1em 0em;
 }
 .workshops{
-    background-color: #d6da00;
+    background-color: #98c200;
 }
 .subheader_workshops{
-    color: #8e9100;
+    color: #98c200;
     font-size: 1.1em;
     text-transform: uppercase;
     text-align: center;
@@ -235,7 +228,6 @@ h2 {
     position: relative;
     height: 80%;
     overflow:auto;
-    /*transition: all 5s ease-in-out;*/
 }
 
 .popup h2 {

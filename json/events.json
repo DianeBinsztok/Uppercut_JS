@@ -391,8 +391,8 @@
         "horaire_fin": "16h",
         "lieu": "La Bibli / Auditorium",
         "lieu_slug": "bibli-auditorium",
-        "type":"Débat",
-        "type_slug":"debats",
+        "type":"Rencontre",
+        "type_slug":"rencontres",
         "intervenants":[
             {
                 "nom":"",
@@ -410,8 +410,8 @@
         "horaire_fin": "16h",
         "lieu": "La Bibli / Auditorium",
         "lieu_slug": "bibli-auditorium",
-        "type":"Débat",
-        "type_slug":"debats",
+        "type":"Rencontre",
+        "type_slug":"rencontres",
         "intervenants":[
             {
                 "nom":"Tanguy Descamps, ",
@@ -452,8 +452,8 @@
         "horaire_fin": "14h45",
         "lieu": "La Bibli / Bar",
         "lieu_slug": "bibli-bar",
-        "type":"Débat",
-        "type_slug":"debats",
+        "type":"Rencontre",
+        "type_slug":"rencontres",
         "intervenants":[
             {
                 "nom":"Pain de Cocagne, Coeur de Drôme, ",
@@ -471,8 +471,8 @@
         "horaire_fin": "16h",
         "lieu": "La Bibli / Bar",
         "lieu_slug": "bibli-bar",
-        "type":"Débat",
-        "type_slug":"debats",
+        "type":"Rencontre",
+        "type_slug":"rencontres",
         "intervenants":[
             {
                 "nom":"Nicolas Hazard",
@@ -499,8 +499,8 @@
         "horaire_fin": "17h",
         "lieu": "La Bibli / Bar",
         "lieu_slug": "bibli-bar",
-        "type":"Débat",
-        "type_slug":"debats",
+        "type":"Rencontre",
+        "type_slug":"rencontres",
         "intervenants":[
             {
                 "nom":"Les Coulisses de l'Image Animée",
