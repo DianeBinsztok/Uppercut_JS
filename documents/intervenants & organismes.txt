@@ -1,0 +1,21 @@
+Laurence Decréau, 
+professeure de lettres, directrice du département Culture et Communication à l’ENSTA ParisTech, déléguée générale du Festival des Vocations + 
+
+Juliette Duquesne, 
+journaliste indépendante sur les problématiques environnementales et économiques + 
+
+Tanguy Descamps, 
+co-auteur de l’ouvrage "Basculons ! Dans un monde vi(v)able" (ACTES SUD), membre de La Bascule et animateur de la fresque du climat
+
+"nom":"Initiactive 2607",
+"fonction":"soutient l'economie de proximite en Drôme et Ardeche"
+{"logo":"", "nom":"Initiactive 2607", "url": "http://initiactive2607.fr"}, 
+
+
+"nom":"France Active",
+"fonction":"regroupement d'entrepreneurs engagés dont l'ambition est de bâtir une société plus solidaire"
+
+{"logo":"", "nom":"France Active", "url": "https://www.franceactive.org/"}
+
+"nom":"Alain Etienne",
+"fonction":"président du conseil coopératif de Voisiwatt"
