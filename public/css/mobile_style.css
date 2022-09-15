@@ -33,3 +33,12 @@ body {
 .hidden{
     display: none;
 }
+
+.popup_info_desc{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+}
+.description-bloc{
+    width: 90%;
+}

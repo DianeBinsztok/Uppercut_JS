@@ -240,19 +240,11 @@ h2 {
 
 .popup-link{
     color: #00ABB3;
-    margin-left: 2em;
+    margin-left: 4rem;
 }
 
 .popup-link_title{
     text-decoration: none;
-}
-
-.popup_image {
-    position: relative;
-    display: block;
-    margin: auto;
-    max-height: 80vh;
-    max-width: auto;
 }
 
 .popup_content {
@@ -264,12 +256,24 @@ h2 {
     margin-right: 0%;
     font-family: Tahoma, Arial, sans-serif;
 }
-
 .popup_thumbnail_line{
+    margin-left: 2rem;
     margin-top: 1.7em;
     margin-bottom: 0.4em;
     display: flex;
 }
+
+
+.popup_info_desc{
+    display: flex;
+}
+
+.description-bloc{
+    width: 65%;
+    line-height: 1.6em;
+}
+
+
 
 
 .popup_speaker-name{

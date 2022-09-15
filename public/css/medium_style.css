@@ -31,3 +31,7 @@ margin-top: 0.5em;
     text-decoration: none;
     color: rgb(16, 16, 16);
 }
+
+.description-bloc{
+    width: 50%;
+}
