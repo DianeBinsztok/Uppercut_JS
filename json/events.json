@@ -11,15 +11,18 @@
         "intervenants":[
             {
                 "nom":"Laurence Decréau",
-                "fonction": "professeure de lettres, directrice du département Culture et Communication à l'ENSTA ParisTech, déléguée généralendu Festival des Vocations"
+                "fonction": "professeure de lettres, directrice du département Culture et Communication à l'ENSTA ParisTech, déléguée générale du Festival des Vocations"
             },
             {
                 "nom":"Bertrand Villain",
                 "fonction": "proviseur honoraire du lycée René Cassin à Arpajon"
             }
         ],
-        "descriptif":"",
-        "liens":["www.ensta-paris.fr"],
+        "descriptif":"Pas de descriptif",
+        "liens":[
+            {"logo":"", "nom":"ENSTA ParisTech", "url": "https://www.ensta-paris.fr"}, 
+            {"logo":"", "nom":"Lycée René Cassin (non sécurisé)", "url": "https://www.lyc-cassin-arpajon.ac-versailles.fr"}
+        ],
         "img":""
     },
     {
@@ -34,15 +37,18 @@
         "intervenants":[
             {
                 "nom":"Négawatt",
-                "fonction":""
+                "fonction":"association qui regroupe des professionnels de l'énergie et des citoyens."
             },
             {
                 "nom":"EDF, une rivière un territoire",
                 "fonction": ""
             }
         ],
-        "descriptif":"", 
-        "liens":[],
+        "descriptif":"Pas de descriptif", 
+        "liens":[
+            {"logo":"", "nom":"Négawatt", "url": "https://www.negawatt.org"}, 
+            {"logo":"","nom":"EDF, une rivière un territoire", "url": "https://www.edf.fr/groupe-edf/produire-une-energie-respectueuse-du-climat/accelerer-le-developpement-des-energies-renouvelables/lenergie-hydraulique/les-atouts-de-lhydroelectricite/economie-et-dialogue-local/le-programme-edf-une-riviere-un-territoire"}
+        ],
         "img":""
     },
     {
@@ -57,15 +63,18 @@
         "intervenants":[
             {
                 "nom":"Cécile Renouard",
-                "fonction":"docteure en philosophie, membre de la congrégation catholique des Religieuses de l'Assomption, co-fondatrice et présidente du Campus des Transitions"
+                "fonction":"docteure en philosophie, membre de la congrégation catholique des Religieuses de l'Assomption, co-fondatrice et présidente du Campus de la Transitions"
             },
             {
                 "nom":"Laurence Decréau",
-                "fonction": "professeure de lettres, directrice du département Culture et Communication à l'ENSTA ParisTech, déléguée généralendu Festival des Vocations"
+                "fonction": "professeure de lettres, directrice du département Culture et Communication à l'ENSTA ParisTech, déléguée générale du Festival des Vocations"
             }
         ],
-        "descriptif":"", 
-        "liens":[],
+        "descriptif":"Pas de descriptif", 
+        "liens":[
+            {"logo":"", "nom":"Campus de la Transition", "url": "https://campus-transition.org"}, 
+            {"logo":"", "nom":"ENSTA ParisTech", "url": "https://www.ensta-paris.fr"}
+        ],
         "img":""
     },
     {
@@ -88,15 +97,20 @@
             },
             {
                 "nom":"Cédric Geeraert",
-                "fonction": "directeur du pôle urbanisme au cabinet TANGRAM  & ROUGERIE"
+                "fonction": "directeur du pôle urbanisme au cabinet ROUGERIE  & TANGRAM "
             },
             {
                 "nom":"Thomas Schultz-Bellin",
                 "fonction": "Chef de projet Habitat de Valence Romans Agglo"
             }
         ],
-        "descriptif":"", 
-        "liens":[],
+        "descriptif":"Pas de descriptif", 
+        "liens":[
+            {"logo":"", "nom":"Magali Talandier", "url": "https://www.pacte-grenoble.fr/membres/magali-talandier"}, 
+            {"logo":"", "nom":"Re-Sources", "url": "https://www.fabt.fr/actualites/re-sources"},
+            {"logo":"", "nom":"Re-Sources", "url": "https://www.rougerie-tangram.com"},
+            {"logo":"", "nom":"Habitat Valence Agglo", "url": "https://www.valenceromansagglo.fr/fr/au-quotidien/habitat-logement.html"}
+        ],
         "img":""
     },
     {
@@ -111,7 +125,7 @@
         "intervenants":[
             {
                 "nom":"Nadine Richez-Battesti",
-                "fonction":"économiste au laboratoire d'économie et de sociologie du travail (LEST-CNRS)"
+                "fonction":"économiste au Laboratoire d'Économie et de Sociologie du Travail (LEST-CNRS)"
             },
             {
                 "nom":"Pierre Veltz",
@@ -122,8 +136,12 @@
                 "fonction":"économiste, docteure en Urbanisme et Aménagement du territoire"
             }
         ],
-        "descriptif":"", 
-        "liens":[],
+        "descriptif":"Pas de descriptif", 
+        "liens":[
+            {"logo":"", "nom":"LEST (non-sécurisé)", "url": "http://lest.fr/fr"}, 
+            {"logo":"", "nom":"Pierre Veltz - L'économie désirable", "url": "https://www.cairn.info/revue-mondes-en-developpement-2021-1-page-153.htm"},
+            {"logo":"", "nom":"Magali Talandier", "url": "https://www.pacte-grenoble.fr/membres/magali-talandier"}
+        ],
         "img":""
     }, 
     {
@@ -146,7 +164,10 @@
             }
         ],
         "descriptif":"Témoignages des entrepreneurs", 
-        "liens":[],
+        "liens":[
+            {"logo":"", "nom":"Initiactives 2607 (non sécurisé)", "url": "http://initiactive2607.fr/"}, 
+            {"logo":"", "nom":"l'ADIE", "url": "https://www.adie.org/"}
+        ],
         "img":""
     },
     {
@@ -160,8 +181,8 @@
         "type_slug":"tables-rondes",
         "intervenants":[
             {
-                "nom":"Romain Stiline",
-                "fonction":"spécialiste des innovations et politiques, président de Démocraties ouverte"
+                "nom":"Romain Slitine",
+                "fonction":"spécialiste des innovations et politiques, président de Démocratie Ouverte"
             },
             {
                 "nom":"Agathe Bénard",
@@ -173,11 +194,16 @@
             },
             {
                 "nom":"Clémence Richeux",
-                "fonction": "Coordinatrice de Ma bouteille s'appelle revient"
+                "fonction": "Coordinatrice de Ma Bouteille s'Appelle Reviens"
             }
         ],
-        "descriptif":"", 
-        "liens":[],
+        "descriptif":"Pas de descriptif", 
+        "liens":[
+            {"logo":"", "nom":"Démocratie Ouverte", "url": "https://www.democratieouverte.org/"}, 
+            {"logo":"", "nom":"Thanatosphère", "url": "https://www.thanatosphere.fr/page/1936361-accueil"},
+            {"logo":"", "nom":"Chaire ETI", "url": "https://chaire-eti.org/"},
+            {"logo":"", "nom":"Ma Bouteille s'Appelle Reviens", "url": "https://www.ma-bouteille.org/"}
+        ],
         "img":""
     },
     {
@@ -207,8 +233,13 @@
                 "fonction": "journaliste indépendante sur les problématiques environnementales et économiques"
             }
         ],
-        "descriptif":"", 
-        "liens":[],
+        "descriptif":"Pas de descriptif", 
+        "liens":[
+            {"logo":"", "nom":"Parenthèse (non sécurisé)", "url": "http://www.parenthese.org/"}, 
+            {"logo":"", "nom":"Vercourses", "url": "https://www.vercourses.fr/"},
+            {"logo":"", "nom":"Cluster Bio ARA", "url": "https://www.cluster-bio.com/fr/"},
+            {"logo":"", "nom":"Juliette Duquesne", "url": "https://julietteduquesne.fr/"}
+        ],
         "img":""
     },
     {
@@ -231,15 +262,21 @@
             },
             {
                 "nom":"Julien Vidal",
-                "fonction": "fondateur de 'ça commence par moi' et du podcast 2030 Glorieuses"
+                "fonction": "fondateur de 'Ça Commence Par Moi' et du podcast 2030 Glorieuses"
             },
             {
                 "nom":"animé par Hugues Sibille",
-                "fonction": "directeur du LABO de l'ESS"
+                "fonction": "directeur du Labo de l'ESS"
             }
         ],
-        "descriptif":"", 
-        "liens":[],
+        "descriptif":"Pas de descriptif", 
+        "liens":[
+            {"logo":"", "nom":"INCO", "url": "https://inco-group.co/"}, 
+            {"logo":"", "nom":"Campus des Transitions", "url": "https://campus-transition.org/"},
+            {"logo":"", "nom":"Ça Commence Par Moi", "url": "https://cacommenceparmoi.org/"},
+            {"logo":"", "nom":"2030 Glorieuses", "url": "https://2030glorieuses.lepodcast.fr/"},
+            {"logo":"", "nom":"Labo de l'ESS", "url": "https://www.lelabo-ess.org/"}
+        ],
         "img":""
     },
     {
@@ -262,15 +299,20 @@
             },
             {
                 "nom":"Marco Debernadis",
-                "fonction": "formateur en électricité bâtimen (AFPA Valence)"
+                "fonction": "formateur en électricité bâtiment (AFPA Valence)"
             },
             {
                 "nom":"Jeanine Doppel",
                 "fonction": "directrice territoriale d'ENEDIS"
             }
         ],
-        "descriptif":"", 
-        "liens":[],
+        "descriptif":"Pas de descriptif", 
+        "liens":[
+            {"logo":"", "nom":"ELBENE (non sécurisé)", "url": "http://www.elbene.fr/"}, 
+            {"logo":"", "nom":"Voisiwatt", "url": "https://voisiwatt.com/"},
+            {"logo":"", "nom":"AFPA Valence", "url": "https://www.afpa.fr/centre/centre-de-valence"},
+            {"logo":"", "nom":"ENEDIS", "url": "https://www.enedis.fr/"}
+        ],
         "img":""
     },
     {
@@ -296,8 +338,10 @@
                 "fonction": "consultante AFPA et gérante de BEAR'S BUNDLE"
             }
         ],
-        "descriptif":"", 
-        "liens":[],
+        "descriptif":"Pas de descriptif", 
+        "liens":[
+            {"logo":"", "nom":"DECATHLON Support", "url": "https://support.decathlon.fr/"}
+        ],
         "img":""
     },
     {
@@ -320,11 +364,16 @@
             },
             {
                 "nom":"le Moulin Digital",
-                "fonction": ""
+                "fonction": "association de mise en lien d'acteurs autour du numérique et de l'innovation et accompagne tous les métiers dans leur transition numérique."
             }
         ],
-        "descriptif":"", 
-        "liens":[],
+        "descriptif":"Pas de descriptif", 
+        "liens":[
+            {"logo":"", "nom":"8Fablab", "url": "https://8fablab.fr/"},
+            {"logo":"", "nom":"MILEMIL", "url": "https://www.milemil.fr/"},
+            {"logo":"", "nom":"AFTIC", "url": "https://www.aftic.org/"},
+            {"logo":"", "nom":"le Moulin Digital", "url": "https://lemoulindigital.fr/"}
+        ],
         "img":""
     },
     {
@@ -339,11 +388,13 @@
         "intervenants":[
             {
                 "nom":"Alter'Incub Auvergne-Rhône-Alpes",
-                "fonction":""
+                "fonction":"incubateur de projets à impact social et/environnemental"
             }
         ],
         "descriptif":"Atelier collectif",
-        "liens":[],
+        "liens":[
+            {"logo":"", "nom":"Alter'Incub ARA", "url": "https://aura.alterincub.coop/"}
+        ],
         "img":""
     },
     {
@@ -362,7 +413,9 @@
             }
         ],
         "descriptif":"Atelier grand public pour expérimenter la théorie du Donut",
-        "liens":[],
+        "liens":[
+            {"logo":"", "nom":"En savoir plus sur la théorie du Donut", "url": "https://fr.wikipedia.org/wiki/Doughnut_(mod%C3%A8le_%C3%A9conomique)"}
+        ],
         "img":""
     },
     {
@@ -377,16 +430,18 @@
         "intervenants":[
             {
                 "nom":"animé par CATALYSE",
-                "fonction":""
+                "fonction":"association pour faciliter l’accès à l’autonomie énergétique et des ressources "
             }
         ],
         "descriptif":"Atelier Rocket Stove, destiné au grand public et animé par CATALYSE",
-        "liens":[],
+        "liens":[
+            {"logo":"", "nom":"CATALYSE", "url": "https://asso-catalyse.fr/"}
+        ],
         "img":""
     },
     {
         "id":16,
-        "titre":"Projection -et débat-du documentaire 'Ruptures'", 
+        "titre":"Projection -et débat- du documentaire 'Ruptures'", 
         "horaire_debut": "14h",
         "horaire_fin": "16h",
         "lieu": "La Bibli / Auditorium",
@@ -400,7 +455,9 @@
             }
         ],
         "descriptif":"Pendant un an, le jeune réalisateur Arthur Gosset, lui-même étudiant à Centrale Nantes, a suivi le parcours de six jeunes, leurs décisions parfois difficiles, leurs ruptures souvent douloureuses et leur courageux choix de vivre en adéquation avec leurs convictions, quoi qu'il en coûte (durée : 1h).",
-        "liens":[],
+        "liens":[
+            {"logo":"", "nom":"Ruptures", "url": "https://www.ruptures-le-film.fr/"}
+        ],
         "img":""
     },
     {
@@ -422,8 +479,10 @@
                 "fonction":"co-auteur de l'ouvrage Basculons, diplômé de Sciences Po Toulouse, chargé de la mobilisation de la primaire populaire"
             }
         ],
-        "descriptif":"", 
-        "liens":[],
+        "descriptif":"Pas de descriptif", 
+        "liens":[
+            {"logo":"", "nom":"Basculons", "url": "https://www.leslibraires.fr/livre/20262921-basculons-cahier-militant-tanguy-descamps-actes-sud"}
+        ],
         "img":""
     },
     {
@@ -438,11 +497,13 @@
         "intervenants":[
             {
                 "nom":"Gilles Daveau, ",
-                "fonction":"formateur en 'cuisine alternative' depuis 1987, restaurateur et traiteur bio et vgétarien pendant plus de vingt ans. Autur de 'Manger moins (et mieux) de viande', du Manuel de Cuisine Alternative (Actes Sud)"
+                "fonction":"formateur en 'cuisine alternative' depuis 1987, restaurateur et traiteur bio et végétarien pendant plus de vingt ans. Autur de 'Manger moins (et mieux) de viande', du Manuel de Cuisine Alternative (Actes Sud)"
             }
         ],
-        "descriptif":"", 
-        "liens":[],
+        "descriptif":"Pas de descriptif", 
+        "liens":[
+            {"logo":"", "nom":"Gilles Daveau", "url": "https://www.gillesdaveau.com"}
+        ],
         "img":""
     },
     {
@@ -456,7 +517,7 @@
         "type_slug":"rencontres",
         "intervenants":[
             {
-                "nom":"Pain de Cocagne, Coeur de Drôme, ",
+                "nom":"Pain de Cocagne, Coeur de Drôme ",
                 "fonction":"boulangerie solidaire"
             }
         ],
@@ -484,12 +545,18 @@
             },
              {
                 "nom":"Julien Vidal",
-                "fonction": "fondateur de 'ça commence par moi' et du podcast 2030 Glorieuses"
+                "fonction": "fondateur de 'Ça Commence Par Moi' et du podcast 2030 Glorieuses"
             }
     
         ],
-        "descriptif":"", 
-        "liens":[],
+        "descriptif":"Pas de descriptif", 
+        "liens":[
+            {"logo":"", "nom":"INCO", "url": "https://inco-group.co/"},
+            {"logo":"", "nom":"Campus des Transitions", "url": "https://campus-transition.org/"},
+            {"logo":"", "nom":"Ça Commence Par Moi", "url": "https://cacommenceparmoi.org/"},
+            {"logo":"", "nom":"2030 Glorieuses", "url": "https://2030glorieuses.lepodcast.fr/"}
+
+        ],
         "img":""
     },
     {
@@ -508,7 +575,9 @@
             }
         ],
         "descriptif":"Avec Les Coulisses de l'Image Animée et de nombreux acteurs du tourisme",
-        "liens":"",
+        "liens":[
+            {"logo":"", "nom":"Les Coulisses de l'Image Animée", "url": "http://www.lacartoucherie.fr/fr/les-entreprises/la-bande-amorce.html"}
+        ],
         "img":""
     },
     {
@@ -523,11 +592,13 @@
         "intervenants":[
             {
                 "nom":"Les Carnets d'Agnès",
-                "fonction":""
+                "fonction":"ateliers de cuisine à domicile"
             }
         ],
         "descriptif":"Atelier culinaire zéro déchet, destiné au grand public et animé par Les Carnets d'Agnès",
-        "liens":[],
+        "liens":[
+            {"logo":"", "nom":"Les Carnets d'Agnès", "url": "https://www.lescarnetsdagnes.com/"}
+        ],
         "img":""
     },
     {
@@ -545,7 +616,7 @@
                 "fonction":""
             }
         ],
-        "descriptif":"", 
+        "descriptif":"Pas de descriptif", 
         "liens":[],
         "img":""
     },
@@ -561,16 +632,18 @@
         "intervenants":[
             {
                 "nom":"Julien Vidal",
-                "fonction":""
+                "fonction":"fondateur de 'Ça Commence Par Moi' et du podcast 2030 Glorieuses"
             },
              {
                 "nom":"Philippe Bertrand",
-                "fonction":""
+                "fonction":"journaliste"
             }
     
         ],
         "descriptif":"2030 Glorieuses, podcastons avec Julien Vidal et Philippe Bertand vous interviewe!",
-        "liens":[],
+        "liens":[
+            {"logo":"", "nom":"2030 Glorieuses", "url": "https://2030glorieuses.lepodcast.fr/"}
+        ],
         "img":""
     },
     {
@@ -580,21 +653,21 @@
         "horaire_fin": "19h",
         "lieu": "Les bureaux",
         "lieu_slug": "bureaux",
-        "type":"Rencontre",
-        "type_slug":"rencontres",
+        "type":"Workshop entreprise",
+        "type_slug":"workshops",
         "intervenants":[
             {
                 "nom":"",
                 "fonction":""
             }
         ],
-        "descriptif":"", 
-        "liens":"",
+        "descriptif":"Pas de descriptif", 
+        "liens":[],
         "img":""
     },
     {
         "id":26,
-        "titre":"à la rencontre des startups", 
+        "titre":"À la rencontre des startups", 
         "horaire_debut": "14h",
         "horaire_fin": "19h",
         "lieu": "La Barrack",
@@ -607,7 +680,7 @@
                 "fonction":""
             }
         ],
-        "descriptif":"", 
+        "descriptif":"Pas de descriptif", 
         "liens":[],
         "img":""
     },
@@ -642,11 +715,13 @@
         "intervenants":[
             {
                 "nom":"Valence Romans Déplacements",
-                "fonction":""
+                "fonction":"chargé de faciliter les déplacements de toute nature sur les bassins de vie de Valence et Romans-sur Isère, y compris sur la partie ardéchoise"
             }
         ],
         "descriptif":"En quoi les déplacements de mon entreprise ont-ils un impact? Quelles solutions concrètes? Avec Valence Romans Déplacements", 
-        "liens":[],
+        "liens":[
+            {"logo":"", "nom":"Valence Romans Déplacements", "url": " https://www.valenceromansagglo.fr/fr/au-quotidien/deplacements.html"}
+        ],
         "img":""
     },
     {
@@ -689,7 +764,7 @@
     },
     {
         "id":31,
-        "titre":"Pourquoi et comment ... Préserver la biodiversité en développant mon entreprise", 
+        "titre":"Pourquoi et comment ... Préserver la biodiversité en développant mon entreprise?", 
         "horaire_debut": "17h",
         "horaire_fin": "18h",
         "lieu": "Les bureaux / salle 1",
@@ -698,16 +773,19 @@
         "type_slug":"workshops",
         "intervenants":[
             {
-                "nom":" LPO AURA",
+                "nom":"LPO AURA",
                 "fonction":""
             },
             {
                 "nom":"Club CONTINUUM",
-                "fonction":""
+                "fonction":"club d’entreprises engagées dans une démarche volontaire pour faire évoluer la société dans ses pratiques environnementales et être vectrices de changement par l’exemple au travers d’actions concrètes en faveur de la biodiversité drômoise."
             }
         ],
         "descriptif":"Quels sont les enjeux actuels, en lien avec l'artificialisation des sols? Comment limiter l'impact avant, pendant et après la construction de mes locaux, à la fois en terme de consommation d'espace et de préservation de la biodiversité? (En présence de la LPO AURA et du Club CONTINUUM)", 
-        "liens":[],
+        "liens":[
+            {"logo":"", "nom":"LPO AURA", "url": "https://auvergne-rhone-alpes.lpo.fr/"},
+            {"logo":"", "nom":"Club CONTINUUM", "url": "https://www.lpo-drome-ardeche.fr/continuum-entreprises-sengagent-nature-drome/"}
+        ],
         "img":""
     },
     {
@@ -722,15 +800,18 @@
         "intervenants":[
             {
                 "nom":"Le Moulin Digital",
-                "fonction":""
+                "fonction":"association de mise en lien d'acteurs autour du numérique et de l'innovation et accompagne tous les métiers dans leur transition numérique"
             },
             {
                 "nom":"French Tech in the Alps",
-                "fonction":""
+                "fonction":"Collectif engagé pour le développement des startups du sillon alpin."
             }
         ],
         "descriptif":"Quels sont les impacts du numérique, comment les hiérarchiser? Comment puis-je agir en tant que citoyen et dans mon entreprise? (En présence du Moulin Digital / French Tech in the Alps)", 
-        "liens":[],
+        "liens":[
+            {"logo":"", "nom":"Le Moulin Digital", "url": "https://lemoulindigital.fr/"},
+            {"logo":"", "nom":"French Tech in the Alps", "url": "https://www.ftalps.com/"}
+        ],
         "img":""
     } 
     

@@ -122,9 +122,12 @@
                                         </svg>
 
                                     </div>
+                                    <ul class="speakers-link">
                                         <% for (let lien of event.liens){%>
-                                        <p><%= lien %></p>
+                                        <li><a href="<%= lien.url %>"><%= lien.nom %></a></li>
                                         <%};%>
+                                    </ul>
+                                        
                                 </div>
                                 
                             </div>
