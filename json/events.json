@@ -53,7 +53,7 @@
     },
     {
         "id":3,
-        "titre":"éducation... en transition!", 
+        "titre":"Éducation... en transition!", 
         "horaire_debut": "15h",
         "horaire_fin": "15h45",
         "lieu": "Les amphis / amphi 1",
@@ -79,7 +79,7 @@
     },
     {
         "id":4,
-        "titre":"Mon auberge espagnole / L'intergénérationnel, facteur d'hospitalité", 
+        "titre":"Mon auberge espagnole: l'intergénérationnel, facteur d'hospitalité", 
         "horaire_debut": "15h",
         "horaire_fin": "15h45",
         "lieu": "Les amphis / amphi 2",
@@ -115,7 +115,7 @@
     },
     {
         "id":5,
-        "titre":"Tsunami citoyen / Au coeur des enjeux économiques locaux", 
+        "titre":"L'engagement citoyen, au coeur des enjeux économiques locaux", 
         "horaire_debut": "16h",
         "horaire_fin": "16h45",
         "lieu": "Les amphis / amphi 1",
@@ -145,6 +145,37 @@
         "img":""
     }, 
     {
+        "id":35,
+        "titre":"Ma boîte change d'échelle avec la finance solidaire", 
+        "horaire_debut": "14h",
+        "horaire_fin": "15h",
+        "lieu": "La Bibli / le Patio",
+        "lieu_slug": "amphi1",
+        "type":"Table ronde",
+        "type_slug":"bibli-patio",
+        "intervenants":[
+            {
+                "nom":"Initiactive 2607",
+                "fonction":""
+            },
+            {
+                "nom":"Rhône Vallée Angels",
+                "fonction": ""
+            },
+           {
+                "nom":"Villages Vivants",
+                "fonction":"économiste, docteure en Urbanisme et Aménagement du territoire"
+            }
+        ],
+        "descriptif":"Pas de descriptif", 
+        "liens":[
+            {"logo":"", "nom":"LEST (non-sécurisé)", "url": "http://lest.fr/fr"}, 
+            {"logo":"", "nom":"Pierre Veltz - L'économie désirable", "url": "https://www.cairn.info/revue-mondes-en-developpement-2021-1-page-153.htm"},
+            {"logo":"", "nom":"Magali Talandier", "url": "https://www.pacte-grenoble.fr/membres/magali-talandier"}
+        ],
+        "img":""
+    },
+    {
         "id":6,
         "titre":"Je crée ma boite avec des financeurs engagés!", 
         "horaire_debut": "16h",
@@ -156,23 +187,72 @@
         "intervenants":[
             {
                 "nom":"Initiactives 26.07",
-                "fonction":""
+                "fonction":"soutient l'economie de proximite en Drôme et Ardeche"
             },
             {
                 "nom":"l'ADIE",
+                "fonction": "association qui finance, conseille et accompagne les entrepreneurs dans la création et le développement de leur activité"
+            },
+            {
+                "nom":"la Caisse d’Épargne Loire Drôme Ardèche",
                 "fonction": ""
+            },
+            {
+                "nom":"L’URSCOP",
+                "fonction": "Union régionale des Scop Auvergne-Rhône-Alpes"
+            },
+            {
+                "nom":"France Active",
+                "fonction": "regroupement d'entrepreneurs engagés"
+            },
+            {
+                "nom":"Réseau Entreprendre Drôme Ardèche",
+                "fonction": "association de chefs d'entreprise de la région"
             }
         ],
         "descriptif":"Témoignages des entrepreneurs", 
         "liens":[
             {"logo":"", "nom":"Initiactives 2607 (non sécurisé)", "url": "http://initiactive2607.fr/"}, 
-            {"logo":"", "nom":"l'ADIE", "url": "https://www.adie.org/"}
+            {"logo":"", "nom":"l'ADIE", "url": "https://www.adie.org/"},
+            {"logo":"", "nom":"L’URSCOP", "url": "https://www.scop.org/"}, 
+            {"logo":"", "nom":"France Active", "url": "https://www.franceactive.org/"},
+            {"logo":"", "nom":"Réseau Entreprendre Drôme Ardèche", "url": "https://www.reseau-entreprendre.org/drome-ardeche/"}
         ],
         "img":""
     },
+        {
+        "id":33,
+        "titre":"Le défi de la résilience énergétique du territoire", 
+        "horaire_debut": "17h",
+        "horaire_fin": "17h45",
+        "lieu": "Les amphis / amphi 2",
+        "lieu_slug": "amphi2",
+        "type":"Table ronde",
+        "type_slug":"tables-rondes",
+        "intervenants":[
+            {
+                "nom":"Vincent Legrand",
+                "fonction":"directeur général de l'institut Négawatt"
+            },
+            {
+                "nom":"Frédérick Stork",
+                "fonction":"directeur innnovation de la CNR"
+            },
+            {
+                "nom":"Manuel Lenas",
+                "fonction":"directeur EDF 1 rivière, 1 territoire"
+            }
+        ],
+        "descriptif":"Quels sont les impacts du numérique, comment les hiérarchiser? Comment puis-je agir en tant que citoyen et dans mon entreprise? (En présence du Moulin Digital / French Tech in the Alps)", 
+        "liens":[
+            {"logo":"", "nom":"La CNR", "url": "https://lemoulindigital.fr/"},
+            {"logo":"", "nom":"Négawatt", "url": "https://www.ftalps.com/"}
+        ],
+        "img":""
+    } ,
     {
         "id":7,
-        "titre":"Coup d'Etat sur l'entreprenariat / S'engager pour son territoire", 
+        "titre":"Coup d'Etat sur l'entreprenariat: s'engager pour son territoire", 
         "horaire_debut": "17h",
         "horaire_fin": "17h45",
         "lieu": "Les amphis / amphi 1",
@@ -189,8 +269,8 @@
                 "fonction": "entrepreneuse, fondatrice de la Thanatosphère"
             },
             {
-                "nom":"Didier Chabaud",
-                "fonction": "directeur de la Chaire Entrepreneuriat - Territoire - Innovation (IAE Paris)"
+                "nom":"Dominique Ardouvin",
+                "fonction": ", entrepreneur atypique et engagé de territoire"
             },
             {
                 "nom":"Clémence Richeux",
@@ -201,7 +281,6 @@
         "liens":[
             {"logo":"", "nom":"Démocratie Ouverte", "url": "https://www.democratieouverte.org/"}, 
             {"logo":"", "nom":"Thanatosphère", "url": "https://www.thanatosphere.fr/page/1936361-accueil"},
-            {"logo":"", "nom":"Chaire ETI", "url": "https://chaire-eti.org/"},
             {"logo":"", "nom":"Ma Bouteille s'Appelle Reviens", "url": "https://www.ma-bouteille.org/"}
         ],
         "img":""
@@ -217,7 +296,7 @@
         "type_slug":"tables-rondes",
         "intervenants":[
             {
-                "nom":"Solène Bourgeat",
+                "nom":"Solen Bourgeat",
                 "fonction":"directrice de l'association Parenthèse - Graine de Cocagne"
             },
             {
@@ -244,7 +323,7 @@
     },
     {
         "id":9,
-        "titre":"Engagez-vous, qu'il disaient!", 
+        "titre":"Engagez-vous, qu'il disaient! L'urgence de reprendre le pouvoir par l'engagement", 
         "horaire_debut": "18h",
         "horaire_fin": "19h30",
         "lieu": "Les amphis / Grand amphi",
@@ -264,6 +343,10 @@
                 "nom":"Julien Vidal",
                 "fonction": "fondateur de 'Ça Commence Par Moi' et du podcast 2030 Glorieuses"
             },
+             {
+                "nom":"Clara Breteau",
+                "fonction": "auteure de l’ouvrage: Les Vies Autonomes, une Enquête Poétique"
+            },
             {
                 "nom":"animé par Hugues Sibille",
                 "fonction": "directeur du Labo de l'ESS"
@@ -275,6 +358,7 @@
             {"logo":"", "nom":"Campus des Transitions", "url": "https://campus-transition.org/"},
             {"logo":"", "nom":"Ça Commence Par Moi", "url": "https://cacommenceparmoi.org/"},
             {"logo":"", "nom":"2030 Glorieuses", "url": "https://2030glorieuses.lepodcast.fr/"},
+            {"logo":"", "nom":"Les Vies Autonomes, une Enquête Poétique", "url": "https://www.actes-sud.fr/catalogue/nature-et-environnement/les-vies-autonomes-une-enquete-poetique"},
             {"logo":"", "nom":"Labo de l'ESS", "url": "https://www.lelabo-ess.org/"}
         ],
         "img":""
@@ -487,7 +571,7 @@
     },
     {
         "id":18,
-        "titre":"Changeons enfin de logiciel gastronomique! / conférence dégustative", 
+        "titre":"UNE ALIMENTATION DURABLE ET DE QUALITÉ ACCESSIBLE À TOUS.TES !", 
         "horaire_debut": "16h",
         "horaire_fin": "17h30",
         "lieu": "La Bibli / Auditorium",
@@ -497,10 +581,10 @@
         "intervenants":[
             {
                 "nom":"Gilles Daveau, ",
-                "fonction":"formateur en 'cuisine alternative' depuis 1987, restaurateur et traiteur bio et végétarien pendant plus de vingt ans. Autur de 'Manger moins (et mieux) de viande', du Manuel de Cuisine Alternative (Actes Sud)"
+                "fonction":"formateur en 'cuisine alternative' depuis 1987, restaurateur et traiteur bio et végétarien pendant plus de vingt ans. Auteur de 'Manger moins (et mieux) de viande' et du Manuel de Cuisine Alternative (Actes Sud)"
             }
         ],
-        "descriptif":"Pas de descriptif", 
+        "descriptif":"Conférence dégustative", 
         "liens":[
             {"logo":"", "nom":"Gilles Daveau", "url": "https://www.gillesdaveau.com"}
         ],
@@ -813,6 +897,36 @@
             {"logo":"", "nom":"French Tech in the Alps", "url": "https://www.ftalps.com/"}
         ],
         "img":""
-    } 
+    },
+    {
+        "id":34,
+        "titre":"Rencontrez les auteur.e.s!!!", 
+        "horaire_debut": "17h",
+        "horaire_fin": "18h",
+        "lieu": "Les bureaux / salle 2",
+        "lieu_slug": "bureaux",
+        "type":"Workshop entreprise",
+        "type_slug":"workshops",
+        "intervenants":[
+            {
+                "nom":"Dominique Ollivier",
+                "fonction":""
+            },
+            {
+                "nom":"Romain Slitine",
+                "fonction":"spécialiste des innovations et politiques, président de Démocratie Ouverte"
+            },
+            {
+                "nom":"animé par Françoise Vernet",
+                "fonction":"fondatrice de la Fondation Pierre Rabhi, Présidente de l’association Terre & Humanisme et éditrice"
+            }
+        ],
+        "descriptif":"Quels sont les impacts du numérique, comment les hiérarchiser? Comment puis-je agir en tant que citoyen et dans mon entreprise? (En présence du Moulin Digital / French Tech in the Alps)", 
+        "liens":[
+            {"logo":"", "nom":"Le Moulin Digital", "url": "https://lemoulindigital.fr/"},
+            {"logo":"", "nom":"French Tech in the Alps", "url": "https://www.ftalps.com/"}
+        ],
+        "img":""
+    }  
     
 ]
