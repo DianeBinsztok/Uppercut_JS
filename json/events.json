@@ -1075,7 +1075,8 @@
             },
             {
                 "nom":"Cécile Renouard",
-                "fonction":"docteure en philosophie, membre de la congrégation catholique des Religieuses de l'Assomption, co-fondatrice et présidente du Campus des Transitions"
+                "fonction":"docteure en philosophie, membre de la congrégation catholique des Religieuses de l'Assomption, co-fondatrice et présidente du Campus des Transitions",
+                "speaker_slug":"cecile-renouard"
             },
             {
                 "nom":"Julien Vidal",

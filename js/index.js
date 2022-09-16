@@ -1,7 +1,7 @@
 console.log(">index.js>");
 
 const express = require("express");
-const slugify = require("slugify");
+
 const app = express();
 app.set("view engine", "ejs");
 const PORT = 4000;

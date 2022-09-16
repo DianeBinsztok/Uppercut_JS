@@ -267,8 +267,12 @@ h3{
     display: flex;
 }
 
+.info-bloc{
+    width: 100%;
+}
+
 .description-bloc{
-    width: 70%;
+    width: 100%;
     line-height: 1.6em;
 }
 
