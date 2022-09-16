@@ -1,6 +1,7 @@
 console.log(">modules.js>");
 
 const eventsData = require('../json/events.json');
+const slugify = require("slugify");
 
 const handleEventsData={
 
@@ -86,7 +87,19 @@ const handleEventsData={
     getEventsByTime:(startTime)=>{
         const eventsByTime = eventsData.filter(event=>(event.horaire_debut).substring(0, 3)===startTime.substring(0, 3));
         return {events:eventsByTime, title: "À "+startTime +", dans le forum ..."};
-    }
+    },
 
+    getEventsBySpeakersName:(speakerSlug)=>{
+
+        const eventsBySpeakersName=[];
+        for(let event of eventsData){
+            for(let speaker of event.intervenants){
+                if(speaker.hasOwnProperty("speaker_slug") && speaker.speaker_slug === speakerSlug){
+                eventsBySpeakersName.push(event)
+                }
+            }
+        };
+        return {events:eventsBySpeakersName, title: "Toutes les interventions de "+ speakerSlug+ ":" };
+    }
 }
 module.exports=handleEventsData;

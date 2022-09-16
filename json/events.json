@@ -11,7 +11,8 @@
         "intervenants":[
             {
                 "nom":"Laurence Decréau",
-                "fonction": "professeure de lettres, directrice du département Culture et Communication à l'ENSTA ParisTech, déléguée générale du Festival des Vocations"
+                "fonction": "professeure de lettres, directrice du département Culture et Communication à l'ENSTA ParisTech, déléguée générale du Festival des Vocations",
+                "speaker_slug":"laurence-decreau"
             },
             {
                 "nom":"Bertrand Villain",
@@ -50,7 +51,8 @@
             },
              {
                 "nom":"Juliette Duquesne",
-                "fonction": "journaliste indépendante sur les problématiques environnementales et économiques"
+                "fonction": "journaliste indépendante sur les problématiques environnementales et économiques",
+                "speaker_slug":"juliette-duquesne"
             }
         ],
         "descriptif":"Pas de descriptif",
@@ -149,7 +151,8 @@
         "intervenants":[
             {
                 "nom":"Tanguy Descamps",
-                "fonction":"co-auteur de l’ouvrage 'Basculons ! Dans un monde vi(v)able' (ACTES SUD), membre de La Bascule et animateur de la fresque du climat"
+                "fonction":"co-auteur de l’ouvrage 'Basculons ! Dans un monde vi(v)able' (ACTES SUD), membre de La Bascule et animateur de la fresque du climat",
+                "speaker_slug":"tanguy-descamps"
             }
         ],
         "descriptif":"Pendant un an, le jeune réalisateur Arthur Gosset, lui-même étudiant à Centrale Nantes, a suivi le parcours de six jeunes, leurs décisions parfois difficiles, leurs ruptures souvent douloureuses et leur courageux choix de vivre en adéquation avec leurs convictions, quoi qu'il en coûte (durée : 1h).",
@@ -206,7 +209,7 @@
             },
             {
                 "nom":"Fabien Laroche",
-                "fonction": "directrice territoriale d'ENEDIS"
+                "fonction": "adjoint au directeur territorial d’Enedis en Drôme Ardèche"
             }
         ],
         "descriptif":"Pas de descriptif",
@@ -255,7 +258,8 @@
             },
             {
                 "nom":"Romain Slitine",
-                "fonction":"spécialiste des innovations et des transitions économiques, sociales et politiques, président de Démocratie Ouverte"
+                "fonction":"spécialiste des innovations et des transitions économiques, sociales et politiques, président de Démocratie Ouverte",
+                "speaker_slug":"romain-slitine"
             }
         ],
         "descriptif":"",
@@ -299,7 +303,8 @@
         "intervenants":[
             {
                 "nom":"Gilles Daveau",
-                "fonction":"formateur-conseil, auteur et conférencier, spécialiste de cuisine alternative"
+                "fonction":"formateur-conseil, auteur et conférencier, spécialiste de cuisine alternative",
+                "speaker_slug":"gilles-daveau"
             }
         ],
         "descriptif":"pas de descriptif",
@@ -321,11 +326,13 @@
         "intervenants":[
             {
                 "nom":"Cécile Renouard",
-                "fonction":"docteure en philosophie, membre de la congrégation catholique des Religieuses de l'Assomption, co-fondatrice et présidente du Campus de la Transitions"
+                "fonction":"docteure en philosophie, membre de la congrégation catholique des Religieuses de l'Assomption, co-fondatrice et présidente du Campus de la Transitions",
+                "speaker_slug":"cecile-renouard"
             },
             {
                 "nom":"Laurence Decréau",
-                "fonction": "professeure de lettres, directrice du département Culture et Communication à l'ENSTA ParisTech, déléguée générale du Festival des Vocations"
+                "fonction": "professeure de lettres, directrice du département Culture et Communication à l'ENSTA ParisTech, déléguée générale du Festival des Vocations",
+                "speaker_slug":"laurence-decreau"
             }
         ],
         "descriptif":"Pas de descriptif",
@@ -348,7 +355,8 @@
         "intervenants":[
             {
                 "nom":"Magali Talandier",
-                "fonction":"économiste, docteure en Urbanisme et Aménagement du territoire"
+                "fonction":"économiste, docteure en Urbanisme et Aménagement du territoire",
+                "speaker_slug":"magali-talandier"
             },
             {
                 "nom":"Brigitte Rollet",
@@ -436,7 +444,8 @@
         "intervenants":[
             {
                 "nom":"Juliette Duquesne",
-                "fonction":"journaliste indépendante sur les problématiques environnementales et économiques"
+                "fonction":"journaliste indépendante sur les problématiques environnementales et économiques",
+                "speaker_slug":"juliette-duquesne"
             }
         ],
         "descriptif":"Pas de descriptif",
@@ -553,7 +562,8 @@
         "intervenants":[
             {
                 "nom":"Julien Vidal",
-                "fonction":"fondateur de 'Ça Commence Par Moi' et du podcast '2030 Glorieuses'"
+                "fonction":"fondateur de 'Ça Commence Par Moi' et du podcast '2030 Glorieuses'",
+                "speaker_slug":"julien-vidal"
             }
         ],
         "descriptif":"Pas de descriptif",
@@ -624,7 +634,8 @@
             },
            {
                 "nom":"Magali Talandier",
-                "fonction":"économiste, docteure en Urbanisme et Aménagement du territoire"
+                "fonction":"économiste, docteure en Urbanisme et Aménagement du territoire",
+                "speaker_slug":"magali-talandier"
             }
         ],
         "descriptif":"Pas de descriptif",
@@ -724,8 +735,9 @@
         "type_slug":"tables-rondes",
         "intervenants":[
             {
-                "nom":"Gilles Daveau, ",
-                "fonction":"formateur en 'cuisine alternative' depuis 1987, restaurateur et traiteur bio et végétarien pendant plus de vingt ans. Auteur du Manuel de Cuisine Alternative (Actes Sud)"
+                "nom":"Gilles Daveau",
+                "fonction":"formateur en 'cuisine alternative' depuis 1987, restaurateur et traiteur bio et végétarien pendant plus de vingt ans. Auteur du Manuel de Cuisine Alternative (Actes Sud)",
+                "speaker_slug":"gilles-daveau"
             }
         ],
         "descriptif":"Conférence dégustative",
@@ -849,11 +861,13 @@
         "intervenants":[
             {
                 "nom":"Tanguy Descamps",
-                "fonction":"co-auteur de l'ouvrage Basculons, diplômé de Sciences Po Bordeaux, référent du Pôle Richesses humaines de la Bascule (2019-2020), chargé de projet Education alimentaire"
+                "fonction":"co-auteur de l'ouvrage Basculons, diplômé de Sciences Po Bordeaux, référent du Pôle Richesses humaines de la Bascule (2019-2020), chargé de projet Education alimentaire",
+                "speaker_slug":"tanguy-descamps"
             },
             {
                 "nom":"Hugues Sibille",
-                "fonction":"directeur du Labo de l'ESS"
+                "fonction":"directeur du Labo de l'ESS",
+                "speaker_slug":"hugues-sibille"
             }
         ],
         "descriptif":"Pas de descriptif",
@@ -876,7 +890,8 @@
         "intervenants":[
             {
                 "nom":"Romain Slitine",
-                "fonction":"spécialiste des innovations et politiques, président de Démocratie Ouverte"
+                "fonction":"spécialiste des innovations et politiques, président de Démocratie Ouverte",
+                "speaker_slug":"romain-slitine"
             },
             {
                 "nom":"Agathe Bénard",
@@ -926,8 +941,8 @@
         "descriptif":"Quels sont les impacts du numérique, comment les hiérarchiser? Comment puis-je agir en tant que citoyen et dans mon entreprise? (En présence du Moulin Digital / French Tech in the Alps)", 
         "duree":"45 min",
         "liens":[
-            {"logo":"", "nom":"La CNR", "url": "https://lemoulindigital.fr/"},
-            {"logo":"", "nom":"Négawatt", "url": "https://www.ftalps.com/"},
+            {"logo":"", "nom":"La CNR", "url": "https://www.cnr.tm.fr/"},
+            {"logo":"", "nom":"Négawatt", "url": "https://negawatt.org/"},
             {"logo":"", "nom":"Programme EDF, une rivière, un territoire", "url": "https://www.edf.fr/groupe-edf/produire-une-energie-respectueuse-du-climat/accelerer-le-developpement-des-energies-renouvelables/lenergie-hydraulique/les-atouts-de-lhydroelectricite/economie-et-dialogue-local/le-programme-edf-une-riviere-un-territoire"}
         ],
         "img":""
@@ -944,7 +959,8 @@
         "intervenants":[
             {
                 "nom":"Clara Breteau",
-                "fonction":"auteure de l'ouvrage 'Les Vies Autonomes, une Enquête Poétique' (Actes Sud)"
+                "fonction":"auteure de l'ouvrage 'Les Vies Autonomes, une Enquête Poétique' (Actes Sud)",
+                "speaker_slug":"clara-breteau"
             }
         ],
         "descriptif":"Pas de descriptif",
@@ -1063,15 +1079,18 @@
             },
             {
                 "nom":"Julien Vidal",
-                "fonction": "fondateur de 'Ça Commence Par Moi' et du podcast 2030 Glorieuses"
+                "fonction": "fondateur de 'Ça Commence Par Moi' et du podcast 2030 Glorieuses",
+                "speaker_slug":"julien-vidal"
             },
              {
                 "nom":"Clara Breteau",
-                "fonction": "auteure de l’ouvrage: Les Vies Autonomes, une Enquête Poétique"
+                "fonction": "auteure de l’ouvrage: Les Vies Autonomes, une Enquête Poétique",
+                "speaker_slug":"clara-breteau"
             },
             {
                 "nom":"animé par Hugues Sibille",
-                "fonction": "directeur du Labo de l'ESS"
+                "fonction": "directeur du Labo de l'ESS",
+                "speaker_slug":"hugues-sibille"
             }
         ],
         "descriptif":"Pas de descriptif",

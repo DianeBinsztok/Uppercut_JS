@@ -1,7 +1,7 @@
 console.log(">router.js>");
 
 const express=require("express");
-const {getAllEvents, getEventsByType, getEventsByTime, getEventsByPlace }=require("./modules");
+const {getAllEvents, getEventsByType, getEventsByTime, getEventsByPlace, getEventsBySpeakersName }=require("./modules");
 const router = express.Router();
 
 
@@ -20,6 +20,10 @@ res.render("index", getEventsByTime(req.params.time) );
 
 router.get("/lieu/:place", (req,res)=>{
     res.render("index", getEventsByPlace(req.params.place));
+})
+
+router.get("/intervenant/:speaker", (req,res)=>{
+    res.render("index", getEventsBySpeakersName(req.params.speaker));
 })
 
 module.exports=router;

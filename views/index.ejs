@@ -101,8 +101,11 @@
                                 <div class="popup_thumbnail_speakers">
                                     <p>Avec:</p> 
                                     <% for (let intervenant of event.intervenants){%>
-                                    <div class="popup_speaker-name"><%= intervenant.nom %> </div>
+                                    <div class="popup_speaker-name"><%= intervenant.nom %></div>
                                     <p class="popup_speaker-desc"><%= intervenant.fonction %></p>
+                                        <% if(intervenant.hasOwnProperty("speaker_slug")){ %>
+                                            <a href="/intervenant/<%= intervenant.speaker_slug %>">Voir les autres interventions de <%= intervenant.nom %></a>
+                                        <%};%>
                                     <%};%>
                                 </div>
                             </div>

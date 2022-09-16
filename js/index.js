@@ -1,6 +1,7 @@
 console.log(">index.js>");
 
 const express = require("express");
+const slugify = require("slugify");
 const app = express();
 app.set("view engine", "ejs");
 const PORT = 4000;
@@ -14,4 +15,4 @@ app.use(express.static("public"));
 app.use(express.static("public/css"));
 
 
-app.listen(process.env.PORT, () => console.log(`listening to http://localhost:${PORT}/`));
+app.listen(PORT, () => console.log(`listening to http://localhost:${PORT}/`));
