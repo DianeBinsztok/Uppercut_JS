@@ -19,6 +19,7 @@
             }
         ],
         "descriptif":"Pas de descriptif",
+        "duree":"45 min",
         "liens":[
             {"logo":"", "nom":"ENSTA ParisTech", "url": "https://www.ensta-paris.fr"}, 
             {"logo":"", "nom":"Lycée René Cassin (non sécurisé)", "url": "https://www.lyc-cassin-arpajon.ac-versailles.fr"}
@@ -52,7 +53,8 @@
                 "fonction": "journaliste indépendante sur les problématiques environnementales et économiques"
             }
         ],
-        "descriptif":"Pas de descriptif", 
+        "descriptif":"Pas de descriptif",
+        "duree":"45 min", 
         "liens":[
             {"logo":"", "nom":"Parenthèse (non sécurisé)", "url": "http://www.parenthese.org/"}, 
             {"logo":"", "nom":"Vercourses", "url": "https://www.vercourses.fr/"},
@@ -78,6 +80,7 @@
 
         ],
         "descriptif":"Pas de descriptif",
+        "duree":"45 min",
         "liens":[
             {"logo":"", "nom":"Arbro'Rêves", "url": "https://arbroreves.fr/"}
         ],
@@ -122,7 +125,8 @@
                 "fonction":"financement de projets engagés"
             }
         ],
-        "descriptif":"Pas de descriptif", 
+        "descriptif":"Pas de descriptif",
+        "duree":"60 min", 
         "liens":[
             {"logo":"", "nom":"Initiactive 2607", "url": "http://initiactive2607.fr"}, 
             {"logo":"", "nom":"Villages Vivants", "url": "https://villagesvivants.com/"},
@@ -149,6 +153,7 @@
             }
         ],
         "descriptif":"Pendant un an, le jeune réalisateur Arthur Gosset, lui-même étudiant à Centrale Nantes, a suivi le parcours de six jeunes, leurs décisions parfois difficiles, leurs ruptures souvent douloureuses et leur courageux choix de vivre en adéquation avec leurs convictions, quoi qu'il en coûte (durée : 1h).",
+        "duree":"120 min",
         "liens":[
             {"logo":"", "nom":"Ruptures", "url": "https://www.ruptures-le-film.fr/"},
             {"logo":"", "nom":"La Bascule", "url": "https://www.fabt.fr/actualites/alimentation-durable-en-centre-ville-la-bascule-lance-un-appel-a-projets/"}
@@ -171,6 +176,7 @@
             }
         ],
         "descriptif":"Atelier grand public accessible toutes les heures. Expérimentez la théorie du Donut pour visualiser les effets environnementaux et sociaux de nos habitudes.",
+        "duree":"Environs 4 heures",
         "liens":[
             {"logo":"", "nom":"En savoir plus sur la théorie du Donut", "url": "https://fr.wikipedia.org/wiki/Doughnut_(mod%C3%A8le_%C3%A9conomique)"}
         ],
@@ -203,7 +209,8 @@
                 "fonction": "directrice territoriale d'ENEDIS"
             }
         ],
-        "descriptif":"Pas de descriptif", 
+        "descriptif":"Pas de descriptif",
+        "duree":"60 min", 
         "liens":[
             {"logo":"", "nom":"ELBENE (non sécurisé)", "url": "http://www.elbene.fr/"}, 
             {"logo":"", "nom":"Voisiwatt", "url": "https://voisiwatt.com/"},
@@ -228,6 +235,7 @@
             }
         ],
         "descriptif":"Rencontre privilégiée avec le projet de boulangerie solidaire Pain de Cocagne, Coeur de Drôme",
+        "duree":"60 min",
         "liens":[],
         "img":""
     },
@@ -251,6 +259,7 @@
             }
         ],
         "descriptif":"",
+        "duree":"30 min",
         "liens":[
              {"logo":"", "nom":"Démocratie Ouverte", "url": "https://www.democratieouverte.org/"}
         ],
@@ -272,6 +281,7 @@
             }
         ],
         "descriptif":"En quoi les déplacements de mon entreprise ont-ils un impact? Quelles solutions concrètes? Avec Valence Romans Déplacements", 
+        "duree":"45 min",
         "liens":[
             {"logo":"", "nom":"Valence Romans Déplacements", "url": " https://www.valenceromansagglo.fr/fr/au-quotidien/deplacements.html"}
         ],
@@ -293,6 +303,7 @@
             }
         ],
         "descriptif":"pas de descriptif",
+        "duree":"30 min",
         "liens":[
              {"logo":"", "nom":"Atelier de cuisine alternative Gilles Daveau", "url": "https://www.gillesdaveau.com/"}
         ],
@@ -317,7 +328,8 @@
                 "fonction": "professeure de lettres, directrice du département Culture et Communication à l'ENSTA ParisTech, déléguée générale du Festival des Vocations"
             }
         ],
-        "descriptif":"Pas de descriptif", 
+        "descriptif":"Pas de descriptif",
+        "duree":"45 min", 
         "liens":[
             {"logo":"", "nom":"Campus de la Transition", "url": "https://campus-transition.org"}, 
             {"logo":"", "nom":"ENSTA ParisTech", "url": "https://www.ensta-paris.fr"}
@@ -351,7 +363,8 @@
                 "fonction": "Chef de projet Habitat de Valence Romans Agglo"
             }
         ],
-        "descriptif":"Pas de descriptif", 
+        "descriptif":"Pas de descriptif",
+        "duree":"45 min", 
         "liens":[
             {"logo":"", "nom":"Magali Talandier", "url": "https://www.pacte-grenoble.fr/membres/magali-talandier"}, 
             {"logo":"", "nom":"Re-Sources", "url": "https://www.fabt.fr/actualites/re-sources"},
@@ -399,7 +412,8 @@
                 "fonction": "ancien chroniqueur Jeux vidéos de Canal+"
             }
         ],
-        "descriptif":"Rencontrez des industries de l'animation", 
+        "descriptif":"Rencontrez des industries de l'animation",
+        "duree":"60 min", 
         "liens":[
             {"logo":"", "nom":"Workflowers", "url": "https://www.workflowers.net/"}, 
             {"logo":"", "nom":"Teamto (non sécurisé)", "url": "http://www.teamto.com/"},
@@ -426,6 +440,7 @@
             }
         ],
         "descriptif":"Pas de descriptif",
+        "duree":"30 min",
         "liens":[
              {"logo":"", "nom":"Juliette Duquesne", "url": "https://julietteduquesne.fr/"}
         ],
@@ -466,7 +481,8 @@
                 "fonction": "directrice du 8Fablab de Crest"
             }
         ],
-        "descriptif":"Pas de descriptif", 
+        "descriptif":"Pas de descriptif",
+        "duree":"30 min", 
         "liens":[
             {"logo":"", "nom":"DECATHLON Support", "url": "https://support.decathlon.fr/"},
             {"logo":"", "nom":"l’Heureux Cycleur", "url": "https://lheureuxcycleur.com/"},
@@ -494,6 +510,7 @@
             }
         ],
         "descriptif":"Atelier collectif animé par Alter’Incub et l’URSCOP avec l’outil « Capteurs de l’Innovation Sociale ». Dédié aux porteurs et porteuses de projets en phase d’émergence ou d’accélération.",
+        "duree":"45 min",
         "liens":[
             {"logo":"", "nom":"Alter'Incub ARA", "url": "https://aura.alterincub.coop/"},
             {"logo":"", "nom":"l’URSCOP", "url": "https://www.scop.org/"}
@@ -515,7 +532,8 @@
                 "fonction":"centre agroécologique drômois, éco - et auto - construit"
             }
         ],
-        "descriptif":"",
+        "descriptif":"Pas de descriptif",
+        "duree":"60 min",
         "liens":[
             {"logo":"", "nom":"Les Amanins", "url": "Les Ammanins"}
         ],
@@ -539,6 +557,7 @@
             }
         ],
         "descriptif":"Pas de descriptif",
+        "duree":"30 min",
         "liens":[
              {"logo":"", "nom":"Ça Commence Par Moi", "url": "https://cacommenceparmoi.org/"},
             {"logo":"", "nom":"2030 Glorieuses", "url": "https://2030glorieuses.lepodcast.fr/"}
@@ -561,6 +580,7 @@
             }
         ],
         "descriptif":"Quels bénéfices à mobiliser les salariés dans des actions de développement durable? Quels risques et comment les contourner? Par où commencer, jusqu'où puis-je aller?", 
+        "duree":"60 min",
         "liens":[],
         "img":""
     },
@@ -579,7 +599,8 @@
                 "fonction":""
             }
         ],
-        "descriptif":"Qu'est-ce que l'achat durable? À toutes les étapes du processus, quels critères intégrer pour guider mes choix?", 
+        "descriptif":"Qu'est-ce que l'achat durable? À toutes les étapes du processus, quels critères intégrer pour guider mes choix?",
+        "duree":"60 min", 
         "liens":[],
         "img":""
     },
@@ -606,7 +627,8 @@
                 "fonction":"économiste, docteure en Urbanisme et Aménagement du territoire"
             }
         ],
-        "descriptif":"Pas de descriptif", 
+        "descriptif":"Pas de descriptif",
+        "duree":"45 min", 
         "liens":[
             {"logo":"", "nom":"LEST (non-sécurisé)", "url": "http://lest.fr/fr"}, 
             {"logo":"", "nom":"Pierre Veltz - L'économie désirable", "url": "https://www.cairn.info/revue-mondes-en-developpement-2021-1-page-153.htm"},
@@ -649,7 +671,8 @@
                 "fonction": "association de chefs d'entreprise de la région"
             }
         ],
-        "descriptif":"Témoignages des entrepreneurs", 
+        "descriptif":"Témoignages des entrepreneurs",
+        "duree":"45 min", 
         "liens":[
             {"logo":"", "nom":"Initiactives 2607 (non sécurisé)", "url": "http://initiactive2607.fr/"}, 
             {"logo":"", "nom":"l'ADIE", "url": "https://www.adie.org/"},
@@ -683,6 +706,7 @@
             }
         ],
         "descriptif":"Avec Les Coulisses de l'Image Animée et de nombreux acteurs du tourisme",
+        "duree":"60 min",
         "liens":[
             {"logo":"", "nom":"Les Coulisses de l'Image Animée à la Cartoucherie (non sécurisé)", "url": "http://www.lacartoucherie.fr/fr/les-entreprises/la-bande-amorce.html"},
             {"logo":"", "nom":"Entreprises et Découvertes", "url": "https://www.entrepriseetdecouverte.fr/"}
@@ -704,7 +728,8 @@
                 "fonction":"formateur en 'cuisine alternative' depuis 1987, restaurateur et traiteur bio et végétarien pendant plus de vingt ans. Auteur du Manuel de Cuisine Alternative (Actes Sud)"
             }
         ],
-        "descriptif":"Conférence dégustative", 
+        "descriptif":"Conférence dégustative",
+        "duree":"90 min", 
         "liens":[
             {"logo":"", "nom":"Gilles Daveau", "url": "https://www.gillesdaveau.com"}
         ],
@@ -737,7 +762,8 @@
                 "fonction": "du réseau Fabcity International"
             }
         ],
-        "descriptif":"Pas de descriptif", 
+        "descriptif":"Pas de descriptif",
+        "duree":"30 min", 
         "liens":[
             {"logo":"", "nom":"8Fablab", "url": "https://8fablab.fr/"},
             {"logo":"", "nom":"MILEMIL", "url": "https://www.milemil.fr/"},
@@ -763,6 +789,7 @@
             }
         ],
         "descriptif":"Vous mûrissez l’idée d’un projet à impact social ou environnemental ? Vous souhaitez avoir des clés pour vous outiller dans la maturation de votre projet ? Vous êtes potentiellement à la recherche d’un accompagnement pour lancer votre projet ? Cet atelier est fait pour vous !", 
+        "duree":"90 min",
         "liens":[
             {"logo":"", "nom":"Ronalpia", "url": "https://www.ronalpia.fr/"}
         ],
@@ -783,7 +810,8 @@
                 "fonction":"plats cuisinés locaux, livraison écoresponsable"
             }
         ],
-        "descriptif":"pas de descriptif", 
+        "descriptif":"pas de descriptif",
+        "duree":"60 min", 
         "liens":[
             {"logo":"", "nom":"Locatopia", "url": "https://shop.locatopia.fr/"}
         ],
@@ -805,6 +833,7 @@
             }
         ],
         "descriptif":"Pas de descriptif",
+        "duree":"30 min",
         "liens":[],
         "img":""
     },
@@ -828,6 +857,7 @@
             }
         ],
         "descriptif":"Pas de descriptif",
+        "duree":"30 min",
         "liens":[
              {"logo":"", "nom":"Basculons", "url": "https://www.leslibraires.fr/livre/20262921-basculons-cahier-militant-tanguy-descamps-actes-sud"},
             {"logo":"", "nom":"Labo de l'ESS", "url": "https://www.lelabo-ess.org/"}
@@ -861,7 +891,8 @@
                 "fonction": "Coordinatrice de Ma Bouteille s'Appelle Reviens"
             }
         ],
-        "descriptif":"Pas de descriptif", 
+        "descriptif":"Pas de descriptif",
+        "duree":"45 min", 
         "liens":[
             {"logo":"", "nom":"Démocratie Ouverte", "url": "https://www.democratieouverte.org/"}, 
             {"logo":"", "nom":"Thanatosphère", "url": "https://www.thanatosphere.fr/page/1936361-accueil"},
@@ -893,6 +924,7 @@
             }
         ],
         "descriptif":"Quels sont les impacts du numérique, comment les hiérarchiser? Comment puis-je agir en tant que citoyen et dans mon entreprise? (En présence du Moulin Digital / French Tech in the Alps)", 
+        "duree":"45 min",
         "liens":[
             {"logo":"", "nom":"La CNR", "url": "https://lemoulindigital.fr/"},
             {"logo":"", "nom":"Négawatt", "url": "https://www.ftalps.com/"},
@@ -916,6 +948,7 @@
             }
         ],
         "descriptif":"Pas de descriptif",
+        "duree":"50 min",
         "liens":[],
         "img":""
     },
@@ -935,6 +968,7 @@
             }
         ],
         "descriptif":"Pas de descriptif",
+        "duree":"60 min",
         "liens":[
             {"logo":"", "nom":"Comptoir de Campagnes", "url": "https://comptoirdecampagne.fr/"}
         ],
@@ -960,6 +994,7 @@
             }
         ],
         "descriptif":"Quels sont les enjeux actuels, en lien avec l'artificialisation des sols? Comment limiter l'impact avant, pendant et après la construction de mes locaux, à la fois en terme de consommation d'espace et de préservation de la biodiversité? (En présence de la LPO AURA et du Club CONTINUUM)", 
+        "duree":"60 min",
         "liens":[
             {"logo":"", "nom":"LPO AURA", "url": "https://auvergne-rhone-alpes.lpo.fr/"},
             {"logo":"", "nom":"Club CONTINUUM", "url": "https://www.lpo-drome-ardeche.fr/continuum-entreprises-sengagent-nature-drome/"}
@@ -986,6 +1021,7 @@
             }
         ],
         "descriptif":"Quels sont les impacts du numérique, comment les hiérarchiser? Comment puis-je agir en tant que citoyen et dans mon entreprise? (En présence du Moulin Digital / French Tech in the Alps)", 
+        "duree":"60 min",
         "liens":[
             {"logo":"", "nom":"Le Moulin Digital", "url": "https://lemoulindigital.fr/"},
             {"logo":"", "nom":"French Tech in the Alps", "url": "https://www.ftalps.com/"}
@@ -1003,6 +1039,7 @@
         "type_slug":"tables-rondes",
         "intervenants":[],
         "descriptif":"Retour sur les expériences citoyennes conduites par les jeunes au sein du réseau d’acteurs jeunesse du Diois (Le Carnet de l’engagement)", 
+        "duree":"45 min",
         "liens":[],
         "img":""
     },
@@ -1037,7 +1074,8 @@
                 "fonction": "directeur du Labo de l'ESS"
             }
         ],
-        "descriptif":"Pas de descriptif", 
+        "descriptif":"Pas de descriptif",
+        "duree":"90 min", 
         "liens":[
             {"logo":"", "nom":"INCO", "url": "https://inco-group.co/"}, 
             {"logo":"", "nom":"Campus des Transitions", "url": "https://campus-transition.org/"},
@@ -1064,6 +1102,7 @@
             }
         ],
         "descriptif":"Atelier culinaire zéro déchet, destiné au grand public et animé par Les Carnets d'Agnès",
+        "duree":"60 min",
         "liens":[
             {"logo":"", "nom":"Les Carnets d'Agnès", "url": "https://www.lescarnetsdagnes.com/"}
         ],
@@ -1085,6 +1124,7 @@
             }
         ],
         "descriptif":"Le poêle de masse génial et pas cher, vous connaissez ? L’Association Catalyse réalisera une démonstration du « rocket stove », et fera mijoter une soupe, à partager dès 19h30 !",
+        "duree":"90 min",
         "liens":[
             {"logo":"", "nom":"CATALYSE", "url": "https://asso-catalyse.fr/"}
         ],
