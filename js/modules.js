@@ -92,14 +92,16 @@ const handleEventsData={
     getEventsBySpeakersName:(speakerSlug)=>{
 
         const eventsBySpeakersName=[];
+        let speakersName = "";
         for(let event of eventsData){
             for(let speaker of event.intervenants){
                 if(speaker.hasOwnProperty("speaker_slug") && speaker.speaker_slug === speakerSlug){
                 eventsBySpeakersName.push(event)
+                speakersName = speaker.nom;
                 }
             }
         };
-        return {events:eventsBySpeakersName, title: "Toutes les interventions de "+ speakerSlug+ ":" };
+        return {events:eventsBySpeakersName, title: "Toutes les interventions de "+ speakersName+ ":" };
     }
 }
 module.exports=handleEventsData;
