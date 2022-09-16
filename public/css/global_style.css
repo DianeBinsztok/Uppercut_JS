@@ -223,7 +223,7 @@ h3{
     display: flex;
     flex-direction: column;
     margin: auto;
-    margin-top: 2em;
+    margin-top: 2rem;
     padding: 10px;
     width: 90%;
     position: relative;
@@ -236,8 +236,13 @@ h3{
 /* Contenu de la popup */
 
 .popup-link{
+    text-decoration: none;
+    line-height: 1.5em
+}
+.where_when{
     margin-left: 2rem;
 }
+
 
 .popup-link_title{
     text-decoration: none;
@@ -245,7 +250,6 @@ h3{
 
 .popup_content {
     background-color: #ffffff;
-    margin-left: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -284,9 +288,6 @@ h3{
 }
 .popup_speaker-desc{
     line-height: 1.5em;
-}
-.external-links{
-    text-decoration: none;
 }
 
 .popup .close {

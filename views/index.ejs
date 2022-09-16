@@ -75,7 +75,7 @@
                                 </div>
                                 <div class="thumbnail_hour"> <%= event.horaire_debut %> - <%= event.horaire_fin %></div>
                             </div>
-                            <a class="popup-link <%= event.type_slug %>" href="/heure/<%= event.horaire_debut %>" >À la même heure...</a>
+                            <a class="popup-link <%= event.type_slug %> where_when" href="/heure/<%= event.horaire_debut %>" >À la même heure...</a>
                         </div>   
 
                         <div class="popup_thumbnail_bloc">
@@ -87,7 +87,7 @@
                                 </div>
                                 <div class="thumbnail_place"><%= event.lieu %> </div>
                             </div>
-                            <a class="popup-link <%= event.type_slug %>" href="/lieu/<%= event.lieu_slug %>">Au même endroit...</a>
+                            <a class="popup-link <%= event.type_slug %> where_when" href="/lieu/<%= event.lieu_slug %>">Au même endroit...</a>
                         </div> 
                         
                         <div class="popup_thumbnail_bloc">
@@ -104,7 +104,7 @@
                                     <div class="popup_speaker-name"><%= intervenant.nom %></div>
                                     <p class="popup_speaker-desc"><%= intervenant.fonction %></p>
                                         <% if(intervenant.hasOwnProperty("speaker_slug")){ %>
-                                            <a href="/intervenant/<%= intervenant.speaker_slug %>">Voir les autres interventions de <%= intervenant.nom %></a>
+                                            <a class="popup-link <%= event.type_slug %>" href="/intervenant/<%= intervenant.speaker_slug %>">Voir les autres interventions de <%= intervenant.nom %></a>
                                         <%};%>
                                     <%};%>
                                 </div>
@@ -148,9 +148,9 @@
                                         </svg>
 
                                     </div>
-                                    <ul class="external-links">
+                                    <ul>
                                         <% for (let lien of event.liens){%>
-                                        <li><a href="<%= lien.url %>" class="<%= event.type_slug %> external-links"><%= lien.nom %></a></li>
+                                        <li><a href="<%= lien.url %>" class="popup-link <%= event.type_slug %>"><%= lien.nom %></a></li>
                                         <%};%>
                                     </ul>
                                         
