@@ -115,22 +115,16 @@ h2 {
     margin-bottom: 0.6em;
     line-height: 1.5em;
 }
+/*
 
 .tables-rondes{
-    background-color: #00ABB2;
-}
-.subheader_tables-rondes{
     color: #00969e;
     font-size: 1.1em;
     text-transform: uppercase;
     text-align: center;
     margin: 0.5em 0em 1em 0em;
 }
-
 .ateliers{
-    background-color: #00a884;
-}
-.subheader_ateliers{
     color: #00a884;
     font-size: 1.1em;
     text-transform: uppercase;
@@ -138,9 +132,6 @@ h2 {
     margin: 0.5em 0em 1em 0em;
 }
 .rencontres{
-    background-color: #22a800;
-}
-.subheader_rencontres{
     color: #22a800;
     font-size: 1.1em;
     text-transform: uppercase;
@@ -148,15 +139,49 @@ h2 {
     margin: 0.5em 0em 1em 0em;
 }
 .workshops{
-    background-color: #98c200;
-}
-.subheader_workshops{
     color: #98c200;
     font-size: 1.1em;
     text-transform: uppercase;
     text-align: center;
     margin: 0.5em 0em 1em 0em;
 }
+*/
+
+h3{
+    font-size: 1.1em;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0.5em 0em 1em 0em;   
+}
+
+.title_tables-rondes{
+    background-color: #00ABB2;
+}
+
+.tables-rondes{
+    color: #00969e;
+}
+
+.title_ateliers{
+    background-color: #00a884;
+}
+.ateliers{
+    color: #00a884;
+}
+
+.title_rencontres{
+    background-color: #22a800;
+}
+.rencontres{
+    color: #22a800;
+}
+.title_workshops{
+    background-color: #98c200;
+}
+.workshops{
+    color: #7a9b00;
+}
+
 
 /* Les contenu des vignettes*/
 .thumbnail_line{
@@ -230,16 +255,11 @@ h2 {
     overflow:auto;
 }
 
-.popup h2 {
-    margin-top: 0;
-    margin-bottom: 2rem;
-    color: #ffffff;
-}
+
 
 /* Contenu de la popup */
 
 .popup-link{
-    color: #00ABB3;
     margin-left: 4rem;
 }
 
