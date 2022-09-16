@@ -1,3 +1,5 @@
+INTERVENANTS
+
 Laurence Decréau, 
 professeure de lettres, directrice du département Culture et Communication à l’ENSTA ParisTech, déléguée générale du Festival des Vocations + 
 
@@ -19,3 +21,40 @@ co-auteur de l’ouvrage "Basculons ! Dans un monde vi(v)able" (ACTES SUD), memb
 
 "nom":"Alain Etienne",
 "fonction":"président du conseil coopératif de Voisiwatt"
+
+
+"nom":"Romain Slitine",        "fonction":"spécialiste des innovations et des transitions économiques, sociales et politiques, président de Démocratie Ouverte"
+
+"nom":"Juliette Duquesne",                "fonction":"journaliste indépendante sur les problématiques environnementales et économiques"
+
+{"logo":"", "nom":"Juliette Duquesne", "url": "https://julietteduquesne.fr/"}
+
+
+
+"nom":"Gilles Daveau",
+                "fonction":"formateur-conseil, auteur et conférencier, spécialiste de cuisine alternative"
+
+
+{"logo":"", "nom":"Atelier de cuisine alternative Gilles Daveau", "url": "https://www.gillesdaveau.com/"}
+
+
+{
+                "nom":"Cécile Renouard",
+                "fonction":"docteure en philosophie, membre de la congrégation catholique des Religieuses de l'Assomption, co-fondatrice et présidente du Campus de la Transitions"
+            },
+
+{"logo":"", "nom":"Campus de la Transition", "url": "https://campus-transition.org"},
+
+"nom":"Laurence Decréau",
+                "fonction": "professeure de lettres, directrice du département Culture et Communication à l'ENSTA ParisTech, déléguée générale du Festival des Vocations"
+
+{"logo":"", "nom":"ENSTA ParisTech", "url": "https://www.ensta-paris.fr"}
+
+
+
+ {
+                "nom":"Magali Talandier",
+                "fonction":"économiste, docteure en Urbanisme et Aménagement du territoire"
+            },
+ {"logo":"", "nom":"Magali Talandier", "url": "https://www.pacte-grenoble.fr/membres/magali-talandier"}, 
+
