@@ -47,8 +47,8 @@ const handleEventsData={
             case 'ecole-buissoniere-crous':
             placeTitle = "Tout le programme de l'école buissonnière - espace CROUS";
             break;
-            case 'ecole-buissonniere-salle3':
-            placeTitle = "Tout le programme de l'école buissonnière - salle 3";
+            case 'maison-etudiants':
+            placeTitle = "À la Maison des étudiants";
             break;
             case 'place-engagement':
             placeTitle = "Sur la Place de l'Engagement";
@@ -62,17 +62,23 @@ const handleEventsData={
             case 'bibli-bar':
             placeTitle = "Au bar de la Bibli";
             break;
-            case 'librairie':
+            case 'bibli-patio':
+            placeTitle = "Dans le patio";
+            break;
+            case 'bibli-librairie':
             placeTitle = "À la librairie";
             break;
-            case 'bureaux':
-            placeTitle = "Dans les bureaux";
+            case 'salle1':
+            placeTitle = "Dans la salle 1";
+            break;
+            case 'salle2':
+            placeTitle = "Dans la salle ";
             break;
             case 'barrack':
             placeTitle = "Dans la Barrack";
             break;
             default:
-            placeTitle = "Désolé, nous ne trouvons pas ce lieu sur le Forum. Êtes vous dans le bon immeuble? O.o";
+            placeTitle = "Désolé, nous ne trouvons pas ce lieu sur le Forum. Êtes vous dans le bon bâtiment? O.o";
         }
         return{events:eventsByPlace, title:placeTitle};
     },

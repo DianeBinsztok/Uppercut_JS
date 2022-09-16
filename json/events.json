@@ -261,8 +261,8 @@
         "titre":"Pourquoi et comment ... réduire l'impact mobilité de mon entreprise?", 
         "horaire_debut": "14h",
         "horaire_fin": "14h45",
-        "lieu": "Les bureaux / salle 2",
-        "lieu_slug": "bureaux",
+        "lieu": "Salle 2",
+        "lieu_slug": "salle2",
         "type":"Workshop entreprise",
         "type_slug":"workshops",
         "intervenants":[
@@ -550,8 +550,8 @@
         "titre":"Pourquoi et comment ... impliquer les -futurs- salariés dans le développement durable de mon entreprise?", 
         "horaire_debut": "15h30",
         "horaire_fin": "16h30",
-        "lieu": "Les bureaux / salle 1",
-        "lieu_slug": "bureaux",
+        "lieu": "Salle 1",
+        "lieu_slug": "salle1",
         "type":"Workshop entreprise",
         "type_slug":"workshops",
         "intervenants":[
@@ -569,8 +569,8 @@
         "titre":"Pourquoi et comment ... m'engager dans des achats plus durables?", 
         "horaire_debut": "15h30",
         "horaire_fin": "16h30",
-        "lieu": "Les bureaux / salle 2",
-        "lieu_slug": "bureaux",
+        "lieu": "Salle 2",
+        "lieu_slug": "salle2",
         "type":"Workshop entreprise",
         "type_slug":"workshops",
         "intervenants":[
@@ -945,8 +945,8 @@
         "titre":"Pourquoi et comment ... Préserver la biodiversité en développant mon entreprise?", 
         "horaire_debut": "17h",
         "horaire_fin": "18h",
-        "lieu": "Les bureaux / salle 1",
-        "lieu_slug": "bureaux",
+        "lieu": "Salle 1",
+        "lieu_slug": "salle1",
         "type":"Workshop entreprise",
         "type_slug":"workshops",
         "intervenants":[
@@ -956,7 +956,7 @@
             },
             {
                 "nom":"Club CONTINUUM",
-                "fonction":"club d’entreprises engagées dans une démarche volontaire pour faire évoluer la société dans ses pratiques environnementales et être vectrices de changement par l’exemple au travers d’actions concrètes en faveur de la biodiversité drômoise."
+                "fonction":"regroupement d’entreprises engagées dans l'action concrète en faveur de la biodiversité drômoise."
             }
         ],
         "descriptif":"Quels sont les enjeux actuels, en lien avec l'artificialisation des sols? Comment limiter l'impact avant, pendant et après la construction de mes locaux, à la fois en terme de consommation d'espace et de préservation de la biodiversité? (En présence de la LPO AURA et du Club CONTINUUM)", 
@@ -971,8 +971,8 @@
         "titre":"Pourquoi et comment ... limiter l'impact environnemental de mes usages du numériques?", 
         "horaire_debut": "17h",
         "horaire_fin": "18h",
-        "lieu": "Les bureaux / salle 2",
-        "lieu_slug": "bureaux",
+        "lieu": "Salle 2",
+        "lieu_slug": "salle2",
         "type":"Workshop entreprise",
         "type_slug":"workshops",
         "intervenants":[
