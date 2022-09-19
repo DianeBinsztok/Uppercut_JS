@@ -19,7 +19,7 @@
                 "fonction": "proviseur honoraire du lycée René Cassin à Arpajon"
             }
         ],
-        "descriptif":"Pas de descriptif",
+        "descriptif":"",
         "duree":"45 min",
         "liens":[
             {"logo":"", "nom":"ENSTA ParisTech", "url": "https://www.ensta-paris.fr"}, 
@@ -55,7 +55,7 @@
                 "speaker_slug":"juliette-duquesne"
             }
         ],
-        "descriptif":"Pas de descriptif",
+        "descriptif":"",
         "duree":"45 min", 
         "liens":[
             {"logo":"", "nom":"Parenthèse (non sécurisé)", "url": "http://www.parenthese.org/"}, 
@@ -81,7 +81,7 @@
             }
 
         ],
-        "descriptif":"Pas de descriptif",
+        "descriptif":"",
         "duree":"45 min",
         "liens":[
             {"logo":"", "nom":"Arbro'Rêves", "url": "https://arbroreves.fr/"}
@@ -127,7 +127,7 @@
                 "fonction":"financement de projets engagés"
             }
         ],
-        "descriptif":"Pas de descriptif",
+        "descriptif":"",
         "duree":"60 min", 
         "liens":[
             {"logo":"", "nom":"Initiactive 2607", "url": "http://initiactive2607.fr"}, 
@@ -212,7 +212,7 @@
                 "fonction": "adjoint au directeur territorial d’Enedis en Drôme Ardèche"
             }
         ],
-        "descriptif":"Pas de descriptif",
+        "descriptif":"",
         "duree":"60 min", 
         "liens":[
             {"logo":"", "nom":"ELBENE (non sécurisé)", "url": "http://www.elbene.fr/"}, 
@@ -307,7 +307,7 @@
                 "speaker_slug":"gilles-daveau"
             }
         ],
-        "descriptif":"pas de descriptif",
+        "descriptif":"",
         "duree":"30 min",
         "liens":[
              {"logo":"", "nom":"Atelier de cuisine alternative Gilles Daveau", "url": "https://www.gillesdaveau.com/"}
@@ -335,7 +335,7 @@
                 "speaker_slug":"laurence-decreau"
             }
         ],
-        "descriptif":"Pas de descriptif",
+        "descriptif":"",
         "duree":"45 min", 
         "liens":[
             {"logo":"", "nom":"Campus de la Transition", "url": "https://campus-transition.org"}, 
@@ -371,7 +371,7 @@
                 "fonction": "Chef de projet Habitat de Valence Romans Agglo"
             }
         ],
-        "descriptif":"Pas de descriptif",
+        "descriptif":"",
         "duree":"45 min", 
         "liens":[
             {"logo":"", "nom":"Magali Talandier", "url": "https://www.pacte-grenoble.fr/membres/magali-talandier"}, 
@@ -420,7 +420,7 @@
                 "fonction": "ancien chroniqueur Jeux vidéos de Canal+"
             }
         ],
-        "descriptif":"Rencontrez des industries de l'animation",
+        "descriptif":"Rencontrez des professionnels de l'animation",
         "duree":"60 min", 
         "liens":[
             {"logo":"", "nom":"Workflowers", "url": "https://www.workflowers.net/"}, 
@@ -448,7 +448,7 @@
                 "speaker_slug":"juliette-duquesne"
             }
         ],
-        "descriptif":"Pas de descriptif",
+        "descriptif":"",
         "duree":"30 min",
         "liens":[
              {"logo":"", "nom":"Juliette Duquesne", "url": "https://julietteduquesne.fr/"}
@@ -490,7 +490,7 @@
                 "fonction": "directrice du 8Fablab de Crest"
             }
         ],
-        "descriptif":"Pas de descriptif",
+        "descriptif":"",
         "duree":"30 min", 
         "liens":[
             {"logo":"", "nom":"DECATHLON Support", "url": "https://support.decathlon.fr/"},
@@ -541,7 +541,7 @@
                 "fonction":"centre agroécologique drômois, éco - et auto - construit"
             }
         ],
-        "descriptif":"Pas de descriptif",
+        "descriptif":"",
         "duree":"60 min",
         "liens":[
             {"logo":"", "nom":"Les Amanins", "url": "Les Ammanins"}
@@ -566,7 +566,7 @@
                 "speaker_slug":"julien-vidal"
             }
         ],
-        "descriptif":"Pas de descriptif",
+        "descriptif":"",
         "duree":"30 min",
         "liens":[
              {"logo":"", "nom":"Ça Commence Par Moi", "url": "https://cacommenceparmoi.org/"},
@@ -638,7 +638,7 @@
                 "speaker_slug":"magali-talandier"
             }
         ],
-        "descriptif":"Pas de descriptif",
+        "descriptif":"",
         "duree":"45 min", 
         "liens":[
             {"logo":"", "nom":"LEST (non-sécurisé)", "url": "http://lest.fr/fr"}, 
@@ -774,7 +774,7 @@
                 "fonction": "du réseau Fabcity International"
             }
         ],
-        "descriptif":"Pas de descriptif",
+        "descriptif":"",
         "duree":"30 min", 
         "liens":[
             {"logo":"", "nom":"8Fablab", "url": "https://8fablab.fr/"},
@@ -822,7 +822,7 @@
                 "fonction":"plats cuisinés locaux, livraison écoresponsable"
             }
         ],
-        "descriptif":"pas de descriptif",
+        "descriptif":"",
         "duree":"60 min", 
         "liens":[
             {"logo":"", "nom":"Locatopia", "url": "https://shop.locatopia.fr/"}
@@ -844,7 +844,7 @@
                 "fonction":"cheffe du Service Espaces verts et nature en ville de la Ville de Valence"
             }
         ],
-        "descriptif":"Pas de descriptif",
+        "descriptif":"",
         "duree":"30 min",
         "liens":[],
         "img":""
@@ -870,7 +870,7 @@
                 "speaker_slug":"hugues-sibille"
             }
         ],
-        "descriptif":"Pas de descriptif",
+        "descriptif":"",
         "duree":"30 min",
         "liens":[
              {"logo":"", "nom":"Basculons", "url": "https://www.leslibraires.fr/livre/20262921-basculons-cahier-militant-tanguy-descamps-actes-sud"},
@@ -906,7 +906,7 @@
                 "fonction": "Coordinatrice de Ma Bouteille s'Appelle Reviens"
             }
         ],
-        "descriptif":"Pas de descriptif",
+        "descriptif":"",
         "duree":"45 min", 
         "liens":[
             {"logo":"", "nom":"Démocratie Ouverte", "url": "https://www.democratieouverte.org/"}, 
@@ -963,7 +963,7 @@
                 "speaker_slug":"clara-breteau"
             }
         ],
-        "descriptif":"Pas de descriptif",
+        "descriptif":"",
         "duree":"50 min",
         "liens":[],
         "img":""
@@ -983,7 +983,7 @@
                 "fonction":"épicerie locale, bistrot et services"
             }
         ],
-        "descriptif":"Pas de descriptif",
+        "descriptif":"",
         "duree":"60 min",
         "liens":[
             {"logo":"", "nom":"Comptoir de Campagnes", "url": "https://comptoirdecampagne.fr/"}
@@ -1094,7 +1094,7 @@
                 "speaker_slug":"hugues-sibille"
             }
         ],
-        "descriptif":"Pas de descriptif",
+        "descriptif":"",
         "duree":"90 min", 
         "liens":[
             {"logo":"", "nom":"INCO", "url": "https://inco-group.co/"}, 
