@@ -45,7 +45,7 @@ const handleEventsData={
             case 'grand-amphi':
             placeTitle = "Tout le programme du grand amphi";
             break;
-            case 'ecole-buissoniere-crous':
+            case 'ecole-buissoniere':
             placeTitle = "Tout le programme de l'école buissonnière - espace CROUS";
             break;
             case 'maison-etudiants':
@@ -69,11 +69,8 @@ const handleEventsData={
             case 'bibli-librairie':
             placeTitle = "À la librairie";
             break;
-            case 'salle1':
-            placeTitle = "Dans la salle 1";
-            break;
-            case 'salle2':
-            placeTitle = "Dans la salle ";
+            case 'bureaux':
+            placeTitle = "Dans les bureaux";
             break;
             case 'barrack':
             placeTitle = "Dans la Barrack";

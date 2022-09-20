@@ -22,7 +22,7 @@
         "descriptif":"",
         "duree":"45 min",
         "liens":[
-            {"logo":"", "nom":"ENSTA ParisTech", "url": "https://www.ensta-paris.fr"}, 
+            {"logo":"", "nom":"le Festival des Vocations", "url": "https://www.vocationslefestival.com/"}, 
             {"logo":"", "nom":"Lycée René Cassin (non sécurisé)", "url": "https://www.lyc-cassin-arpajon.ac-versailles.fr"}
         ],
         "img":""
@@ -69,7 +69,7 @@
         "id":3,
         "titre":"Sylvothérapie avec Arbro'Rêves", 
         "horaire_debut": "14h",
-        "horaire_fin": "14h45",
+        "horaire_fin": "14h30",
         "lieu": "La Barrack",
         "lieu_slug": "barrack",
         "type":"Rencontre",
@@ -82,7 +82,7 @@
 
         ],
         "descriptif":"",
-        "duree":"45 min",
+        "duree":"30 min",
         "liens":[
             {"logo":"", "nom":"Arbro'Rêves", "url": "https://arbroreves.fr/"}
         ],
@@ -94,7 +94,7 @@
         "horaire_debut": "14h",
         "horaire_fin": "15h",
         "lieu": "La Bibli / le Patio",
-        "lieu_slug": "amphi1",
+        "lieu_slug": "bibli-patio",
         "type":"Table ronde",
         "type_slug":"tables-rondes",
         "intervenants":[
@@ -179,7 +179,7 @@
             }
         ],
         "descriptif":"Atelier grand public accessible toutes les heures. Expérimentez la théorie du Donut pour visualiser les effets environnementaux et sociaux de nos habitudes.",
-        "duree":"Environs 4 heures",
+        "duree":"40 min",
         "liens":[
             {"logo":"", "nom":"En savoir plus sur la théorie du Donut", "url": "https://fr.wikipedia.org/wiki/Doughnut_(mod%C3%A8le_%C3%A9conomique)"}
         ],
@@ -189,7 +189,7 @@
         "id":7,
         "titre":"Quelle place pour l'électricité dans la ville de demain?", 
         "horaire_debut": "14h",
-        "horaire_fin": "15h",
+        "horaire_fin": "14h30",
         "lieu": "L'école buissonnière",
         "lieu_slug": "ecole-buissoniere",
         "type":"Atelier",
@@ -213,7 +213,7 @@
             }
         ],
         "descriptif":"",
-        "duree":"60 min", 
+        "duree":"30 min", 
         "liens":[
             {"logo":"", "nom":"ELBENE (non sécurisé)", "url": "http://www.elbene.fr/"}, 
             {"logo":"", "nom":"Voisiwatt", "url": "https://voisiwatt.com/"},
@@ -244,7 +244,7 @@
     },
     {
         "id":9,
-        "titre":"La librairie : rencontrez les auteurs Dominique Ollivier et Romain Slitine", 
+        "titre":"Rencontre avec les auteurs Dominique Ollivier et Romain Slitine", 
         "horaire_debut": "14h",
         "horaire_fin": "14h30",
         "lieu": "La Bibli / La librairie",
@@ -258,14 +258,13 @@
             },
             {
                 "nom":"Romain Slitine",
-                "fonction":"spécialiste des innovations et des transitions économiques, sociales et politiques, président de Démocratie Ouverte",
+                "fonction":"spécialiste des innovations de l’ESS à Sciences Po Paris, auteur de « Coup d’État citoyen»",
                 "speaker_slug":"romain-slitine"
             }
         ],
         "descriptif":"",
         "duree":"30 min",
         "liens":[
-             {"logo":"", "nom":"Démocratie Ouverte", "url": "https://www.democratieouverte.org/"}
         ],
         "img":""
     },
@@ -274,8 +273,8 @@
         "titre":"Pourquoi et comment ... réduire l'impact mobilité de mon entreprise?", 
         "horaire_debut": "14h",
         "horaire_fin": "14h45",
-        "lieu": "Salle 2",
-        "lieu_slug": "salle2",
+        "lieu": "Les bureaux",
+        "lieu_slug": "bureaux",
         "type":"Workshop entreprise",
         "type_slug":"workshops",
         "intervenants":[
@@ -287,13 +286,14 @@
         "descriptif":"En quoi les déplacements de mon entreprise ont-ils un impact? Quelles solutions concrètes? Avec Valence Romans Déplacements", 
         "duree":"45 min",
         "liens":[
+            {"logo":"", "nom":"Inscription ici", "url": "https://docs.google.com/forms/d/e/1FAIpQLSfkXkspF-BUWfiwappUYISM6cGsn4o85iyqQJ3O4MwMIW7jOw/viewform"},
             {"logo":"", "nom":"Valence Romans Déplacements", "url": " https://www.valenceromansagglo.fr/fr/au-quotidien/deplacements.html"}
         ],
         "img":""
     },
     {
         "id":11,
-        "titre":"La librairie : rencontrez l' auteur Gilles Daveau", 
+        "titre":"Rencontre avec l' auteur Gilles Daveau", 
         "horaire_debut": "14h30",
         "horaire_fin": "15h",
         "lieu": "La Bibli / La librairie",
@@ -339,7 +339,7 @@
         "duree":"45 min", 
         "liens":[
             {"logo":"", "nom":"Campus de la Transition", "url": "https://campus-transition.org"}, 
-            {"logo":"", "nom":"ENSTA ParisTech", "url": "https://www.ensta-paris.fr"}
+            {"logo":"", "nom":"le Festival des Vocations", "url": "https://www.vocationslefestival.com/"}
         ],
         "img":""
     },
@@ -375,9 +375,7 @@
         "duree":"45 min", 
         "liens":[
             {"logo":"", "nom":"Magali Talandier", "url": "https://www.pacte-grenoble.fr/membres/magali-talandier"}, 
-            {"logo":"", "nom":"Re-Sources", "url": "https://www.fabt.fr/actualites/re-sources"},
-            {"logo":"", "nom":"Re-Sources", "url": "https://www.rougerie-tangram.com"},
-            {"logo":"", "nom":"Habitat Valence Agglo", "url": "https://www.valenceromansagglo.fr/fr/au-quotidien/habitat-logement.html"}
+            {"logo":"", "nom":"Re-Sources", "url": "https://www.rougerie-tangram.com"}
         ],
         "img":""
     },
@@ -434,7 +432,7 @@
     },
     {
         "id":15,
-        "titre":"La librairie : rencontrez la journaliste Juliette Duquesne", 
+        "titre":"Rencontre avec la journaliste Juliette Duquesne", 
         "horaire_debut": "15h",
         "horaire_fin": "15h30",
         "lieu": "La Bibli / La librairie",
@@ -552,7 +550,7 @@
 
     {
         "id":19,
-        "titre":"La librairie : rencontrez l'auteur Julien Vidal", 
+        "titre":"Rencontre avec l'auteur Julien Vidal", 
         "horaire_debut": "15h30",
         "horaire_fin": "16h",
         "lieu": "La Bibli / La librairie",
@@ -579,8 +577,8 @@
         "titre":"Pourquoi et comment ... impliquer les -futurs- salariés dans le développement durable de mon entreprise?", 
         "horaire_debut": "15h30",
         "horaire_fin": "16h30",
-        "lieu": "Salle 1",
-        "lieu_slug": "salle1",
+        "lieu": "Les bureaux",
+        "lieu_slug": "bureaux",
         "type":"Workshop entreprise",
         "type_slug":"workshops",
         "intervenants":[
@@ -591,7 +589,9 @@
         ],
         "descriptif":"Quels bénéfices à mobiliser les salariés dans des actions de développement durable? Quels risques et comment les contourner? Par où commencer, jusqu'où puis-je aller?", 
         "duree":"60 min",
-        "liens":[],
+        "liens":[
+            {"logo":"", "nom":"Inscription ici", "url": "https://docs.google.com/forms/d/e/1FAIpQLSfkXkspF-BUWfiwappUYISM6cGsn4o85iyqQJ3O4MwMIW7jOw/viewform"}
+        ],
         "img":""
     },
     {
@@ -599,8 +599,8 @@
         "titre":"Pourquoi et comment ... m'engager dans des achats plus durables?", 
         "horaire_debut": "15h30",
         "horaire_fin": "16h30",
-        "lieu": "Salle 2",
-        "lieu_slug": "salle2",
+        "lieu": "Les Bureaux",
+        "lieu_slug": "bureaux",
         "type":"Workshop entreprise",
         "type_slug":"workshops",
         "intervenants":[
@@ -810,8 +810,8 @@
     {
         "id":29,
         "titre":"Locatopia", 
-        "horaire_debut": "16h",
-        "horaire_fin": "17h",
+        "horaire_debut": "14h30",
+        "horaire_fin": "15h",
         "lieu": "La Barrack",
         "lieu_slug": "barrack",
         "type":"Rencontre",
@@ -823,7 +823,7 @@
             }
         ],
         "descriptif":"",
-        "duree":"60 min", 
+        "duree":"30 min", 
         "liens":[
             {"logo":"", "nom":"Locatopia", "url": "https://shop.locatopia.fr/"}
         ],
@@ -851,7 +851,7 @@
     },
     {
         "id":31,
-        "titre":"La librairie : rencontrez les auteurs Tanguy Descamps et Hugues Sibille", 
+        "titre":"Rencontre avec les auteurs Tanguy Descamps et Hugues Sibille", 
         "horaire_debut": "16h30",
         "horaire_fin": "17h",
         "lieu": "La Bibli / La librairie",
@@ -890,7 +890,7 @@
         "intervenants":[
             {
                 "nom":"Romain Slitine",
-                "fonction":"spécialiste des innovations et politiques, président de Démocratie Ouverte",
+                "fonction":"spécialiste des innovations de l’ESS à Sciences Po Paris, auteur de « Coup d’État citoyen»",
                 "speaker_slug":"romain-slitine"
             },
             {
@@ -903,15 +903,14 @@
             },
             {
                 "nom":"Clémence Richeux",
-                "fonction": "Coordinatrice de Ma Bouteille s'Appelle Reviens"
+                "fonction": "Coordinatrice de 'Ma bouteille s'appelle reviens'"
             }
         ],
         "descriptif":"",
         "duree":"45 min", 
-        "liens":[
-            {"logo":"", "nom":"Démocratie Ouverte", "url": "https://www.democratieouverte.org/"}, 
+        "liens":[ 
             {"logo":"", "nom":"Thanatosphère", "url": "https://www.thanatosphere.fr/page/1936361-accueil"},
-            {"logo":"", "nom":"Ma Bouteille s'Appelle Reviens", "url": "https://www.ma-bouteille.org/"}
+            {"logo":"", "nom":"Ma bouteille s'appelle reviens", "url": "https://www.ma-bouteille.org/"}
         ],
         "img":""
     },
@@ -927,7 +926,7 @@
         "intervenants":[
             {
                 "nom":"Vincent Legrand",
-                "fonction":"directeur général de l'institut Négawatt"
+                "fonction":"directeur général de l'Institut Négawatt"
             },
             {
                 "nom":"Frédérick Stork",
@@ -949,7 +948,7 @@
     },
     {
         "id":34,
-        "titre":"La librairie : rencontrez l' auteure Clara Breteau", 
+        "titre":"Rencontre avec l' auteure Clara Breteau", 
         "horaire_debut": "17h",
         "horaire_fin": "17h50",
         "lieu": "La Bibli / La librairie",
@@ -971,8 +970,8 @@
     {
         "id":35,
         "titre":"Comptoir de Campagne", 
-        "horaire_debut": "17h",
-        "horaire_fin": "18h",
+        "horaire_debut": "15h",
+        "horaire_fin": "15h30",
         "lieu": "La Barrack",
         "lieu_slug": "barrack",
         "type":"Rencontre",
@@ -984,7 +983,7 @@
             }
         ],
         "descriptif":"",
-        "duree":"60 min",
+        "duree":"30 min",
         "liens":[
             {"logo":"", "nom":"Comptoir de Campagnes", "url": "https://comptoirdecampagne.fr/"}
         ],
@@ -995,8 +994,8 @@
         "titre":"Pourquoi et comment ... Préserver la biodiversité en développant mon entreprise?", 
         "horaire_debut": "17h",
         "horaire_fin": "18h",
-        "lieu": "Salle 1",
-        "lieu_slug": "salle1",
+        "lieu": "Les bureaux",
+        "lieu_slug": "bureaux",
         "type":"Workshop entreprise",
         "type_slug":"workshops",
         "intervenants":[
@@ -1012,6 +1011,7 @@
         "descriptif":"Quels sont les enjeux actuels, en lien avec l'artificialisation des sols? Comment limiter l'impact avant, pendant et après la construction de mes locaux, à la fois en terme de consommation d'espace et de préservation de la biodiversité? (En présence de la LPO AURA et du Club CONTINUUM)", 
         "duree":"60 min",
         "liens":[
+            {"logo":"", "nom":"Inscription ici", "url": "https://docs.google.com/forms/d/e/1FAIpQLSfkXkspF-BUWfiwappUYISM6cGsn4o85iyqQJ3O4MwMIW7jOw/viewform"},
             {"logo":"", "nom":"LPO AURA", "url": "https://auvergne-rhone-alpes.lpo.fr/"},
             {"logo":"", "nom":"Club CONTINUUM", "url": "https://www.lpo-drome-ardeche.fr/continuum-entreprises-sengagent-nature-drome/"}
         ],
@@ -1022,8 +1022,8 @@
         "titre":"Pourquoi et comment ... limiter l'impact environnemental de mes usages du numériques?", 
         "horaire_debut": "17h",
         "horaire_fin": "18h",
-        "lieu": "Salle 2",
-        "lieu_slug": "salle2",
+        "lieu": "Les bureaux",
+        "lieu_slug": "bureaux",
         "type":"Workshop entreprise",
         "type_slug":"workshops",
         "intervenants":[
@@ -1039,6 +1039,7 @@
         "descriptif":"Quels sont les impacts du numérique, comment les hiérarchiser? Comment puis-je agir en tant que citoyen et dans mon entreprise? (En présence du Moulin Digital / French Tech in the Alps)", 
         "duree":"60 min",
         "liens":[
+            {"logo":"", "nom":"Inscription ici", "url": "https://docs.google.com/forms/d/e/1FAIpQLSfkXkspF-BUWfiwappUYISM6cGsn4o85iyqQJ3O4MwMIW7jOw/viewform"},
             {"logo":"", "nom":"Le Moulin Digital", "url": "https://lemoulindigital.fr/"},
             {"logo":"", "nom":"French Tech in the Alps", "url": "https://www.ftalps.com/"}
         ],
@@ -1108,7 +1109,7 @@
     },
     {
         "id":40,
-        "titre":"Atelier cuisine anti-gaspi", 
+        "titre":"Cuisinons zéro déchet!", 
         "horaire_debut": "18h",
         "horaire_fin": "19h",
         "lieu": "La Bibli / Bar",
