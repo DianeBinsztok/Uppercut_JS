@@ -93,15 +93,15 @@ h1 {
     margin: 1em;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .gallery_thumbnail{
     background-color: #ffffff;
     border-radius: 3px;
-    width: 30%;
+    width: 23%;
     margin: 0.5em;
-    box-shadow: 10px 5px 5px  rgba(3, 53, 38, 0.15);
+    box-shadow: 5px 8px 5px  rgba(3, 53, 38, 0.15);
 }
 
 .gallery_thumbnail_content{
