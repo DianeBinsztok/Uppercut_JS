@@ -293,6 +293,23 @@
     },
     {
         "id":11,
+        "titre":"Pourquoi et comment ... m'impliquer dans mon territoire d'implantation ?", 
+        "horaire_debut": "14h",
+        "horaire_fin": "14h45",
+        "lieu": "Les bureaux",
+        "lieu_slug": "bureaux",
+        "type":"Workshop entreprise",
+        "type_slug":"workshops",
+        "intervenants":[],
+        "descriptif":"Qu'est-ce que cela peut apporter à mon entreprise ? Comment identifier qui pourrait avoir besoin de moi ? ", 
+        "duree":"45 min",
+        "liens":[
+            {"logo":"", "nom":"Inscription ici", "url": "https://docs.google.com/forms/d/e/1FAIpQLSfkXkspF-BUWfiwappUYISM6cGsn4o85iyqQJ3O4MwMIW7jOw/viewform"}
+        ],
+        "img":""
+    },
+    {
+        "id":12,
         "titre":"Rencontre avec l' auteur Gilles Daveau", 
         "horaire_debut": "14h30",
         "horaire_fin": "15h",
@@ -315,7 +332,7 @@
         "img":""
     },
     {
-        "id":12,
+        "id":13,
         "titre":"Éducation... en transition!", 
         "horaire_debut": "15h",
         "horaire_fin": "15h45",
@@ -344,7 +361,7 @@
         "img":""
     },
     {
-        "id":13,
+        "id":14,
         "titre":"Mon auberge espagnole: l'intergénérationnel, facteur d'hospitalité", 
         "horaire_debut": "15h",
         "horaire_fin": "15h45",
@@ -380,7 +397,7 @@
         "img":""
     },
     {
-        "id":14,
+        "id":15,
         "titre":"Impact des industriez créatives", 
         "horaire_debut": "15h",
         "horaire_fin": "16h",
@@ -431,7 +448,7 @@
         "img":""
     },
     {
-        "id":15,
+        "id":16,
         "titre":"Rencontre avec la journaliste Juliette Duquesne", 
         "horaire_debut": "15h",
         "horaire_fin": "15h30",
@@ -454,7 +471,7 @@
         "img":""
     },
     {
-        "id":16,
+        "id":17,
         "titre":"Les métiers de la réparation, vraie transformation environnementale de notre société?", 
         "horaire_debut": "15h",
         "horaire_fin": "15h30",
@@ -498,7 +515,7 @@
         "img":""
     },
     {
-        "id":17,
+        "id":18,
         "titre":"Détecter son potentiel d'innovation sociale", 
         "horaire_debut": "15h",
         "horaire_fin": "15h45",
@@ -525,7 +542,7 @@
         "img":""
     },
     {
-        "id":18,
+        "id":19,
         "titre":"Les Amanins", 
         "horaire_debut": "15h",
         "horaire_fin": "16h",
@@ -549,7 +566,7 @@
 
 
     {
-        "id":19,
+        "id":20,
         "titre":"Rencontre avec l'auteur Julien Vidal", 
         "horaire_debut": "15h30",
         "horaire_fin": "16h",
@@ -573,7 +590,7 @@
         "img":""
     },
     {
-        "id":20,
+        "id":21,
         "titre":"Pourquoi et comment ... impliquer les -futurs- salariés dans le développement durable de mon entreprise?", 
         "horaire_debut": "15h30",
         "horaire_fin": "16h30",
@@ -611,7 +628,9 @@
         ],
         "descriptif":"Qu'est-ce que l'achat durable? À toutes les étapes du processus, quels critères intégrer pour guider mes choix?",
         "duree":"60 min", 
-        "liens":[],
+        "liens":[
+            {"logo":"", "nom":"Inscription ici", "url": " https://docs.google.com/forms/d/e/1FAIpQLSfkXkspF-BUWfiwappUYISM6cGsn4o85iyqQJ3O4MwMIW7jOw/viewform"}
+        ],
         "img":""
     },
     {
