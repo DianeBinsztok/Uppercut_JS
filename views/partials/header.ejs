@@ -8,11 +8,12 @@
   <link href="../reset.css" rel="stylesheet" />
   <link href="../css/global_style.css" rel="stylesheet" />
   <link media="screen and (max-width: 550px)" rel="stylesheet" href="../css/mobile_style.css" />
-  <link media="screen and (min-width:  550px) and (max-width: 1000px)" rel="stylesheet" href="../css/medium_style.css" />
-  <link  media="screen and (min-width: 1000px)" href="../css/global_style.css" rel="stylesheet" />
-  <script type="text/javascript"  src="../scripts/filtersScript.js" defer></script>
-  <script type="text/javascript"  src="../scripts/menuScript.js" defer></script>
-  <script type="text/javascript"  src="../../js/modules.js" defer></script>
+  <link media="screen and (min-width:  550px) and (max-width: 1000px)" rel="stylesheet"
+    href="../css/medium_style.css" />
+  <link media="screen and (min-width: 1000px)" href="../css/global_style.css" rel="stylesheet" />
+  <script type="text/javascript" src="../scripts/filtersScript.js" defer></script>
+  <script type="text/javascript" src="../scripts/menuScript.js" defer></script>
+  <script type="text/javascript" src="../../js/modules.js" defer></script>
 </head>
 
 
@@ -20,73 +21,67 @@
 
   <header>
 
- <a href="/">
+    <a href="/">
       <picture>
-        <source 
-        media="(max-width: 550px)"
-        srcset="../images/banniere-mobile.png">
-     <source 
-        media="(min-width: 550px)"
-        srcset="../images/banniere-desk.jpg">
-     <source 
-        media="(min-width: 800px)"
-        srcset="../images/banniere-desk.jpg">
-    <img  id="banniere" src="../images/banniere-desk.jpg" alt="bannière du forum Uppercut"/>
+        <source media="(max-width: 550px)" srcset="../images/banniere-mobile.png">
+        <source media="(min-width: 550px)" srcset="../images/banniere-desk.jpg">
+        <source media="(min-width: 800px)" srcset="../images/banniere-desk.jpg">
+        <img id="banniere" src="../images/banniere-desk.jpg" alt="bannière du forum Uppercut" />
       </picture>
-  </a>
-     
-  <div id="nav-filters">
-    <nav id="navigation">     
-      <a class="nav-item " href="/type/tables-rondes">Tables rondes</a>
-      <a class="nav-item " href="/type/ateliers">Ateliers</a>
-      <a class="nav-item " href="/type/rencontres">Rencontres</a>
-      <a class="nav-item " href="/type/workshops">Workshops entreprises</a>
-    </nav>
+    </a>
 
-    <div id="filters-zone">
-    <select onchange="showFilter()" name="search-filter" id="filter-select">
-      <option value="question">Rechercher ...</option>
-      <option value="lieu">un lieu</option>
-      <option value="type">un format</option>
-      <option value="heure">un horaire</option>
-    </select>
+    <div id="nav-filters">
+      <nav id="navigation">
+        <a class="nav-item " href="/type/tables-rondes">Tables rondes</a>
+        <a class="nav-item " href="/type/ateliers">Ateliers</a>
+        <a class="nav-item " href="/type/rencontres">Rencontres</a>
+        <a class="nav-item " href="/type/workshops">Workshops entreprises</a>
+      </nav>
 
-    <select onchange="dispatch()" name="place-filter" id="place"  class="hidden">
-      <option value="place-question">Choisir un lieu :</option>
-      <option value="amphi1">Amphi 1</option>
-      <option value="amphi2">Amphi 2</option>
-      <option value="grand-amphi">Grand Amphi</option>
-      <option value="ecole-buissoniere">École buissonière</option>
-      <option value="maison-etudiants">École buissonière - Maison des étudiants</option>
-      <option value="place-engagement">Place de l'engagement</option>
-      <option value="co-quartier">Co-quartier</option>
-      <option value="bibli-auditorium">Bibli - auditorium</option>
-      <option value="bibli-bar">Bibli - bar</option>
-      <option value="bibli-patio">Bibli - patio</option>
-      <option value="bibli-librairie">Librairie</option>
-      <option value="barrack">La barrack</option>
-      <option value="bureaux">Les bureaux</option>
-    </select>
+      <div id="filters-zone">
+        <select onchange="showFilter()" name="search-filter" id="filter-select">
+          <option value="question">Rechercher ...</option>
+          <option value="lieu">un lieu</option>
+          <option value="type">un format</option>
+          <option value="heure">un horaire</option>
+        </select>
 
-    <select onchange="dispatch()" name="type-filter" id="type" class="hidden">
-      <option value="place-question">Choisir un format :</option>
-      <option value="conferences">Tables rondes</option>
-      <option value="ateliers">Ateliers</option>
-      <option value="debats">Workshops entreprises</option>
-      <option value="rencontres">Rencontres</option>
-    </select>
+        <select onchange="dispatch()" name="place-filter" id="place" class="hidden">
+          <option value="place-question">Choisir un lieu :</option>
+          <option value="amphi1">Amphi 1</option>
+          <option value="amphi2">Amphi 2</option>
+          <option value="grand-amphi">Grand Amphi</option>
+          <option value="ecole-buissoniere">École buissonière</option>
+          <option value="maison-etudiants">École buissonière - Maison des étudiants</option>
+          <option value="place-engagement">Place de l'engagement</option>
+          <option value="co-quartier">Co-quartier</option>
+          <option value="bibli-auditorium">Bibli - auditorium</option>
+          <option value="bibli-bar">Bibli - bar</option>
+          <option value="bibli-patio">Bibli - patio</option>
+          <option value="bibli-librairie">Librairie</option>
+          <option value="barrack">La barrack</option>
+          <option value="bureaux">Les bureaux</option>
+        </select>
 
-    <select onchange="dispatch()" name="time-filter" id="time" class="hidden">
-      <option value="time-question">Choisir un horaire :</option>
-      <option value="14h">14h</option>
-      <option value="15h">15h</option>
-      <option value="16h">16h</option>
-      <option value="17h">17h</option>
-      <option value="18h">18h</option>
-    </select>
-    <a id="specialUrl" class="hidden"  href="">Rechercher</a>
+        <select onchange="dispatch()" name="type-filter" id="type" class="hidden">
+          <option value="place-question">Choisir un format :</option>
+          <option value="tables-rondes">Tables rondes</option>
+          <option value="ateliers">Ateliers</option>
+          <option value="workshops">Workshops entreprises</option>
+          <option value="rencontres">Rencontres</option>
+        </select>
+
+        <select onchange="dispatch()" name="time-filter" id="time" class="hidden">
+          <option value="time-question">Choisir un horaire :</option>
+          <option value="14h">14h</option>
+          <option value="15h">15h</option>
+          <option value="16h">16h</option>
+          <option value="17h">17h</option>
+          <option value="18h">18h</option>
+        </select>
+        <a id="specialUrl" class="hidden" href="">Rechercher</a>
+      </div>
+
+
     </div>
-
-
-  </div>
   </header>
